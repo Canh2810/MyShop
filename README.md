@@ -39,7 +39,6 @@ Official document:[https://nextjs.org/](https://nextjs.org/)
   - [next-config-js](https://nextjs.org/docs/app/api-reference/next-config-js)
   - [Deploying](https://nextjs.org/docs/app/building-your-application/deploying)
 - Advanced
-
   - [Catching](https://nextjs.org/docs/app/building-your-application/caching)
   - [Optimizations](https://nextjs.org/docs/app/building-your-application/optimizing)
     - Images
@@ -51,10 +50,8 @@ Official document:[https://nextjs.org/](https://nextjs.org/)
     - Lazy Loading
     - Analytics
   - [Configuring](https://nextjs.org/docs/app/building-your-application/configuring)
-
     - TypeScript
     - ESLint
     - Environment Variables
     - Absolute Imports and Module Path Aliases
-
   - [Turbopack](https://nextjs.org/docs/architecture/turbopack)
