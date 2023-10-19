@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# NextJs Practice Plan
 
-## Getting Started
+## Overview
 
-First, run the development server:
+This practice creates a Web Application for reading blogs
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Target
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Apply Apply knowledge learned NextJs
+- Apply Chakra UI
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Requirements
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Features for users
+  - User can login/logout
+  - User can view latest posts
+  - User can click view alls to view all post
+  - User can view single post
+  - User can search post by title
+  - User can enable/disable dark mode
 
-## Learn More
+## Technical stack
 
-To learn more about Next.js, take a look at the following resources:
+- React v18.2.0
+- NextJs v13.5.6
+- Typescript v5.2.2
+- Storybook v7.5.0
+- Jest v29.7.0
+- React-testing-library v14.0.0
+- Zustand v4.4.3
+- React Query 5.0.0
+- React Hook Form v7.47.0
+- MSW v1.3.2
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Developer tool
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- pnpm
+- eslint
+- prettier
+- husky
+- lint staged
 
-## Deploy on Vercel
+## Design
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+[Blog Template](<https://www.figma.com/file/Wy9XqrVnkZltb9yD0xYaJB/Free-Blog-Template--%7C-Modern-%26-Creative-design-(Community)?type=design&node-id=1-2&mode=design&t=ZN6dExaTlmbhebwA-0>)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Getting started
+
+- Clone repo
+
+  - With HTTPS:
+
+    > https://gitlab.asoft-python.com/canh.vo/nextjs-training.git
+
+  - With SSH
+
+    > git@gitlab.asoft-python.com:canh.vo/nextjs-training.git
+
+- Move to branch blog
+
+  > git checkout blog
+
+- Move to folder
+
+  > cd blog
+
+- Install packages
+
+  > pnpm i
+
+- Run the project
+
+  > pnpm dev
