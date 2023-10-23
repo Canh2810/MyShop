@@ -1,7 +1,5 @@
 export const colors = {
-  primary: {
-    500: '#4B6BFB',
-  },
+  primary: '#4B6BFB',
   light: {
     50: '#F6F6F7',
     100: '#F4F4F5',
@@ -18,7 +16,6 @@ export const colors = {
     300: '#181A2A',
     400: '#141624',
   },
-  common: {
-    white: '#fff',
-  },
+  white: '#fff',
+  danger: '#dc3545',
 }
