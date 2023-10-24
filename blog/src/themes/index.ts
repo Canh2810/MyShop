@@ -1,5 +1,4 @@
 import { colors } from './colors'
-import { fontFamilies } from './fonts'
 import { extendTheme, type ThemeConfig } from '@chakra-ui/react'
 import { mode, StyleConfig } from '@chakra-ui/theme-tools'
 
@@ -11,7 +10,12 @@ const config: ThemeConfig = {
 const theme = extendTheme({
   config,
   colors,
-  fonts: fontFamilies,
+  fonts: {
+    primary: 'var(--work-sans-font)',
+    secondary: 'var(--source-serif-pro-font)',
+    tertiary: 'var(--plus-jakarta-sans-font)',
+    quaternary: 'var(--inter-font)',
+  },
   styles: {
     global: (props: StyleConfig) => ({
       body: {
