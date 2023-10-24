@@ -1,6 +1,6 @@
 'use client'
 
-import { Typography, Button, Badge } from '@/components'
+import { Typography, Button, Badge, Advertisement } from '@/components'
 import { ButtonVariants, TypoColors, TypoVariants } from '@/types'
 import { useTheme } from 'next-themes'
 
@@ -30,6 +30,7 @@ const Home = () => {
         Toggle
       </Button>
       <Badge title="Title" />
+      <Advertisement />
     </>
   )
 }
