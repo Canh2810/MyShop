@@ -1,5 +1,7 @@
 export const colors = {
-  primary: '#4B6BFB',
+  primary: {
+    500: '#4B6BFB',
+  },
   light: {
     50: '#F6F6F7',
     100: '#F4F4F5',
@@ -8,6 +10,7 @@ export const colors = {
     400: '#BABABF',
     500: '#A1A1AA',
     600: '#97989F',
+    700: 'rgba(105, 106, 117, 0.3)',
   },
   dark: {
     50: '#696A75',

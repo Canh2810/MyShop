@@ -15,3 +15,8 @@ export enum TypoColors {
   Secondary = 'textSecondary',
   Tertiary = 'textTertiary',
 }
+
+export enum ButtonVariants {
+  Container = 'container',
+  Outlined = 'outlined',
+}
