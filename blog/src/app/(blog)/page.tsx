@@ -1,16 +1,12 @@
-'use client'
-
-import { Text } from '@chakra-ui/react'
-
 const Home = () => {
   return (
     <>
-      <Text fontFamily="primary" lineHeight="3xl">
+      <h1 className="font-primary text-primary text-2xl leading-8">
         This is text
-      </Text>
-      <Text fontFamily="secondary">This is text</Text>
-      <Text fontFamily="tertiary">This is text</Text>
-      <Text fontFamily="quaternary">This is text</Text>
+      </h1>
+      <h1 className="font-secondary text-light-700">This is text</h1>
+      <h1 className="font-tertiary">This is text</h1>
+      <h1 className="font-quaternary">This is text</h1>
     </>
   )
 }
