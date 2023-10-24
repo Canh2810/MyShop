@@ -1,4 +1,4 @@
-import { TypoColors, TypoVariants } from '@/types'
+import { TypoColors, TypoVariants } from '../../types'
 
 interface TypographyProps {
   variant?: TypoVariants
