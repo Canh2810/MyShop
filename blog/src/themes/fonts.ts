@@ -5,17 +5,19 @@ export const fontWeights = {
 }
 
 export const fontSizes = {
-  tiny: '12px',
   sm: '14px',
   md: '16px',
-  lg: '24px',
-  xl: '40px',
+  lg: '18px',
+  xl: '20px',
+  '2xl': '24px',
+  '3xl': '36px',
 }
 
 export const lineHeights = {
-  tiny: '20px',
   sm: '20px',
-  md: '18px',
-  lg: '35px',
-  xl: '48px',
+  md: '24px',
+  lg: '26px',
+  xl: '28px',
+  '2xl': '32px',
+  '3xl': '40px',
 }

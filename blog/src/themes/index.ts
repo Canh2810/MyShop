@@ -1,3 +1,4 @@
+import { fontSizes, fontWeights, lineHeights } from './fonts'
 import { colors } from './colors'
 import { extendTheme, type ThemeConfig } from '@chakra-ui/react'
 import { mode, StyleConfig } from '@chakra-ui/theme-tools'
@@ -16,6 +17,9 @@ const theme = extendTheme({
     tertiary: 'var(--plus-jakarta-sans-font)',
     quaternary: 'var(--inter-font)',
   },
+  fontSizes,
+  fontWeights,
+  lineHeights,
   styles: {
     global: (props: StyleConfig) => ({
       body: {
