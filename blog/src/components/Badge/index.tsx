@@ -1,25 +1,20 @@
 // Types
-import { commonVariants } from '@/types'
+import { CommonVariants } from '@/types'
 
 export interface BadgeProps {
-  variant?: commonVariants
+  variant?: CommonVariants
   title: string
 }
 
-const Badge = ({ variant = commonVariants.Primary, title }: BadgeProps) => {
-  let badgeStyle
-  switch (variant) {
-    case commonVariants.Secondary:
-      badgeStyle = 'bg-dark-800 text-primary-500'
-      break
-
-    default:
-      badgeStyle = 'bg-primary-500 text-white'
-      break
+const Badge = ({ variant = CommonVariants.Primary, title }: BadgeProps) => {
+  const badgeStyles = {
+    [CommonVariants.Primary]: 'bg-primary-500 text-white',
+    [CommonVariants.Secondary]: 'bg-dark-800 text-primary-500',
   }
+
   return (
     <span
-      className={`${badgeStyle} rounded-md px-2.5 py-1 text-xs font-normal leading-3`}
+      className={`${badgeStyles[variant]} rounded-md px-2.5 py-1 text-xs font-normal leading-3`}
     >
       {title}
     </span>
