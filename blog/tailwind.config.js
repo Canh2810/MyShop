@@ -12,9 +12,8 @@ module.exports = {
         tertiary: ['var(--plus-jakarta-sans-font)'],
         quaternary: ['var(--inter-font)'],
       },
+      ...theme,
     },
-
-    ...theme,
   },
   plugins: [],
 }

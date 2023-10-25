@@ -25,3 +25,13 @@ export enum CommonVariants {
   Primary = 'primary',
   Secondary = 'secondary',
 }
+
+export enum TextFieldVariants {
+  Outlined = 'outlined',
+  Filled = 'filled',
+}
+
+export enum TextFieldTypes {
+  Text = 'text',
+  Password = 'password',
+}
