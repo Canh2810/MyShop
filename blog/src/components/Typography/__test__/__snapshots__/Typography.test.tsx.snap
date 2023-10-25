@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PostList component render with color is textSecondary 1`] = `
+<div>
+  <p
+    class="font-tertiary text-sm font-normal leading-4 text-dark-300 dark:text-white "
+  >
+    This is text
+  </p>
+</div>
+`;
+
+exports[`PostList component render with color is textTertiary 1`] = `
+<div>
+  <p
+    class="font-tertiary text-sm font-normal leading-4 text-dark-50 dark:text-light-600 "
+  >
+    This is text
+  </p>
+</div>
+`;
+
+exports[`PostList component render with component is h1 1`] = `
+<div>
+  <h1
+    class="font-tertiary text-sm font-normal leading-4 text-dark-100 dark:text-light-400 "
+  >
+    This is text
+  </h1>
+</div>
+`;
+
+exports[`PostList component render with default props 1`] = `
+<div>
+  <p
+    class="font-tertiary text-sm font-normal leading-4 text-dark-100 dark:text-light-400 "
+  >
+    This is text
+  </p>
+</div>
+`;
+
+exports[`PostList component render with variant is headingExtraLarge 1`] = `
+<div>
+  <p
+    class="font-primary text-2xl font-bold leading-8 text-dark-100 dark:text-light-400 "
+  >
+    This is text
+  </p>
+</div>
+`;
+
+exports[`PostList component render with variant is headingLarge 1`] = `
+<div>
+  <p
+    class="font-primary text-xl font-bold leading-6 text-dark-100 dark:text-light-400 "
+  >
+    This is text
+  </p>
+</div>
+`;
+
+exports[`PostList component render with variant is headingMedium 1`] = `
+<div>
+  <p
+    class="font-primary text-lg font-bold leading-6 text-dark-100 dark:text-light-400 "
+  >
+    This is text
+  </p>
+</div>
+`;
+
+exports[`PostList component render with variant is headingSmall 1`] = `
+<div>
+  <p
+    class="font-tertiary text-base font-bold leading-6 text-dark-100 dark:text-light-400 "
+  >
+    This is text
+  </p>
+</div>
+`;
+
+exports[`PostList component render with variant is textExtraLarge 1`] = `
+<div>
+  <p
+    class="font-secondary text-xl font-normal leading-7 text-dark-100 dark:text-light-400 "
+  >
+    This is text
+  </p>
+</div>
+`;
+
+exports[`PostList component render with variant is textExtraSmall 1`] = `
+<div>
+  <p
+    class="font-quaternary text-xs font-normal leading-3 text-dark-100 dark:text-light-400 "
+  >
+    This is text
+  </p>
+</div>
+`;
+
+exports[`PostList component render with variant is textLarge 1`] = `
+<div>
+  <p
+    class="font-secondary text-lg font-normal leading-7 text-dark-100 dark:text-light-400 "
+  >
+    This is text
+  </p>
+</div>
+`;
+
+exports[`PostList component render with variant is textMedium 1`] = `
+<div>
+  <p
+    class="font-primary text-base font-normal leading-5 text-dark-100 dark:text-light-400 "
+  >
+    This is text
+  </p>
+</div>
+`;
