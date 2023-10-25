@@ -1,16 +1,16 @@
 export const fontWeight = {
   normal: 400,
-  medium: 500,
-  semibold: 600,
+  semiBold: 500,
+  bold: 600,
 }
 
 export const fontSize = {
-  sm: '14px',
-  base: '16px',
-  lg: '18px',
-  xl: '20px',
-  '2xl': '24px',
-  '3xl': '40px',
+  xs: '14px',
+  sm: '16px',
+  base: '18px',
+  lg: '20px',
+  xl: '24px',
+  '2xl': '40px',
 }
 
 export const lineHeight = {

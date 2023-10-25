@@ -54,7 +54,7 @@ export default function RootLayout({
       lang="en"
       className={`${work_sans.variable} ${inter.variable} ${source_serif_pro.variable} ${plus_jakarta_sans.variable}`}
     >
-      <body>
+      <body className="dark:bg-dark-300">
         <Providers>{children}</Providers>
       </body>
     </html>
