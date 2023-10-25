@@ -1,7 +1,7 @@
 'use client'
 
-import { Typography } from '@/components'
-import { TypoColors, TypoVariants } from '@/types'
+import { Typography, Button } from '@/components'
+import { ButtonVariants, TypoColors, TypoVariants } from '@/types'
 import { useTheme } from 'next-themes'
 
 const Home = () => {
@@ -25,13 +25,14 @@ const Home = () => {
       >
         This is text
       </Typography>
-      <button
+      <Button
+        variant={ButtonVariants.Container}
         onClick={() => {
           setTheme(resolvedTheme === 'dark' ? 'light' : 'dark')
         }}
       >
         Toggle
-      </button>
+      </Button>
     </>
   )
 }
