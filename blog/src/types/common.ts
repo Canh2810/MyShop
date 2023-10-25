@@ -21,7 +21,7 @@ export enum ButtonVariants {
   Outlined = 'outlined',
 }
 
-export enum commonVariants {
+export enum CommonVariants {
   Primary = 'primary',
   Secondary = 'secondary',
 }

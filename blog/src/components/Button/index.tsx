@@ -1,5 +1,5 @@
-import { ButtonVariants } from '@/types'
 import { ReactNode, memo } from 'react'
+import { ButtonVariants } from '@/types'
 
 interface ButtonProps {
   variant?: ButtonVariants
@@ -16,23 +16,17 @@ const Button = ({
   className = '',
   onClick,
 }: ButtonProps) => {
-  let buttonStyle
-  switch (variant) {
-    case ButtonVariants.Container:
-      buttonStyle = 'bg-primary-500 text-white'
-      break
-
-    default:
-      buttonStyle =
-        'bg-white dark:bg-dark-300 text-dark-50 border border-solid border-light-700'
-      break
+  const buttonStyles = {
+    [ButtonVariants.Outlined]:
+      'bg-white dark:bg-dark-300 text-dark-50 border border-solid border-light-700',
+    [ButtonVariants.Container]: 'bg-primary-500 text-white',
   }
 
   return (
     <button
       onClick={onClick}
       disabled={isLoading}
-      className={`px-5 py-3 rounded-md hover:opacity-70 ${buttonStyle} ${className}`}
+      className={`px-5 py-3 rounded-md hover:opacity-70 ${buttonStyles[variant]} ${className}`}
     >
       {children}
     </button>

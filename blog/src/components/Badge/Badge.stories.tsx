@@ -1,7 +1,7 @@
 import { StoryObj, Meta } from '@storybook/react'
 
 import Badge from '.'
-import { commonVariants } from '@/types'
+import { CommonVariants } from '@/types'
 
 export default {
   title: 'Components/Badge',
@@ -19,6 +19,6 @@ export const Default: Story = {
 export const Secondary: Story = {
   args: {
     title: 'Badge',
-    variant: commonVariants.Secondary,
+    variant: CommonVariants.Secondary,
   },
 }
