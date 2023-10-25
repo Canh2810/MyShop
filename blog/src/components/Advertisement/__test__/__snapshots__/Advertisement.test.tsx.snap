@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Advertisement component should render correctly 1`] = `
+<div>
+  <div
+    class="bg-light-200 dark:bg-dark-200 rounded-xl flex flex-col items-center justify-center w-lg h-sm my-0 mx-auto"
+  >
+    <p
+      class="font-quaternary text-xs font-normal leading-3 text-dark-100 dark:text-light-400 text-dark-50 dark:text-dark-50"
+    >
+      Advertisement
+    </p>
+    <p
+      class="font-primary text-lg font-bold leading-6 text-dark-50 dark:text-light-600 "
+    >
+      You can place ads
+    </p>
+    <p
+      class="font-primary text-base font-normal leading-5 text-dark-100 dark:text-light-400 text-dark-50 dark:text-dark-50"
+    >
+      750x100
+    </p>
+  </div>
+</div>
+`;
