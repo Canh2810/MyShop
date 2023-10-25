@@ -1,4 +1,4 @@
-import { TypoColors, TypoVariants } from '../../types'
+import { TypoColors, TypoVariants } from '@/types'
 
 interface TypographyProps {
   variant?: TypoVariants
@@ -16,51 +16,32 @@ const Typography = ({
   className = '',
 }: TypographyProps): JSX.Element => {
   const Component = component as keyof JSX.IntrinsicElements
-  let textStyle
-  let textColor
 
-  switch (variant) {
-    case TypoVariants.TextExtraSmall:
-      textStyle = 'font-quaternary text-xs font-normal leading-3'
-      break
-    case TypoVariants.TextMedium:
-      textStyle = 'font-primary text-base font-normal leading-5'
-      break
-    case TypoVariants.TextLarge:
-      textStyle = 'font-secondary text-lg font-normal leading-7'
-      break
-    case TypoVariants.TexExtraLarge:
-      textStyle = 'font-secondary text-xl font-normal leading-7'
-      break
-    case TypoVariants.HeadingSmall:
-      textStyle = 'font-tertiary text-base font-bold leading-6'
-      break
-    case TypoVariants.HeadingMedium:
-      textStyle = 'font-primary text-lg font-bold leading-6'
-      break
-    case TypoVariants.HeadingLarge:
-      textStyle = 'font-primary text-xl font-bold leading-6'
-      break
-    case TypoVariants.HeadingExtraLarge:
-      textStyle = 'font-primary text-2xl font-bold leading-8'
-      break
-    default:
-      textStyle = 'font-tertiary text-sm font-normal leading-4'
+  const variantStyles = {
+    [TypoVariants.TextExtraSmall]:
+      'font-quaternary text-xs font-normal leading-3',
+    [TypoVariants.TextSmall]: 'font-tertiary text-sm font-normal leading-4',
+    [TypoVariants.TextMedium]: 'font-primary text-base font-normal leading-5',
+    [TypoVariants.TextLarge]: 'font-secondary text-lg font-normal leading-7',
+    [TypoVariants.TexExtraLarge]:
+      'font-secondary text-xl font-normal leading-7',
+    [TypoVariants.HeadingSmall]: 'font-tertiary text-base font-bold leading-6',
+    [TypoVariants.HeadingMedium]: 'font-primary text-lg font-bold leading-6',
+    [TypoVariants.HeadingLarge]: 'font-primary text-xl font-bold leading-6',
+    [TypoVariants.HeadingExtraLarge]:
+      'font-primary text-2xl font-bold leading-8',
   }
 
-  switch (color) {
-    case TypoColors.Secondary:
-      textColor = 'text-dark-300 dark:text-white'
-      break
-    case TypoColors.Tertiary:
-      textColor = 'text-dark-50 dark:text-light-600'
-      break
-    default:
-      textColor = 'text-dark-100 dark:text-light-400'
+  const colorStyles = {
+    [TypoColors.Primary]: 'text-dark-100 dark:text-light-400',
+    [TypoColors.Secondary]: 'text-dark-300 dark:text-white',
+    [TypoColors.Tertiary]: 'text-dark-50 dark:text-light-600',
   }
 
   return (
-    <Component className={`${textStyle} ${textColor} ${className}`}>
+    <Component
+      className={`${variantStyles[variant]} ${colorStyles[color]} ${className}`}
+    >
       {children}
     </Component>
   )
