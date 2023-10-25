@@ -1,3 +1,5 @@
+'use client'
+
 // Libs
 import { ChangeEvent, memo } from 'react'
 
@@ -44,7 +46,7 @@ const TextField = ({
         id={id}
         name={name}
         value={value}
-        className="w-full bg-transparent text-dark-300 focus:outline-0"
+        className="w-full bg-transparent text-light-500 focus:outline-0"
         placeholder={placeholder}
         onChange={onChange}
       />

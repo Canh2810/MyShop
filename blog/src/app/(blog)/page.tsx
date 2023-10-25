@@ -1,9 +1,24 @@
 'use client'
 
-import { Typography, Badge, Advertisement, DarkModeSwitch } from '@/components'
+import { Search } from '@/assets'
+import {
+  Typography,
+  Badge,
+  Advertisement,
+  DarkModeSwitch,
+  TextField,
+} from '@/components'
 import { TypoColors, TypoVariants } from '@/types'
 
 const Home = () => {
+  const props = {
+    icon: <Search />,
+    name: 'test',
+    placeholder: 'test',
+    id: 'test',
+    value: 'test',
+    onChange: () => {},
+  }
   return (
     <>
       <Typography>This is text</Typography>
@@ -20,6 +35,7 @@ const Home = () => {
         This is text
       </Typography>
       <DarkModeSwitch />
+      <TextField {...props} />
       <Badge title="Title" />
       <Advertisement />
     </>

@@ -1,17 +1,17 @@
+'use client'
+
 // Libs
-import { useState } from 'react'
 import { useTheme } from 'next-themes'
 
 // Icons
 import { Sunny } from '@/assets'
+import { THEMES } from '@/constants'
 
 const DarkModeSwitch = () => {
-  const { resolvedTheme, setTheme } = useTheme()
-  const [isChecked, setIsChecked] = useState<boolean>(false)
+  const { resolvedTheme = 'light', setTheme } = useTheme()
 
   const handleChange = () => {
-    setTheme(resolvedTheme === 'dark' ? 'light' : 'dark')
-    setIsChecked((prev) => !prev)
+    setTheme(resolvedTheme === THEMES.DARK ? THEMES.LIGHT : THEMES.DARK)
   }
 
   return (
@@ -23,14 +23,10 @@ const DarkModeSwitch = () => {
         onChange={handleChange}
       />
       <div
-        className={`bg-light-200 dark:bg-dark-50 p-0.5 cursor-pointer rounded-[100px] h-xs w-xs ${
-          isChecked && 'bg-primary-500'
-        }`}
+        className={`p-0.5  cursor-pointer rounded-[100px] h-xs w-xs bg-light-200 dark:bg-primary-500`}
       >
         <div
-          className={`absolute bg-white w-[24px] h-[24px] p-[5px] rounded-[50%] duration-300 ${
-            isChecked && 'translate-x-[20px]'
-          } `}
+          className={`absolute bg-white w-[24px] h-[24px] p-[5px] rounded-[50%] duration-300 dark:translate-x-[20px]`}
         >
           <Sunny />
         </div>

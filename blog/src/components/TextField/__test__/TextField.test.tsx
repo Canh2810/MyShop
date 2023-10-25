@@ -1,16 +1,17 @@
-import { fireEvent, render } from '@testing-library/react'
+import { render } from '@testing-library/react'
+import userEvent from '@testing-library/user-event'
 import { Search } from '@/assets'
 import TextField from '..'
 import { TextFieldTypes, TextFieldVariants } from '@/types'
 
-describe('PostList component', () => {
+describe('TextField component', () => {
   const mockChange = jest.fn()
   const props = {
     icon: <Search />,
     name: 'test',
     placeholder: 'test',
     id: 'test',
-    value: 'test',
+    value: '',
     onChange: mockChange,
   }
 
@@ -43,11 +44,12 @@ describe('PostList component', () => {
     expect(container).toMatchSnapshot()
   })
 
-  it('should call onChange handler when value changes', () => {
+  it('should call onChange handler when value changes', async () => {
     const { getByPlaceholderText } = render(<TextField {...props} />)
     const textfield = getByPlaceholderText('test')
 
-    fireEvent.change(textfield, { target: { value: 'abc' } })
+    await userEvent.type(textfield, 'abc')
+
     expect(mockChange).toHaveBeenCalled()
   })
 })

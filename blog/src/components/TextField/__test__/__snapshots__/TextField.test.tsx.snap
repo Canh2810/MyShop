@@ -1,23 +1,22 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`PostList component render with variant is filled and type is password 1`] = `
+exports[`TextField component render with variant is filled and type is password 1`] = `
 <div>
   <div
     class="relative flex items-center px-4  py-3 gap-2.5 rounded-md text-sm bg-light-100 dark:bg-dark-200 text-light-500   "
   >
     <input
-      class="w-full bg-transparent text-dark-300 focus:outline-0"
+      class="w-full bg-transparent text-light-500 focus:outline-0"
       id="test"
       name="test"
       placeholder="test"
       type="password"
-      value="test"
+      value=""
     />
     <svg
       fill="none"
       height="16"
       width="16"
-      xmlns="http://www.w3.org/2000/svg"
     >
       <path
         d="M6.91 2a4.909 4.909 0 1 0-.001 9.818 4.909 4.909 0 0 0 0-9.818Z"
@@ -37,24 +36,23 @@ exports[`PostList component render with variant is filled and type is password 1
 </div>
 `;
 
-exports[`PostList component render with variant is filled and type is text 1`] = `
+exports[`TextField component render with variant is filled and type is text 1`] = `
 <div>
   <div
     class="relative flex items-center px-4  py-3 gap-2.5 rounded-md text-sm bg-light-100 dark:bg-dark-200 text-light-500   "
   >
     <input
-      class="w-full bg-transparent text-dark-300 focus:outline-0"
+      class="w-full bg-transparent text-light-500 focus:outline-0"
       id="test"
       name="test"
       placeholder="test"
       type="text"
-      value="test"
+      value=""
     />
     <svg
       fill="none"
       height="16"
       width="16"
-      xmlns="http://www.w3.org/2000/svg"
     >
       <path
         d="M6.91 2a4.909 4.909 0 1 0-.001 9.818 4.909 4.909 0 0 0 0-9.818Z"
@@ -74,24 +72,23 @@ exports[`PostList component render with variant is filled and type is text 1`] =
 </div>
 `;
 
-exports[`PostList component render with variant is outlined and type is password 1`] = `
+exports[`TextField component render with variant is outlined and type is password 1`] = `
 <div>
   <div
     class="relative flex items-center px-4  py-3 gap-2.5 rounded-md text-sm border border-solid border-light-700 text-dark-50 bg-white dark:bg-dark-200  "
   >
     <input
-      class="w-full bg-transparent text-dark-300 focus:outline-0"
+      class="w-full bg-transparent text-light-500 focus:outline-0"
       id="test"
       name="test"
       placeholder="test"
       type="password"
-      value="test"
+      value=""
     />
     <svg
       fill="none"
       height="16"
       width="16"
-      xmlns="http://www.w3.org/2000/svg"
     >
       <path
         d="M6.91 2a4.909 4.909 0 1 0-.001 9.818 4.909 4.909 0 0 0 0-9.818Z"
@@ -111,24 +108,23 @@ exports[`PostList component render with variant is outlined and type is password
 </div>
 `;
 
-exports[`PostList component render with variant is outlined and type is text 1`] = `
+exports[`TextField component render with variant is outlined and type is text 1`] = `
 <div>
   <div
     class="relative flex items-center px-4  py-3 gap-2.5 rounded-md text-sm border border-solid border-light-700 text-dark-50 bg-white dark:bg-dark-200  "
   >
     <input
-      class="w-full bg-transparent text-dark-300 focus:outline-0"
+      class="w-full bg-transparent text-light-500 focus:outline-0"
       id="test"
       name="test"
       placeholder="test"
       type="text"
-      value="test"
+      value=""
     />
     <svg
       fill="none"
       height="16"
       width="16"
-      xmlns="http://www.w3.org/2000/svg"
     >
       <path
         d="M6.91 2a4.909 4.909 0 1 0-.001 9.818 4.909 4.909 0 0 0 0-9.818Z"
