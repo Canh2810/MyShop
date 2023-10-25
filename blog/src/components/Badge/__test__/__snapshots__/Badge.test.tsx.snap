@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Badge component should render primary variant 1`] = `
+<div>
+  <span
+    class="bg-primary-500 text-white rounded-md px-2.5 py-1 text-xs font-normal leading-3"
+  >
+    Test Badge
+  </span>
+</div>
+`;
+
+exports[`Badge component should render secondary variant 1`] = `
+<div>
+  <span
+    class="bg-dark-800 text-primary-500 rounded-md px-2.5 py-1 text-xs font-normal leading-3"
+  >
+    Test Badge
+  </span>
+</div>
+`;

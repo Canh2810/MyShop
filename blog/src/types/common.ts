@@ -20,3 +20,8 @@ export enum ButtonVariants {
   Container = 'container',
   Outlined = 'outlined',
 }
+
+export enum CommonVariants {
+  Primary = 'primary',
+  Secondary = 'secondary',
+}
