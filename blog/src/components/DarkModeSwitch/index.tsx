@@ -1,18 +1,13 @@
 'use client'
 
-// Libs
-import { useTheme } from 'next-themes'
+// Stores
+import { useThemeStore } from '@/stores'
 
 // Icons
 import { Sunny } from '@/assets'
-import { THEMES } from '@/constants'
 
 const DarkModeSwitch = () => {
-  const { resolvedTheme = 'light', setTheme } = useTheme()
-
-  const handleChange = () => {
-    setTheme(resolvedTheme === THEMES.DARK ? THEMES.LIGHT : THEMES.DARK)
-  }
+  const { toggleTheme } = useThemeStore((state) => state)
 
   return (
     <label htmlFor="checkbox">
@@ -20,7 +15,7 @@ const DarkModeSwitch = () => {
         type="checkbox"
         id="checkbox"
         className="hidden"
-        onChange={handleChange}
+        onChange={toggleTheme}
       />
       <div
         className={`p-0.5  cursor-pointer rounded-[100px] h-xs w-xs bg-light-200 dark:bg-primary-500`}

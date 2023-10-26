@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Inter, Work_Sans, Plus_Jakarta_Sans } from 'next/font/google'
 import localFont from 'next/font/local'
 import './globals.css'
+// import GlobalTheme from './themes'
 import { Providers } from './providers'
 
 const inter = Inter({
@@ -50,13 +51,10 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html
-      lang="en"
-      className={`${work_sans.variable} ${inter.variable} ${source_serif_pro.variable} ${plus_jakarta_sans.variable}`}
+    <Providers
+      className={`${work_sans.variable} ${inter.variable} ${source_serif_pro.variable} ${plus_jakarta_sans.variable} `}
     >
-      <body className="dark:bg-dark-300">
-        <Providers>{children}</Providers>
-      </body>
-    </html>
+      {children}
+    </Providers>
   )
 }
