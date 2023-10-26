@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu component should render correctly with variant is horizontal 1`] = `
+<div>
+  <ul
+    class="flex items-center justify-center  gap-[30px] "
+  >
+    <li
+      class="text-sm font-normal hover:opacity-70 text-dark-100 font-primary  dark:text-white"
+    >
+      <a
+        href="/"
+      >
+        Home
+      </a>
+    </li>
+    <li
+      class="text-sm font-normal hover:opacity-70 text-dark-100 font-primary  dark:text-white"
+    >
+      <a
+        href="/about"
+      >
+        About
+      </a>
+    </li>
+    <li
+      class="text-sm font-normal hover:opacity-70 text-dark-100 font-primary  dark:text-white"
+    >
+      <a
+        href="/contact"
+      >
+        Contact
+      </a>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Menu component should render correctly with variant is vertical 1`] = `
+<div>
+  <ul
+    class="flex items-center justify-center flex-col gap-2  "
+  >
+    <li
+      class="text-sm font-normal hover:opacity-70 text-dark-100 font-tertiary  dark:text-light-400"
+    >
+      <a
+        href="/"
+      >
+        Home
+      </a>
+    </li>
+    <li
+      class="text-sm font-normal hover:opacity-70 text-dark-100 font-tertiary  dark:text-light-400"
+    >
+      <a
+        href="/about"
+      >
+        About
+      </a>
+    </li>
+    <li
+      class="text-sm font-normal hover:opacity-70 text-dark-100 font-tertiary  dark:text-light-400"
+    >
+      <a
+        href="/contact"
+      >
+        Contact
+      </a>
+    </li>
+  </ul>
+</div>
+`;
