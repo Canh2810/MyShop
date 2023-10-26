@@ -35,3 +35,13 @@ export enum TextFieldTypes {
   Text = 'text',
   Password = 'password',
 }
+
+export enum MenuVariants {
+  Vertical = 'vertical',
+  Horizontal = 'horizontal',
+}
+
+export interface IMenuItem {
+  title: string
+  href: string
+}
