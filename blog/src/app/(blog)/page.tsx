@@ -1,11 +1,24 @@
 'use client'
 
-import { Typography, Button, Badge, Advertisement } from '@/components'
-import { ButtonVariants, TypoColors, TypoVariants } from '@/types'
-import { useTheme } from 'next-themes'
+import { Search } from '@/assets'
+import {
+  Typography,
+  Badge,
+  Advertisement,
+  DarkModeSwitch,
+  TextField,
+} from '@/components'
+import { TypoColors, TypoVariants } from '@/types'
 
 const Home = () => {
-  const { resolvedTheme, setTheme } = useTheme()
+  const props = {
+    icon: <Search />,
+    name: 'test',
+    placeholder: 'test',
+    id: 'test',
+    value: 'test',
+    onChange: () => {},
+  }
   return (
     <>
       <Typography>This is text</Typography>
@@ -21,14 +34,8 @@ const Home = () => {
       >
         This is text
       </Typography>
-      <Button
-        variant={ButtonVariants.Container}
-        onClick={() => {
-          setTheme(resolvedTheme === 'dark' ? 'light' : 'dark')
-        }}
-      >
-        Toggle
-      </Button>
+      <DarkModeSwitch />
+      <TextField {...props} />
       <Badge title="Title" />
       <Advertisement />
     </>

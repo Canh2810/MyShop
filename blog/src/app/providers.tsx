@@ -1,17 +1,27 @@
 // app/providers.tsx
 'use client'
 
+import { useThemeStore } from '@/stores'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { ReactQueryStreamedHydration } from '@tanstack/react-query-next-experimental'
-import { ThemeProvider } from 'next-themes'
 
 const queryClient = new QueryClient()
 
-export const Providers = ({ children }: { children: React.ReactNode }) => {
+export const Providers = ({
+  children,
+  className,
+}: {
+  children: React.ReactNode
+  className: string
+}) => {
+  const { theme } = useThemeStore((state) => state)
+
   return (
     <QueryClientProvider client={queryClient}>
       <ReactQueryStreamedHydration>
-        <ThemeProvider attribute="class">{children}</ThemeProvider>
+        <html lang="en" className={className + theme}>
+          <body className="dark:bg-dark-300">{children}</body>
+        </html>
       </ReactQueryStreamedHydration>
     </QueryClientProvider>
   )
