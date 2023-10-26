@@ -1,7 +1,7 @@
-import { ReactNode, memo } from 'react'
+import { ButtonHTMLAttributes, ReactNode, memo } from 'react'
 import { ButtonVariants } from '@/types'
 
-interface ButtonProps {
+interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: ButtonVariants
   children: ReactNode
   isLoading?: boolean
@@ -15,6 +15,7 @@ const Button = ({
   isLoading,
   className = '',
   onClick,
+  ...props
 }: ButtonProps) => {
   const buttonStyles = {
     [ButtonVariants.Outlined]:
@@ -27,6 +28,7 @@ const Button = ({
       onClick={onClick}
       disabled={isLoading}
       className={`px-5 py-3 rounded-md hover:opacity-70 ${buttonStyles[variant]} ${className}`}
+      {...props}
     >
       {children}
     </button>
