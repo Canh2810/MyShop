@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Banner component should render correctly 1`] = `
+<div>
+  <section
+    class="relative"
+  >
+    <img
+      alt="The Impact of Technology on the Workplace: How Technology is Changing"
+      data-nimg="1"
+      decoding="async"
+      fetchpriority="high"
+      height="600"
+      src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=3840&q=75"
+      srcset="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=1920&q=75 1x, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=3840&q=75 2x"
+      style="color: transparent; border-radius: 12px;"
+      width="1216"
+    />
+    <div
+      class="absolute left-[64px] bottom-[-68px] bg-white dark:bg-dark-300 rounded-xl border border-light-200 dark:border-dark-200 border-solid w-[589px] flex flex-col items-start gap-4 p-10 shadow-md"
+    >
+      <span
+        class="bg-primary-500 text-white rounded-md px-2.5 py-1 text-xs font-normal leading-3"
+      >
+        Technology
+      </span>
+      <p
+        class="font-primary text-2xl font-bold leading-8 text-dark-100 dark:text-light-400 "
+      >
+        The Impact of Technology on the Workplace: How Technology is Changing
+      </p>
+      <div
+        class="mt-2 flex items-center gap-5"
+      >
+        <img
+          alt="https://www.w3schools.com/w3images/avatar2.png"
+          data-nimg="1"
+          decoding="async"
+          fetchpriority="high"
+          height="36"
+          src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=96&q=75"
+          srcset="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=48&q=75 1x, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=96&q=75 2x"
+          style="color: transparent; border-radius: 18px; margin-right: 8px;"
+          width="36"
+        />
+        <p
+          class="font-tertiary text-sm font-normal leading-4 text-dark-100 dark:text-light-400 "
+        >
+          Tracey Wilson
+        </p>
+        <p
+          class="font-tertiary text-sm font-normal leading-4 text-dark-100 dark:text-light-400 "
+        >
+          August 20, 2022
+        </p>
+      </div>
+    </div>
+  </section>
+</div>
+`;
