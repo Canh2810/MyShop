@@ -1,0 +1,766 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PostList component should render correctly 1`] = `
+<div>
+  <div
+    class="grid grid-cols-3 gap-5"
+  >
+    <div
+      class="p-4 rounded-xl border border-light-200 dark:border-dark-200 border-solid w-fit cursor-pointer"
+    >
+      <img
+        alt="The Impact of Technology on the Workplace: How Technology is Changing"
+        data-nimg="1"
+        decoding="async"
+        fetchpriority="high"
+        height="234"
+        src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75"
+        srcset="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=384&q=75 1x, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75 2x"
+        style="color: transparent; border-radius: 6px; margin-bottom: 16px;"
+        width="354"
+      />
+      <div
+        class="p-2 w-[334px] flex flex-col items-start gap-5"
+      >
+        <span
+          class="bg-dark-800 text-primary-500 rounded-md px-2.5 py-1 text-xs font-normal leading-3"
+        >
+          Technology
+        </span>
+        <p
+          class="font-primary text-xl font-bold leading-6 text-dark-100 dark:text-light-400 "
+        >
+          The Impact of Technology on the Workplace: How Technology is Changing
+        </p>
+        <div
+          class="mt-1 flex items-center gap-5"
+        >
+          <img
+            alt="https://www.w3schools.com/w3images/avatar2.png"
+            data-nimg="1"
+            decoding="async"
+            fetchpriority="high"
+            height="36"
+            src="/_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=96&q=75"
+            srcset="/_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=48&q=75 1x, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=96&q=75 2x"
+            style="color: transparent; border-radius: 50%; margin-right: -8px;"
+            width="36"
+          />
+          <p
+            class="font-primary text-base font-normal leading-5 text-dark-100 dark:text-light-400 "
+          >
+            Tracey Wilson
+          </p>
+          <p
+            class="font-primary text-base font-normal leading-5 text-dark-100 dark:text-light-400 "
+          >
+            August 20, 2022
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="p-4 rounded-xl border border-light-200 dark:border-dark-200 border-solid w-fit cursor-pointer"
+    >
+      <img
+        alt="Beta Testing: The final decisive step before launching the software"
+        data-nimg="1"
+        decoding="async"
+        fetchpriority="high"
+        height="234"
+        src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1539667468225-eebb663053e6%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MjF8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75"
+        srcset="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1539667468225-eebb663053e6%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MjF8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=384&q=75 1x, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1539667468225-eebb663053e6%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MjF8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75 2x"
+        style="color: transparent; border-radius: 6px; margin-bottom: 16px;"
+        width="354"
+      />
+      <div
+        class="p-2 w-[334px] flex flex-col items-start gap-5"
+      >
+        <span
+          class="bg-dark-800 text-primary-500 rounded-md px-2.5 py-1 text-xs font-normal leading-3"
+        >
+          Technology
+        </span>
+        <p
+          class="font-primary text-xl font-bold leading-6 text-dark-100 dark:text-light-400 "
+        >
+          Beta Testing: The final decisive step before launching the software
+        </p>
+        <div
+          class="mt-1 flex items-center gap-5"
+        >
+          <img
+            alt="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEJuOqDYeLdcJOq8OctOVOCWp-RTFkdmWK4dcI5F9YLg&s"
+            data-nimg="1"
+            decoding="async"
+            fetchpriority="high"
+            height="36"
+            src="/_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSEJuOqDYeLdcJOq8OctOVOCWp-RTFkdmWK4dcI5F9YLg%26s&w=96&q=75"
+            srcset="/_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSEJuOqDYeLdcJOq8OctOVOCWp-RTFkdmWK4dcI5F9YLg%26s&w=48&q=75 1x, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSEJuOqDYeLdcJOq8OctOVOCWp-RTFkdmWK4dcI5F9YLg%26s&w=96&q=75 2x"
+            style="color: transparent; border-radius: 50%; margin-right: -8px;"
+            width="36"
+          />
+          <p
+            class="font-primary text-base font-normal leading-5 text-dark-100 dark:text-light-400 "
+          >
+            Canh Vo
+          </p>
+          <p
+            class="font-primary text-base font-normal leading-5 text-dark-100 dark:text-light-400 "
+          >
+            August 20, 2022
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="p-4 rounded-xl border border-light-200 dark:border-dark-200 border-solid w-fit cursor-pointer"
+    >
+      <img
+        alt="Make a placeholder content in SwiftUI with Redacted & Unredacted"
+        data-nimg="1"
+        decoding="async"
+        fetchpriority="high"
+        height="234"
+        src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75"
+        srcset="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=384&q=75 1x, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75 2x"
+        style="color: transparent; border-radius: 6px; margin-bottom: 16px;"
+        width="354"
+      />
+      <div
+        class="p-2 w-[334px] flex flex-col items-start gap-5"
+      >
+        <span
+          class="bg-dark-800 text-primary-500 rounded-md px-2.5 py-1 text-xs font-normal leading-3"
+        >
+          Technology
+        </span>
+        <p
+          class="font-primary text-xl font-bold leading-6 text-dark-100 dark:text-light-400 "
+        >
+          Make a placeholder content in SwiftUI with Redacted & Unredacted
+        </p>
+        <div
+          class="mt-1 flex items-center gap-5"
+        >
+          <img
+            alt="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHeu1JU1avFzQtN-az4HZqEpR1VvEBN-SEXfEuOtt8Xg&s"
+            data-nimg="1"
+            decoding="async"
+            fetchpriority="high"
+            height="36"
+            src="/_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSHeu1JU1avFzQtN-az4HZqEpR1VvEBN-SEXfEuOtt8Xg%26s&w=96&q=75"
+            srcset="/_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSHeu1JU1avFzQtN-az4HZqEpR1VvEBN-SEXfEuOtt8Xg%26s&w=48&q=75 1x, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSHeu1JU1avFzQtN-az4HZqEpR1VvEBN-SEXfEuOtt8Xg%26s&w=96&q=75 2x"
+            style="color: transparent; border-radius: 50%; margin-right: -8px;"
+            width="36"
+          />
+          <p
+            class="font-primary text-base font-normal leading-5 text-dark-100 dark:text-light-400 "
+          >
+            Tracey Wilson
+          </p>
+          <p
+            class="font-primary text-base font-normal leading-5 text-dark-100 dark:text-light-400 "
+          >
+            August 20, 2022
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="p-4 rounded-xl border border-light-200 dark:border-dark-200 border-solid w-fit cursor-pointer"
+    >
+      <img
+        alt="Instructions for Security Testing using OWASP ZAP tool for penetration testers - Penetration testing"
+        data-nimg="1"
+        decoding="async"
+        fetchpriority="high"
+        height="234"
+        src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75"
+        srcset="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=384&q=75 1x, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75 2x"
+        style="color: transparent; border-radius: 6px; margin-bottom: 16px;"
+        width="354"
+      />
+      <div
+        class="p-2 w-[334px] flex flex-col items-start gap-5"
+      >
+        <span
+          class="bg-dark-800 text-primary-500 rounded-md px-2.5 py-1 text-xs font-normal leading-3"
+        >
+          Technology
+        </span>
+        <p
+          class="font-primary text-xl font-bold leading-6 text-dark-100 dark:text-light-400 "
+        >
+          Instructions for Security Testing using OWASP ZAP tool for penetration testers - Penetration testing
+        </p>
+        <div
+          class="mt-1 flex items-center gap-5"
+        >
+          <img
+            alt="https://www.w3schools.com/w3images/avatar2.png"
+            data-nimg="1"
+            decoding="async"
+            fetchpriority="high"
+            height="36"
+            src="/_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=96&q=75"
+            srcset="/_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=48&q=75 1x, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=96&q=75 2x"
+            style="color: transparent; border-radius: 50%; margin-right: -8px;"
+            width="36"
+          />
+          <p
+            class="font-primary text-base font-normal leading-5 text-dark-100 dark:text-light-400 "
+          >
+            Tracey Wilson
+          </p>
+          <p
+            class="font-primary text-base font-normal leading-5 text-dark-100 dark:text-light-400 "
+          >
+            August 20, 2022
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="p-4 rounded-xl border border-light-200 dark:border-dark-200 border-solid w-fit cursor-pointer"
+    >
+      <img
+        alt="Excel at Cashiering with the McDonald POS Training Simulator APK!"
+        data-nimg="1"
+        decoding="async"
+        fetchpriority="high"
+        height="234"
+        src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75"
+        srcset="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=384&q=75 1x, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75 2x"
+        style="color: transparent; border-radius: 6px; margin-bottom: 16px;"
+        width="354"
+      />
+      <div
+        class="p-2 w-[334px] flex flex-col items-start gap-5"
+      >
+        <span
+          class="bg-dark-800 text-primary-500 rounded-md px-2.5 py-1 text-xs font-normal leading-3"
+        >
+          Technology
+        </span>
+        <p
+          class="font-primary text-xl font-bold leading-6 text-dark-100 dark:text-light-400 "
+        >
+          Excel at Cashiering with the McDonald POS Training Simulator APK!
+        </p>
+        <div
+          class="mt-1 flex items-center gap-5"
+        >
+          <img
+            alt="https://www.w3schools.com/w3images/avatar2.png"
+            data-nimg="1"
+            decoding="async"
+            fetchpriority="high"
+            height="36"
+            src="/_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=96&q=75"
+            srcset="/_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=48&q=75 1x, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=96&q=75 2x"
+            style="color: transparent; border-radius: 50%; margin-right: -8px;"
+            width="36"
+          />
+          <p
+            class="font-primary text-base font-normal leading-5 text-dark-100 dark:text-light-400 "
+          >
+            Tracey Wilson
+          </p>
+          <p
+            class="font-primary text-base font-normal leading-5 text-dark-100 dark:text-light-400 "
+          >
+            August 20, 2022
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="p-4 rounded-xl border border-light-200 dark:border-dark-200 border-solid w-fit cursor-pointer"
+    >
+      <img
+        alt="The Impact of Technology on the Workplace: How Technology is Changing"
+        data-nimg="1"
+        decoding="async"
+        fetchpriority="high"
+        height="234"
+        src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1418489098061-ce87b5dc3aee%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MTh8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75"
+        srcset="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1418489098061-ce87b5dc3aee%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MTh8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=384&q=75 1x, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1418489098061-ce87b5dc3aee%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MTh8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75 2x"
+        style="color: transparent; border-radius: 6px; margin-bottom: 16px;"
+        width="354"
+      />
+      <div
+        class="p-2 w-[334px] flex flex-col items-start gap-5"
+      >
+        <span
+          class="bg-dark-800 text-primary-500 rounded-md px-2.5 py-1 text-xs font-normal leading-3"
+        >
+          Technology
+        </span>
+        <p
+          class="font-primary text-xl font-bold leading-6 text-dark-100 dark:text-light-400 "
+        >
+          The Impact of Technology on the Workplace: How Technology is Changing
+        </p>
+        <div
+          class="mt-1 flex items-center gap-5"
+        >
+          <img
+            alt="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIgYqjNVQSYlcOONsKMfyvLJWY-MGgtqwfqMx7-2kjzg&s"
+            data-nimg="1"
+            decoding="async"
+            fetchpriority="high"
+            height="36"
+            src="/_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcQIgYqjNVQSYlcOONsKMfyvLJWY-MGgtqwfqMx7-2kjzg%26s&w=96&q=75"
+            srcset="/_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcQIgYqjNVQSYlcOONsKMfyvLJWY-MGgtqwfqMx7-2kjzg%26s&w=48&q=75 1x, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcQIgYqjNVQSYlcOONsKMfyvLJWY-MGgtqwfqMx7-2kjzg%26s&w=96&q=75 2x"
+            style="color: transparent; border-radius: 50%; margin-right: -8px;"
+            width="36"
+          />
+          <p
+            class="font-primary text-base font-normal leading-5 text-dark-100 dark:text-light-400 "
+          >
+            Tracey Wilson
+          </p>
+          <p
+            class="font-primary text-base font-normal leading-5 text-dark-100 dark:text-light-400 "
+          >
+            August 20, 2022
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="p-4 rounded-xl border border-light-200 dark:border-dark-200 border-solid w-fit cursor-pointer"
+    >
+      <img
+        alt="Excel at Cashiering with the McDonald POS Training Simulator APK!"
+        data-nimg="1"
+        decoding="async"
+        fetchpriority="high"
+        height="234"
+        src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1539667468225-eebb663053e6%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MjF8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75"
+        srcset="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1539667468225-eebb663053e6%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MjF8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=384&q=75 1x, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1539667468225-eebb663053e6%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MjF8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75 2x"
+        style="color: transparent; border-radius: 6px; margin-bottom: 16px;"
+        width="354"
+      />
+      <div
+        class="p-2 w-[334px] flex flex-col items-start gap-5"
+      >
+        <span
+          class="bg-dark-800 text-primary-500 rounded-md px-2.5 py-1 text-xs font-normal leading-3"
+        >
+          Technology
+        </span>
+        <p
+          class="font-primary text-xl font-bold leading-6 text-dark-100 dark:text-light-400 "
+        >
+          Excel at Cashiering with the McDonald POS Training Simulator APK!
+        </p>
+        <div
+          class="mt-1 flex items-center gap-5"
+        >
+          <img
+            alt="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlHJmFah1lW88FU0D-fD9m-0HXQGHd5QfD8GiL4guU-g&s"
+            data-nimg="1"
+            decoding="async"
+            fetchpriority="high"
+            height="36"
+            src="/_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcRlHJmFah1lW88FU0D-fD9m-0HXQGHd5QfD8GiL4guU-g%26s&w=96&q=75"
+            srcset="/_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcRlHJmFah1lW88FU0D-fD9m-0HXQGHd5QfD8GiL4guU-g%26s&w=48&q=75 1x, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcRlHJmFah1lW88FU0D-fD9m-0HXQGHd5QfD8GiL4guU-g%26s&w=96&q=75 2x"
+            style="color: transparent; border-radius: 50%; margin-right: -8px;"
+            width="36"
+          />
+          <p
+            class="font-primary text-base font-normal leading-5 text-dark-100 dark:text-light-400 "
+          >
+            Tracey Wilson
+          </p>
+          <p
+            class="font-primary text-base font-normal leading-5 text-dark-100 dark:text-light-400 "
+          >
+            August 20, 2022
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="p-4 rounded-xl border border-light-200 dark:border-dark-200 border-solid w-fit cursor-pointer"
+    >
+      <img
+        alt="The Impact of Technology on the Workplace: How Technology is Changing"
+        data-nimg="1"
+        decoding="async"
+        fetchpriority="high"
+        height="234"
+        src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1418489098061-ce87b5dc3aee%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MTh8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75"
+        srcset="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1418489098061-ce87b5dc3aee%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MTh8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=384&q=75 1x, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1418489098061-ce87b5dc3aee%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MTh8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75 2x"
+        style="color: transparent; border-radius: 6px; margin-bottom: 16px;"
+        width="354"
+      />
+      <div
+        class="p-2 w-[334px] flex flex-col items-start gap-5"
+      >
+        <span
+          class="bg-dark-800 text-primary-500 rounded-md px-2.5 py-1 text-xs font-normal leading-3"
+        >
+          Technology
+        </span>
+        <p
+          class="font-primary text-xl font-bold leading-6 text-dark-100 dark:text-light-400 "
+        >
+          The Impact of Technology on the Workplace: How Technology is Changing
+        </p>
+        <div
+          class="mt-1 flex items-center gap-5"
+        >
+          <img
+            alt="https://www.w3schools.com/w3images/avatar2.png"
+            data-nimg="1"
+            decoding="async"
+            fetchpriority="high"
+            height="36"
+            src="/_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=96&q=75"
+            srcset="/_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=48&q=75 1x, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=96&q=75 2x"
+            style="color: transparent; border-radius: 50%; margin-right: -8px;"
+            width="36"
+          />
+          <p
+            class="font-primary text-base font-normal leading-5 text-dark-100 dark:text-light-400 "
+          >
+            Tracey Wilson
+          </p>
+          <p
+            class="font-primary text-base font-normal leading-5 text-dark-100 dark:text-light-400 "
+          >
+            August 20, 2022
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="p-4 rounded-xl border border-light-200 dark:border-dark-200 border-solid w-fit cursor-pointer"
+    >
+      <img
+        alt="The Impact of Technology on the Workplace: How Technology is Changing"
+        data-nimg="1"
+        decoding="async"
+        fetchpriority="high"
+        height="234"
+        src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75"
+        srcset="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=384&q=75 1x, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75 2x"
+        style="color: transparent; border-radius: 6px; margin-bottom: 16px;"
+        width="354"
+      />
+      <div
+        class="p-2 w-[334px] flex flex-col items-start gap-5"
+      >
+        <span
+          class="bg-dark-800 text-primary-500 rounded-md px-2.5 py-1 text-xs font-normal leading-3"
+        >
+          Technology
+        </span>
+        <p
+          class="font-primary text-xl font-bold leading-6 text-dark-100 dark:text-light-400 "
+        >
+          The Impact of Technology on the Workplace: How Technology is Changing
+        </p>
+        <div
+          class="mt-1 flex items-center gap-5"
+        >
+          <img
+            alt="https://www.w3schools.com/w3images/avatar2.png"
+            data-nimg="1"
+            decoding="async"
+            fetchpriority="high"
+            height="36"
+            src="/_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=96&q=75"
+            srcset="/_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=48&q=75 1x, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=96&q=75 2x"
+            style="color: transparent; border-radius: 50%; margin-right: -8px;"
+            width="36"
+          />
+          <p
+            class="font-primary text-base font-normal leading-5 text-dark-100 dark:text-light-400 "
+          >
+            Tracey Wilson
+          </p>
+          <p
+            class="font-primary text-base font-normal leading-5 text-dark-100 dark:text-light-400 "
+          >
+            August 20, 2022
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="p-4 rounded-xl border border-light-200 dark:border-dark-200 border-solid w-fit cursor-pointer"
+    >
+      <img
+        alt="The Impact of Technology on the Workplace: How Technology is Changing"
+        data-nimg="1"
+        decoding="async"
+        fetchpriority="high"
+        height="234"
+        src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75"
+        srcset="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=384&q=75 1x, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75 2x"
+        style="color: transparent; border-radius: 6px; margin-bottom: 16px;"
+        width="354"
+      />
+      <div
+        class="p-2 w-[334px] flex flex-col items-start gap-5"
+      >
+        <span
+          class="bg-dark-800 text-primary-500 rounded-md px-2.5 py-1 text-xs font-normal leading-3"
+        >
+          Technology
+        </span>
+        <p
+          class="font-primary text-xl font-bold leading-6 text-dark-100 dark:text-light-400 "
+        >
+          The Impact of Technology on the Workplace: How Technology is Changing
+        </p>
+        <div
+          class="mt-1 flex items-center gap-5"
+        >
+          <img
+            alt="https://www.w3schools.com/w3images/avatar2.png"
+            data-nimg="1"
+            decoding="async"
+            fetchpriority="high"
+            height="36"
+            src="/_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=96&q=75"
+            srcset="/_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=48&q=75 1x, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=96&q=75 2x"
+            style="color: transparent; border-radius: 50%; margin-right: -8px;"
+            width="36"
+          />
+          <p
+            class="font-primary text-base font-normal leading-5 text-dark-100 dark:text-light-400 "
+          >
+            Tracey Wilson
+          </p>
+          <p
+            class="font-primary text-base font-normal leading-5 text-dark-100 dark:text-light-400 "
+          >
+            August 20, 2022
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="p-4 rounded-xl border border-light-200 dark:border-dark-200 border-solid w-fit cursor-pointer"
+    >
+      <img
+        alt="The Impact of Technology on the Workplace: How Technology is Changing"
+        data-nimg="1"
+        decoding="async"
+        fetchpriority="high"
+        height="234"
+        src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75"
+        srcset="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=384&q=75 1x, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75 2x"
+        style="color: transparent; border-radius: 6px; margin-bottom: 16px;"
+        width="354"
+      />
+      <div
+        class="p-2 w-[334px] flex flex-col items-start gap-5"
+      >
+        <span
+          class="bg-dark-800 text-primary-500 rounded-md px-2.5 py-1 text-xs font-normal leading-3"
+        >
+          Technology
+        </span>
+        <p
+          class="font-primary text-xl font-bold leading-6 text-dark-100 dark:text-light-400 "
+        >
+          The Impact of Technology on the Workplace: How Technology is Changing
+        </p>
+        <div
+          class="mt-1 flex items-center gap-5"
+        >
+          <img
+            alt="https://www.w3schools.com/w3images/avatar2.png"
+            data-nimg="1"
+            decoding="async"
+            fetchpriority="high"
+            height="36"
+            src="/_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=96&q=75"
+            srcset="/_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=48&q=75 1x, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=96&q=75 2x"
+            style="color: transparent; border-radius: 50%; margin-right: -8px;"
+            width="36"
+          />
+          <p
+            class="font-primary text-base font-normal leading-5 text-dark-100 dark:text-light-400 "
+          >
+            Tracey Wilson
+          </p>
+          <p
+            class="font-primary text-base font-normal leading-5 text-dark-100 dark:text-light-400 "
+          >
+            August 20, 2022
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="p-4 rounded-xl border border-light-200 dark:border-dark-200 border-solid w-fit cursor-pointer"
+    >
+      <img
+        alt="The Impact of Technology on the Workplace: How Technology is Changing"
+        data-nimg="1"
+        decoding="async"
+        fetchpriority="high"
+        height="234"
+        src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75"
+        srcset="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=384&q=75 1x, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75 2x"
+        style="color: transparent; border-radius: 6px; margin-bottom: 16px;"
+        width="354"
+      />
+      <div
+        class="p-2 w-[334px] flex flex-col items-start gap-5"
+      >
+        <span
+          class="bg-dark-800 text-primary-500 rounded-md px-2.5 py-1 text-xs font-normal leading-3"
+        >
+          Technology
+        </span>
+        <p
+          class="font-primary text-xl font-bold leading-6 text-dark-100 dark:text-light-400 "
+        >
+          The Impact of Technology on the Workplace: How Technology is Changing
+        </p>
+        <div
+          class="mt-1 flex items-center gap-5"
+        >
+          <img
+            alt="https://www.w3schools.com/w3images/avatar2.png"
+            data-nimg="1"
+            decoding="async"
+            fetchpriority="high"
+            height="36"
+            src="/_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=96&q=75"
+            srcset="/_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=48&q=75 1x, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=96&q=75 2x"
+            style="color: transparent; border-radius: 50%; margin-right: -8px;"
+            width="36"
+          />
+          <p
+            class="font-primary text-base font-normal leading-5 text-dark-100 dark:text-light-400 "
+          >
+            Tracey Wilson
+          </p>
+          <p
+            class="font-primary text-base font-normal leading-5 text-dark-100 dark:text-light-400 "
+          >
+            August 20, 2022
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="p-4 rounded-xl border border-light-200 dark:border-dark-200 border-solid w-fit cursor-pointer"
+    >
+      <img
+        alt="The Impact of Technology on the Workplace: How Technology is Changing"
+        data-nimg="1"
+        decoding="async"
+        fetchpriority="high"
+        height="234"
+        src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1539667468225-eebb663053e6%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MjF8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75"
+        srcset="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1539667468225-eebb663053e6%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MjF8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=384&q=75 1x, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1539667468225-eebb663053e6%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MjF8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75 2x"
+        style="color: transparent; border-radius: 6px; margin-bottom: 16px;"
+        width="354"
+      />
+      <div
+        class="p-2 w-[334px] flex flex-col items-start gap-5"
+      >
+        <span
+          class="bg-dark-800 text-primary-500 rounded-md px-2.5 py-1 text-xs font-normal leading-3"
+        >
+          Technology
+        </span>
+        <p
+          class="font-primary text-xl font-bold leading-6 text-dark-100 dark:text-light-400 "
+        >
+          The Impact of Technology on the Workplace: How Technology is Changing
+        </p>
+        <div
+          class="mt-1 flex items-center gap-5"
+        >
+          <img
+            alt="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHeu1JU1avFzQtN-az4HZqEpR1VvEBN-SEXfEuOtt8Xg&s"
+            data-nimg="1"
+            decoding="async"
+            fetchpriority="high"
+            height="36"
+            src="/_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSHeu1JU1avFzQtN-az4HZqEpR1VvEBN-SEXfEuOtt8Xg%26s&w=96&q=75"
+            srcset="/_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSHeu1JU1avFzQtN-az4HZqEpR1VvEBN-SEXfEuOtt8Xg%26s&w=48&q=75 1x, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSHeu1JU1avFzQtN-az4HZqEpR1VvEBN-SEXfEuOtt8Xg%26s&w=96&q=75 2x"
+            style="color: transparent; border-radius: 50%; margin-right: -8px;"
+            width="36"
+          />
+          <p
+            class="font-primary text-base font-normal leading-5 text-dark-100 dark:text-light-400 "
+          >
+            Tracey Wilson
+          </p>
+          <p
+            class="font-primary text-base font-normal leading-5 text-dark-100 dark:text-light-400 "
+          >
+            August 20, 2022
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="p-4 rounded-xl border border-light-200 dark:border-dark-200 border-solid w-fit cursor-pointer"
+    >
+      <img
+        alt="Excel at Cashiering with the McDonald POS Training Simulator APK!"
+        data-nimg="1"
+        decoding="async"
+        fetchpriority="high"
+        height="234"
+        src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75"
+        srcset="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=384&q=75 1x, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75 2x"
+        style="color: transparent; border-radius: 6px; margin-bottom: 16px;"
+        width="354"
+      />
+      <div
+        class="p-2 w-[334px] flex flex-col items-start gap-5"
+      >
+        <span
+          class="bg-dark-800 text-primary-500 rounded-md px-2.5 py-1 text-xs font-normal leading-3"
+        >
+          Technology
+        </span>
+        <p
+          class="font-primary text-xl font-bold leading-6 text-dark-100 dark:text-light-400 "
+        >
+          Excel at Cashiering with the McDonald POS Training Simulator APK!
+        </p>
+        <div
+          class="mt-1 flex items-center gap-5"
+        >
+          <img
+            alt="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEJuOqDYeLdcJOq8OctOVOCWp-RTFkdmWK4dcI5F9YLg&s"
+            data-nimg="1"
+            decoding="async"
+            fetchpriority="high"
+            height="36"
+            src="/_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSEJuOqDYeLdcJOq8OctOVOCWp-RTFkdmWK4dcI5F9YLg%26s&w=96&q=75"
+            srcset="/_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSEJuOqDYeLdcJOq8OctOVOCWp-RTFkdmWK4dcI5F9YLg%26s&w=48&q=75 1x, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSEJuOqDYeLdcJOq8OctOVOCWp-RTFkdmWK4dcI5F9YLg%26s&w=96&q=75 2x"
+            style="color: transparent; border-radius: 50%; margin-right: -8px;"
+            width="36"
+          />
+          <p
+            class="font-primary text-base font-normal leading-5 text-dark-100 dark:text-light-400 "
+          >
+            Tracey Wilson
+          </p>
+          <p
+            class="font-primary text-base font-normal leading-5 text-dark-100 dark:text-light-400 "
+          >
+            August 20, 2022
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
