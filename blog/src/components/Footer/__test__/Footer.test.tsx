@@ -1,4 +1,5 @@
-import { fireEvent, render, screen, waitFor } from '@testing-library/react'
+import { render, screen, waitFor } from '@testing-library/react'
+import userEvent from '@testing-library/user-event'
 
 import Footer from '..'
 
@@ -16,8 +17,8 @@ describe('Footer component', () => {
     const emailInput = screen.getByPlaceholderText('Your Email')
     const subscribeButton = screen.getByText('Subscribe')
 
-    fireEvent.change(emailInput, { target: { value: 'invalidemail' } })
-    fireEvent.click(subscribeButton)
+    await userEvent.type(emailInput, 'invalid email')
+    await userEvent.click(subscribeButton)
 
     const errorMessage = await waitFor(() =>
       screen.getByText('Invalid format of email, please check.'),
@@ -29,11 +30,9 @@ describe('Footer component', () => {
   it('should display an error message for an empty email', async () => {
     setup()
 
-    const emailInput = screen.getByPlaceholderText('Your Email')
     const subscribeButton = screen.getByText('Subscribe')
 
-    fireEvent.change(emailInput, { target: { value: '' } })
-    fireEvent.click(subscribeButton)
+    await userEvent.click(subscribeButton)
 
     const errorMessage = await waitFor(() =>
       screen.getByText('Email is required'),
