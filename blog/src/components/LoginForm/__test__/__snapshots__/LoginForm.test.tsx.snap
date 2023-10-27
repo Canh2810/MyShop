@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoadingIndicator Component should render correctly 1`] = `
+<div>
+  <form
+    class="relative w-[500px] flex flex-col gap-[28px] bg-white p-10 rounded-xl shadow-md"
+  >
+    <h1
+      class="font-primary text-lg font-bold leading-6 text-dark-100 dark:text-light-400 text-center"
+    >
+      LOGIN
+    </h1>
+    <div
+      class="relative flex items-center px-4  py-3 gap-2.5 rounded-md text-sm border border-solid border-light-700 text-dark-50 bg-white dark:bg-dark-200  "
+    >
+      <input
+        class="w-full bg-transparent text-light-500 focus:outline-0"
+        id="email"
+        name="email"
+        placeholder="Email"
+        type="text"
+        value=""
+      />
+      <svg
+        fill="none"
+        height="20"
+        width="20"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M3.438 4.375a.937.937 0 0 0-.938.938v9.375c0 .517.42.937.938.937h13.124c.518 0 .938-.42.938-.938V5.313a.937.937 0 0 0-.938-.938H3.438Zm-2.188.938c0-1.209.98-2.188 2.188-2.188h13.124c1.209 0 2.188.98 2.188 2.188v9.375c0 1.208-.98 2.187-2.188 2.187H3.438a2.188 2.188 0 0 1-2.187-2.188V5.313Z"
+          fill="#696A75"
+          fill-rule="evenodd"
+        />
+        <path
+          clip-rule="evenodd"
+          d="M3.882 5.866a.625.625 0 0 1 .877-.11L10 9.834l5.241-4.076a.625.625 0 1 1 .768.986l-5.625 4.375a.625.625 0 0 1-.768 0L3.991 6.743a.625.625 0 0 1-.11-.877Z"
+          fill="#696A75"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+    <div
+      class="relative flex items-center px-4  py-3 gap-2.5 rounded-md text-sm border border-solid border-light-700 text-dark-50 bg-white dark:bg-dark-200  "
+    >
+      <input
+        class="w-full bg-transparent text-light-500 focus:outline-0"
+        id="password"
+        name="password"
+        placeholder="Password"
+        type="password"
+        value=""
+      />
+      <svg
+        class="ionicon"
+        height="20px"
+        viewBox="0 0 512 512"
+        width="20px"
+      >
+        <path
+          d="M336 208v-95a80 80 0 0 0-160 0v95"
+          fill="none"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="32"
+        />
+        <rect
+          fill="none"
+          height="272"
+          rx="48"
+          ry="48"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="32"
+          width="320"
+          x="96"
+          y="208"
+        />
+      </svg>
+    </div>
+    <button
+      class="px-5 py-3 rounded-md hover:opacity-70 bg-primary-500 text-white "
+      type="submit"
+    >
+      Login
+    </button>
+  </form>
+</div>
+`;
