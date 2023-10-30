@@ -7,7 +7,7 @@ import { useThemeStore } from '@/stores'
 import { Sunny } from '@/assets'
 
 const DarkModeSwitch = () => {
-  const { toggleTheme } = useThemeStore((state) => state)
+  const toggleTheme = useThemeStore((state) => state.toggleTheme)
 
   return (
     <label htmlFor="checkbox">
