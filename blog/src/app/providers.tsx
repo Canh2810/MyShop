@@ -14,7 +14,7 @@ export const Providers = ({
   children: React.ReactNode
   className: string
 }) => {
-  const { theme } = useThemeStore((state) => state)
+  const theme = useThemeStore((state) => state.theme)
 
   return (
     <QueryClientProvider client={queryClient}>
