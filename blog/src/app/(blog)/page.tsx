@@ -1,44 +1,20 @@
-'use client'
-
-import { Search } from '@/assets'
-import {
-  Typography,
-  Badge,
-  Advertisement,
-  DarkModeSwitch,
-  TextField,
-} from '@/components'
-import { TypoColors, TypoVariants } from '@/types'
+import { Advertisement, Banner, PostList, Button } from '@/components'
+import { POSTS_MOCK, POST_MOCK } from '@/constants'
+import { ButtonVariants } from '@/types'
 
 const Home = () => {
-  const props = {
-    icon: <Search />,
-    name: 'test',
-    placeholder: 'test',
-    id: 'test',
-    value: 'test',
-    onChange: () => {},
-  }
   return (
-    <>
-      <Typography>This is text</Typography>
-      <Typography
-        variant={TypoVariants.TextMedium}
-        color={TypoColors.Secondary}
-      >
-        This is text
-      </Typography>
-      <Typography
-        variant={TypoVariants.HeadingExtraLarge}
-        color={TypoColors.Tertiary}
-      >
-        This is text
-      </Typography>
-      <DarkModeSwitch />
-      <TextField {...props} />
-      <Badge title="Title" />
+    <div className="flex flex-col gap-[80px]">
+      <div>
+        <Banner post={POST_MOCK} />
+      </div>
       <Advertisement />
-    </>
+      <div className="flex flex-col items-center gap-8">
+        <PostList posts={POSTS_MOCK} />
+        <Button variant={ButtonVariants.Outlined}>View all post</Button>
+      </div>
+      <Advertisement />
+    </div>
   )
 }
 

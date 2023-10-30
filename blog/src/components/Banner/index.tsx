@@ -17,16 +17,17 @@ const Banner = ({ post }: PostCardProps) => {
   const { username, avatar } = author || {}
 
   return (
-    <section className="relative">
-      <Image
-        src={imageURL}
-        width={1216}
-        height={600}
-        alt={title}
-        style={{ borderRadius: '12px' }}
-        priority
-      />
-      <div className="absolute left-[64px] bottom-[-68px] bg-white dark:bg-dark-300 rounded-xl border border-light-200 dark:border-dark-200 border-solid w-[589px] flex flex-col items-start gap-4 p-10 shadow-md">
+    <section className="relative mb-[64px]">
+      <div className="relative w-[1216px] h-[600px]">
+        <Image
+          src={imageURL}
+          fill
+          alt={title}
+          style={{ borderRadius: '12px', objectFit: 'cover' }}
+          priority
+        />
+      </div>
+      <div className="absolute left-[64px] bottom-[-64px]  bg-white dark:bg-dark-300 rounded-xl border border-light-200 dark:border-dark-200 border-solid w-[589px] flex flex-col items-start gap-4 p-10 shadow-md">
         <Badge title={category} />
         <Typography variant={TypoVariants.HeadingExtraLarge}>
           {title}
@@ -38,7 +39,6 @@ const Banner = ({ post }: PostCardProps) => {
             height={36}
             alt={avatar}
             style={{ borderRadius: '18px', marginRight: '8px' }}
-            priority
           />
           <Typography>{username}</Typography>
           <Typography>{date}</Typography>
