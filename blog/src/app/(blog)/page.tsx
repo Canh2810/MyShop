@@ -5,9 +5,7 @@ import { ButtonVariants } from '@/types'
 const Home = () => {
   return (
     <div className="flex flex-col gap-[80px]">
-      <div>
-        <Banner post={POST_MOCK} />
-      </div>
+      <Banner post={POST_MOCK} />
       <Advertisement />
       <div className="flex flex-col items-center gap-8">
         <PostList posts={POSTS_MOCK} />
