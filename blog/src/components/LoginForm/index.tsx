@@ -1,5 +1,8 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */ //TODO: Remove later
+'use client'
+
 // Libs
-import { memo, useCallback } from 'react'
+import { memo, useCallback, useState } from 'react'
 import { useForm, Controller, SubmitHandler } from 'react-hook-form'
 
 // Components
@@ -23,12 +26,8 @@ import { Email, Lock } from '@/assets'
 // Utils
 import { checkEmail } from '@/utils'
 
-export interface LoginFormProps {
-  errorMessage?: string
-  onSubmit: (data: ILoginForm) => void
-}
-
-const LoginForm = ({ errorMessage, onSubmit }: LoginFormProps) => {
+const LoginForm = () => {
+  const [errorMessage, setErrorMessage] = useState<string | null>(null)
   const loginFormField: LoginFormField[] = ['email', 'password']
   const { control, clearErrors, handleSubmit } = useForm<ILoginForm>({
     defaultValues: {
@@ -39,9 +38,9 @@ const LoginForm = ({ errorMessage, onSubmit }: LoginFormProps) => {
 
   const handleSubmitLoginForm: SubmitHandler<ILoginForm> = useCallback(
     (data: ILoginForm) => {
-      onSubmit(data)
+      //TODO: Update later
     },
-    [onSubmit],
+    [],
   )
 
   return (
