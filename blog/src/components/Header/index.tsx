@@ -1,3 +1,5 @@
+'use client'
+
 // Libs
 import { useCallback } from 'react'
 
@@ -25,7 +27,7 @@ const Header = () => {
   )
 
   return (
-    <div className="py-8 flex items-center justify-between fixed top-0 left-0 right-0 z-50">
+    <div className="py-8 max-w-[1216px] mx-auto flex items-center justify-between fixed top-0 left-0 right-0 z-50 bg-white dark:bg-dark-300">
       <Logo />
       <Menu listItems={HEADER_MENU} />
       <div className="flex items-center gap-4">

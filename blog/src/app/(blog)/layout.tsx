@@ -1,10 +1,14 @@
+import { Footer, Header } from '@/components'
+
 const MainLayout = ({ children }: { children: React.ReactNode }) => {
   return (
-    <div>
-      <h2>Header</h2>
-      {children}
-      <h2>Footer</h2>
-    </div>
+    <>
+      <Header />
+      <div className="container max-w-[1216px] mx-auto mt-[113px] mb-[100px]">
+        {children}
+      </div>
+      <Footer />
+    </>
   )
 }
 
