@@ -1,18 +1,16 @@
-import { ButtonVariants, MenuVariants, TypoColors, TypoVariants } from '@/types'
+// Component
 import { Button, Menu, TextField, Typography } from '..'
-// Libs
-import { Controller, useForm } from 'react-hook-form'
-import { CATEGORY, ERROR_MESSAGES, POlICY, QUICK_LINK } from '@/constants'
-import { checkEmail } from '@/utils'
+
+// Type
+import { ButtonVariants, MenuVariants, TypoColors, TypoVariants } from '@/types'
+
+// Constants
+import { CATEGORY, POlICY, QUICK_LINK } from '@/constants'
+
+//
 import { Email, LogoLarge } from '@/assets'
 
 const Footer = () => {
-  const { control, clearErrors, handleSubmit } = useForm<{ email: string }>({
-    defaultValues: {
-      email: '',
-    },
-  })
-
   return (
     <div className="pt-16 px-[352px] bg-light-50 dark:bg-dark-400">
       <div className="flex items-center justify-between mb-16">
@@ -76,7 +74,6 @@ const Footer = () => {
         </div>
         <form
           action=""
-          onSubmit={handleSubmit(() => {})}
           className="p-8 text-center bg-white dark:bg-dark-200 rounded-xl"
         >
           <div className="mb-[30px]">
@@ -85,27 +82,13 @@ const Footer = () => {
             </Typography>
             <Typography>Get blog articles and offers via email</Typography>
           </div>
-          <Controller
-            control={control}
+          <TextField
+            icon={<Email />}
+            id="email"
             name="email"
-            rules={{
-              required: ERROR_MESSAGES.FIELD_REQUIRED('Email'),
-              validate: (value: string) => checkEmail(value),
-            }}
-            render={({ field: { value, onChange }, fieldState: { error } }) => (
-              <TextField
-                icon={<Email />}
-                id="email"
-                name="email"
-                placeholder="Your Email"
-                value={value}
-                errorMessage={error?.message}
-                onChange={(data) => {
-                  clearErrors('email')
-                  onChange(data)
-                }}
-              />
-            )}
+            placeholder="Your Email"
+            value={''}
+            onChange={() => {}}
           />
           <Button
             variant={ButtonVariants.Container}

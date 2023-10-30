@@ -3,7 +3,7 @@
 exports[`TextField component render with variant is filled and type is password 1`] = `
 <div>
   <div
-    class="relative flex items-center px-4  py-3 gap-2.5 rounded-md text-sm bg-light-100 dark:bg-dark-200 text-light-500   "
+    class="relative flex items-center px-4  py-3 rounded-md text-sm bg-light-100 dark:bg-dark-200 text-light-500   "
   >
     <input
       class="w-full bg-transparent text-light-500 focus:outline-0"
@@ -39,7 +39,7 @@ exports[`TextField component render with variant is filled and type is password 
 exports[`TextField component render with variant is filled and type is text 1`] = `
 <div>
   <div
-    class="relative flex items-center px-4  py-3 gap-2.5 rounded-md text-sm bg-light-100 dark:bg-dark-200 text-light-500   "
+    class="relative flex items-center px-4  py-3 rounded-md text-sm bg-light-100 dark:bg-dark-200 text-light-500   "
   >
     <input
       class="w-full bg-transparent text-light-500 focus:outline-0"
@@ -75,7 +75,7 @@ exports[`TextField component render with variant is filled and type is text 1`] 
 exports[`TextField component render with variant is outlined and type is password 1`] = `
 <div>
   <div
-    class="relative flex items-center px-4  py-3 gap-2.5 rounded-md text-sm border border-solid border-light-700 text-dark-50 bg-white dark:bg-dark-200  "
+    class="relative flex items-center px-4  py-3 rounded-md text-sm border border-solid border-light-700 text-dark-50 bg-white dark:bg-dark-200  "
   >
     <input
       class="w-full bg-transparent text-light-500 focus:outline-0"
@@ -111,7 +111,7 @@ exports[`TextField component render with variant is outlined and type is passwor
 exports[`TextField component render with variant is outlined and type is text 1`] = `
 <div>
   <div
-    class="relative flex items-center px-4  py-3 gap-2.5 rounded-md text-sm border border-solid border-light-700 text-dark-50 bg-white dark:bg-dark-200  "
+    class="relative flex items-center px-4  py-3 rounded-md text-sm border border-solid border-light-700 text-dark-50 bg-white dark:bg-dark-200  "
   >
     <input
       class="w-full bg-transparent text-light-500 focus:outline-0"

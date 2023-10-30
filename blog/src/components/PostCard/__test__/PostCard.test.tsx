@@ -5,8 +5,8 @@ import userEvent from '@testing-library/user-event'
 
 const useRouterMock = jest.fn()
 
-jest.mock('next/router', () => ({
-  ...jest.requireActual('next/router'),
+jest.mock('next/navigation', () => ({
+  ...jest.requireActual('next/navigation'),
   useRouter: () => useRouterMock,
 }))
 

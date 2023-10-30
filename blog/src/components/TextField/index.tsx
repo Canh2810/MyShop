@@ -39,7 +39,7 @@ const TextField = ({
 
   return (
     <div
-      className={`relative flex items-center px-4  py-3 gap-2.5 rounded-md text-sm ${testFiledStyles[variant]} ${className} `}
+      className={`relative flex items-center px-4  py-3 rounded-md text-sm ${testFiledStyles[variant]} ${className} `}
     >
       <input
         type={type}
