@@ -3,7 +3,7 @@
 // Libs
 import { memo, useCallback } from 'react'
 import Image from 'next/image'
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/navigation'
 
 // Types
 import { IPost, TypoVariants, CommonVariants } from '@/types'
@@ -13,6 +13,7 @@ import { Badge, Typography } from '../index'
 
 // Constants
 import { ROUTES } from '@/constants'
+import { generatePlaceholder } from '@/utils'
 
 export interface PostCardProps {
   post: IPost
@@ -33,14 +34,20 @@ const PostCard = ({ post }: PostCardProps) => {
       className="p-4 rounded-xl border border-light-200 dark:border-dark-200 border-solid w-fit cursor-pointer"
       onClick={handleClickPostCard}
     >
-      <Image
-        src={imageURL}
-        width={354}
-        height={234}
-        alt={title}
-        style={{ borderRadius: '6px', marginBottom: '16px' }}
-        priority
-      />
+      <div className="relative w-[354px] h-[234px]">
+        <Image
+          src={imageURL}
+          alt={title}
+          fill
+          placeholder="blur"
+          blurDataURL={generatePlaceholder(354, 234)}
+          style={{
+            borderRadius: '6px',
+            marginBottom: '16px',
+            objectFit: 'cover',
+          }}
+        />
+      </div>
       <div className="p-2 w-[334px] flex flex-col items-start gap-5">
         <Badge variant={CommonVariants.Secondary} title={category} />
         <Typography variant={TypoVariants.HeadingLarge}>{title}</Typography>
@@ -51,10 +58,11 @@ const PostCard = ({ post }: PostCardProps) => {
             height={36}
             alt={avatar}
             style={{ borderRadius: '50%', marginRight: '-8px' }}
-            priority
           />
-          <Typography variant={TypoVariants.TextMedium}>{username}</Typography>
-          <Typography variant={TypoVariants.TextMedium}>{date}</Typography>
+          <Typography className="font-primary !important">
+            {username}
+          </Typography>
+          <Typography className="font-primary !important">{date}</Typography>
         </div>
       </div>
     </div>

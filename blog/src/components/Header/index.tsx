@@ -14,13 +14,14 @@ import { HEADER_MENU } from '@/constants'
 import { useQueryStore } from '@/stores'
 
 const Header = () => {
-  const { query, setQuery } = useQueryStore((state) => state)
+  const query = useQueryStore((state) => state.query)
+  const setQuery = useQueryStore((state) => state.setQuery)
 
   const handleChangeSearchBar = useCallback(
     (event: React.ChangeEvent<HTMLInputElement>) => {
       setQuery(event.target.value)
     },
-    [setQuery],
+    [],
   )
 
   return (
