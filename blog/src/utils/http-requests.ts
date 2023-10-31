@@ -1,16 +1,12 @@
 export const get = async <T>(url: string): Promise<T> => {
-  try {
-    const response = await fetch(url)
+  const response = await fetch(url)
+  const responseData = await response.json()
 
-    if (!response.ok) {
-      throw new Error(`Request failed with status ${response.status}`)
-    }
-
-    const data: T = await response.json()
-    return data
-  } catch (error) {
-    throw new Error('Fetch fail')
+  if (!response.ok) {
+    throw new Error(responseData.message)
   }
+
+  return responseData
 }
 
 export const post = async <T>(url: string, data: T) => {

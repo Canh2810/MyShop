@@ -197,3 +197,17 @@ export const USERS_MOCK = [
     token: 'mocked-auth-token',
   },
 ]
+
+export const INIT_POSTS = [
+  {
+    id: '',
+    category: '',
+    title: '',
+    author: {
+      avatar: '',
+      username: '',
+    },
+    date: '',
+    imageURL: '',
+  },
+]
