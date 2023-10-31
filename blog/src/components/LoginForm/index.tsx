@@ -1,9 +1,9 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */ //TODO: Remove later
 'use client'
 
 // Libs
 import { memo, useCallback, useState } from 'react'
 import { useForm, Controller, SubmitHandler } from 'react-hook-form'
+import { useRouter } from 'next/navigation'
 
 // Components
 import { Button, TextField, Typography } from '../index'
@@ -18,13 +18,16 @@ import {
 } from '@/types'
 
 // Constants
-import { ERROR_MESSAGES } from '@/constants'
+import { ERROR_MESSAGES, LOCAL_STORAGE_KEY, ROUTES } from '@/constants'
 
 // Icons
 import { Email, Lock } from '@/assets'
 
 // Utils
 import { checkEmail } from '@/utils'
+
+// Hooks
+import { useAuth } from '@/hooks'
 
 const LoginForm = () => {
   const [errorMessage, setErrorMessage] = useState<string | null>(null)
@@ -35,10 +38,34 @@ const LoginForm = () => {
       password: '',
     },
   })
+  const router = useRouter()
+
+  const {
+    login: { mutate, isPending },
+  } = useAuth()
+
+  /**
+   * Handle login
+   * @param data email and password value
+   */
 
   const handleSubmitLoginForm: SubmitHandler<ILoginForm> = useCallback(
     (data: ILoginForm) => {
-      //TODO: Update later
+      mutate(data, {
+        onSuccess: (response) => {
+          // Redirect to home page when login success
+          localStorage.setItem(LOCAL_STORAGE_KEY.AUTH, response.token)
+          router.push(ROUTES.HOME)
+        },
+        onError: (error) => {
+          // Show error message when login fail
+          setErrorMessage(
+            error.message === ERROR_MESSAGES.LOGIN_INVALID
+              ? error.message
+              : ERROR_MESSAGES.FAIL_TO_FETCH,
+          )
+        },
+      })
     },
     [],
   )
@@ -90,13 +117,17 @@ const LoginForm = () => {
           />
         )
       })}
-      <Button variant={ButtonVariants.Container} type="submit">
+      <Button
+        variant={ButtonVariants.Container}
+        type="submit"
+        isLoading={isPending}
+      >
         Login
       </Button>
       {errorMessage && (
-        <Typography className="absolute text-danger bottom-[10px] left-[120px]">
+        <p className="text-center absolute bottom-2 left-0 right-0  text-danger">
           {errorMessage}
-        </Typography>
+        </p>
       )}
     </form>
   )

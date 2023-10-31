@@ -119,70 +119,81 @@ export const POSTS_MOCK = [
     imageURL:
       'https://images.unsplash.com/photo-1543877087-ebf71fde2be1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60',
   },
+  // {
+  //   id: '234fsdf',
+  //   category: 'Technology',
+  //   title:
+  //     'The Impact of Technology on the Workplace: How Technology is Changing',
+  //   author: {
+  //     avatar: 'https://www.w3schools.com/w3images/avatar2.png',
+  //     username: 'Tracey Wilson',
+  //   },
+  //   date: 'August 20, 2022',
+  //   imageURL:
+  //     'https://images.unsplash.com/photo-1543877087-ebf71fde2be1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60',
+  // },
+  // {
+  //   id: '3ergef4',
+  //   category: 'Technology',
+  //   title:
+  //     'The Impact of Technology on the Workplace: How Technology is Changing',
+  //   author: {
+  //     avatar: 'https://www.w3schools.com/w3images/avatar2.png',
+  //     username: 'Tracey Wilson',
+  //   },
+  //   date: 'August 20, 2022',
+  //   imageURL:
+  //     'https://images.unsplash.com/photo-1543877087-ebf71fde2be1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60',
+  // },
+  // {
+  //   id: '3454fdgfd',
+  //   category: 'Technology',
+  //   title:
+  //     'The Impact of Technology on the Workplace: How Technology is Changing',
+  //   author: {
+  //     avatar: 'https://www.w3schools.com/w3images/avatar2.png',
+  //     username: 'Tracey Wilson',
+  //   },
+  //   date: 'August 20, 2022',
+  //   imageURL:
+  //     'https://images.unsplash.com/photo-1543877087-ebf71fde2be1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60',
+  // },
+  // {
+  //   id: '45dfgfg',
+  //   category: 'Technology',
+  //   title:
+  //     'The Impact of Technology on the Workplace: How Technology is Changing',
+  //   author: {
+  //     avatar:
+  //       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHeu1JU1avFzQtN-az4HZqEpR1VvEBN-SEXfEuOtt8Xg&s',
+  //     username: 'Tracey Wilson',
+  //   },
+  //   date: 'August 20, 2022',
+  //   imageURL:
+  //     'https://images.unsplash.com/photo-1539667468225-eebb663053e6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fG5hdHVyYWx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60',
+  // },
+  // {
+  //   id: '53345dfgdfg',
+  //   category: 'Technology',
+  //   title: 'Excel at Cashiering with the McDonald POS Training Simulator APK!',
+  //   author: {
+  //     avatar:
+  //       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEJuOqDYeLdcJOq8OctOVOCWp-RTFkdmWK4dcI5F9YLg&s',
+  //     username: 'Tracey Wilson',
+  //   },
+  //   date: 'August 20, 2022',
+  //   imageURL:
+  //     'https://images.unsplash.com/photo-1543877087-ebf71fde2be1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60',
+  // },
+]
+
+export const USERS_MOCK = [
   {
-    id: '234fsdf',
-    category: 'Technology',
-    title:
-      'The Impact of Technology on the Workplace: How Technology is Changing',
-    author: {
-      avatar: 'https://www.w3schools.com/w3images/avatar2.png',
-      username: 'Tracey Wilson',
-    },
-    date: 'August 20, 2022',
-    imageURL:
-      'https://images.unsplash.com/photo-1543877087-ebf71fde2be1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60',
-  },
-  {
-    id: '3ergef4',
-    category: 'Technology',
-    title:
-      'The Impact of Technology on the Workplace: How Technology is Changing',
-    author: {
-      avatar: 'https://www.w3schools.com/w3images/avatar2.png',
-      username: 'Tracey Wilson',
-    },
-    date: 'August 20, 2022',
-    imageURL:
-      'https://images.unsplash.com/photo-1543877087-ebf71fde2be1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60',
-  },
-  {
-    id: '3454fdgfd',
-    category: 'Technology',
-    title:
-      'The Impact of Technology on the Workplace: How Technology is Changing',
-    author: {
-      avatar: 'https://www.w3schools.com/w3images/avatar2.png',
-      username: 'Tracey Wilson',
-    },
-    date: 'August 20, 2022',
-    imageURL:
-      'https://images.unsplash.com/photo-1543877087-ebf71fde2be1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60',
-  },
-  {
-    id: '45dfgfg',
-    category: 'Technology',
-    title:
-      'The Impact of Technology on the Workplace: How Technology is Changing',
-    author: {
-      avatar:
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHeu1JU1avFzQtN-az4HZqEpR1VvEBN-SEXfEuOtt8Xg&s',
-      username: 'Tracey Wilson',
-    },
-    date: 'August 20, 2022',
-    imageURL:
-      'https://images.unsplash.com/photo-1539667468225-eebb663053e6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fG5hdHVyYWx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60',
-  },
-  {
-    id: '53345dfgdfg',
-    category: 'Technology',
-    title: 'Excel at Cashiering with the McDonald POS Training Simulator APK!',
-    author: {
-      avatar:
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEJuOqDYeLdcJOq8OctOVOCWp-RTFkdmWK4dcI5F9YLg&s',
-      username: 'Tracey Wilson',
-    },
-    date: 'August 20, 2022',
-    imageURL:
-      'https://images.unsplash.com/photo-1543877087-ebf71fde2be1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60',
+    id: '43dfq2e',
+    email: 'canhvo@gmail.com',
+    password: 'canhvo@123',
+    user_name: 'CanhVo',
+    avatar: 'https://www.w3schools.com/w3images/avatar2.png',
+    token: 'mocked-auth-token',
   },
 ]
