@@ -1,12 +1,21 @@
 /* eslint-disable react/no-unescaped-entities */
 import Image from 'next/image'
+import postBanner from '@/assets/images/post-banner.png'
 import { Advertisement, Badge, Typography } from '@/components'
-import { POST_MOCK } from '@/constants'
-import { TypoColors, TypoVariants } from '@/types'
-import { generatePlaceholder } from '@/utils'
+import { BASE_URL, END_POINTS } from '@/constants'
+import { IPost, TypoColors, TypoVariants } from '@/types'
+import { generatePlaceholder, get } from '@/utils'
 
-const SinglePost = () => {
-  const { category, title, author, date, imageURL } = POST_MOCK || {} //TODO: Update later
+interface IProp {
+  params: { id: number }
+}
+
+const SinglePost = async ({ params }: IProp) => {
+  const { id } = params || {}
+
+  const data = await get<IPost>(`${BASE_URL}/${END_POINTS.POSTS}/${id}`)
+
+  const { category, title, author, date, imageURL } = data || {}
   const { avatar, username } = author || {}
 
   return (
@@ -124,7 +133,7 @@ const SinglePost = () => {
 
         <div className="w-[800px] h-[462px] relative">
           <Image
-            src="https://plus.unsplash.com/premium_photo-1666963323736-5ee1c16ef19d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fG5hdHVyYWx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60"
+            src={postBanner}
             alt="Plan Your Itinerary"
             fill
             placeholder="blur"
