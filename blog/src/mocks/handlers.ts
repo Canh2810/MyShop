@@ -3,7 +3,7 @@ import { MOCK_URL, END_POINTS, USERS_MOCK, ERROR_MESSAGES } from '@/constants'
 
 export const handlers = [
   // Login
-  rest.post(MOCK_URL + END_POINTS.LOGIN, async (req, res, ctx) => {
+  rest.post(`/${MOCK_URL}/${END_POINTS.LOGIN}`, async (req, res, ctx) => {
     const { email, password } = (await req.json()) as {
       email: string
       password: string
