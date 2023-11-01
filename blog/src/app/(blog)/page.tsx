@@ -1,18 +1,21 @@
 'use client'
 
 import { Advertisement, Banner, PostList, Button } from '@/components'
-import { POST_MOCK } from '@/constants'
-import { useInfinitePosts } from '@/hooks'
+import { LIMIT_POSTS, POST_MOCK } from '@/constants'
+import { useFetchPosts } from '@/hooks'
 import { ButtonVariants } from '@/types'
 
+import { useCallback, useState } from 'react'
+
 const Home = () => {
-  const {
-    data,
-    fetchNextPage,
-    isFetchingNextPage,
-    fetchPreviousPage,
-    isFetchingPreviousPage,
-  } = useInfinitePosts(3)
+  const [limitPosts, setLimitPosts] = useState(LIMIT_POSTS)
+  const { data } = useFetchPosts(limitPosts)
+
+  const buttonTitle = limitPosts === LIMIT_POSTS ? 'View all post' : 'Hide less'
+
+  const handleToggleViewALlPosts = useCallback(() => {
+    setLimitPosts((prev) => (prev === LIMIT_POSTS ? '' : LIMIT_POSTS))
+  }, [setLimitPosts])
 
   return (
     <div className="flex flex-col gap-[80px]">
@@ -22,17 +25,9 @@ const Home = () => {
         <PostList posts={data} />
         <Button
           variant={ButtonVariants.Outlined}
-          isLoading={isFetchingNextPage || isFetchingPreviousPage}
-          onClick={() => fetchNextPage()}
+          onClick={handleToggleViewALlPosts}
         >
-          View all
-        </Button>
-        <Button
-          variant={ButtonVariants.Outlined}
-          isLoading={isFetchingNextPage || isFetchingPreviousPage}
-          onClick={() => fetchPreviousPage()}
-        >
-          Hide less
+          {buttonTitle}
         </Button>
       </div>
       <Advertisement />
