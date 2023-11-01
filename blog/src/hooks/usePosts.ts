@@ -10,7 +10,7 @@ export const useFetchPosts = (limit: string, query = '') => {
     queryKey: [`${BASE_URL}/${END_POINTS.POSTS}` + limit + query],
     queryFn: () =>
       get(
-        `${BASE_URL}/${END_POINTS.POSTS}?page=1&limit=${limit}&title=${query}`,
+        `${BASE_URL}/${END_POINTS.POSTS}a?page=1&limit=${limit}&title=${query}`,
       ),
     initialData: INIT_POSTS,
   })
