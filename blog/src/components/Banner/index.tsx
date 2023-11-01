@@ -7,6 +7,7 @@ import { IPost, TypoVariants } from '@/types'
 
 // Components
 import { Badge, Typography } from '../index'
+import { generatePlaceholder } from '@/utils'
 
 export interface PostCardProps {
   post: IPost
@@ -23,6 +24,8 @@ const Banner = ({ post }: PostCardProps) => {
           src={imageURL}
           fill
           alt={title}
+          placeholder="blur"
+          blurDataURL={generatePlaceholder(1216, 600)}
           style={{ borderRadius: '12px', objectFit: 'cover' }}
           priority
         />

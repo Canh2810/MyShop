@@ -48,9 +48,14 @@ const PostCard = ({ post }: PostCardProps) => {
           }}
         />
       </div>
-      <div className="p-2 w-[334px] flex flex-col items-start gap-5">
+      <div className="p-2 w-[334px] flex flex-col items-start justify-between gap-5">
         <Badge variant={CommonVariants.Secondary} title={category} />
-        <Typography variant={TypoVariants.HeadingLarge}>{title}</Typography>
+        <Typography
+          variant={TypoVariants.HeadingLarge}
+          className="w-full h-[84px] line-clamp-3"
+        >
+          {title}
+        </Typography>
         <div className="mt-1 flex items-center gap-5">
           <Image
             src={avatar}
