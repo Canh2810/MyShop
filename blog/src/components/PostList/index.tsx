@@ -1,8 +1,8 @@
 // Libs
-import { memo } from 'react'
+import { Suspense, memo } from 'react'
 
 // Components
-import { PostCard } from '../index'
+import { PostCard, PostCardSkeleton } from '../index'
 
 // Types
 import { IPost } from '@/types'
@@ -15,7 +15,11 @@ const PostList = ({ posts }: PostListProps) => {
   return (
     <div className="grid grid-cols-3 gap-5">
       {posts.map((post: IPost) => {
-        return <PostCard key={post.id} post={post} />
+        return (
+          <Suspense key={post.id} fallback={<PostCardSkeleton />}>
+            <PostCard key={post.id} post={post} />
+          </Suspense>
+        )
       })}
     </div>
   )

@@ -33,13 +33,14 @@ const Banner = ({ post }: PostCardProps) => {
           {title}
         </Typography>
         <div className="mt-2 flex items-center gap-5">
-          <Image
-            src={imageURL}
-            width={36}
-            height={36}
-            alt={avatar}
-            style={{ borderRadius: '18px', marginRight: '8px' }}
-          />
+          <div className="relative w-9 h-9">
+            <Image
+              src={imageURL}
+              fill
+              alt={avatar}
+              style={{ borderRadius: '50%', marginRight: '8px' }}
+            />
+          </div>
           <Typography>{username}</Typography>
           <Typography>{date}</Typography>
         </div>

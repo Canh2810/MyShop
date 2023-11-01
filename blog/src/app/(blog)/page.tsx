@@ -1,11 +1,18 @@
 'use client'
+import { Suspense, useCallback, useState } from 'react'
 
-import { Advertisement, Banner, PostList, Button } from '@/components'
-import { LIMIT_POSTS, POST_MOCK } from '@/constants'
+// Components
+import {
+  Advertisement,
+  PostList,
+  Button,
+  BannerSkeleton,
+  Banner,
+} from '@/components'
+
+import { LIMIT_POSTS } from '@/constants'
 import { useFetchPosts } from '@/hooks'
 import { ButtonVariants } from '@/types'
-
-import { useCallback, useState } from 'react'
 
 const Home = () => {
   const [limitPosts, setLimitPosts] = useState(LIMIT_POSTS)
@@ -19,7 +26,9 @@ const Home = () => {
 
   return (
     <div className="flex flex-col gap-[80px]">
-      <Banner post={POST_MOCK} />
+      <Suspense fallback={<BannerSkeleton />}>
+        <Banner post={data[0]} />
+      </Suspense>
       <Advertisement />
       <div className="flex flex-col items-center gap-8">
         <PostList posts={data} />

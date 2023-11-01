@@ -7,4 +7,4 @@ export const LOCAL_STORAGE_KEY = {
   AUTH: 'auth',
 }
 
-export const LIMIT_POSTS = '3'
+export const LIMIT_POSTS = '9'

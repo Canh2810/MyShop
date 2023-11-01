@@ -6,7 +6,7 @@ import { post } from '@/utils'
 export const useAuth = () => {
   const login = useMutation({
     mutationFn: ({ email, password }: ILoginForm) =>
-      post(MOCK_URL + END_POINTS.LOGIN, { email, password }),
+      post(`/${MOCK_URL}/${END_POINTS.LOGIN}`, { email, password }),
   })
   return { login }
 }
