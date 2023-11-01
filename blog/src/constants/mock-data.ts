@@ -186,3 +186,14 @@ export const POSTS_MOCK = [
   //     'https://images.unsplash.com/photo-1543877087-ebf71fde2be1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60',
   // },
 ]
+
+export const USERS_MOCK = [
+  {
+    id: '43dfq2e',
+    email: 'canhvo@gmail.com',
+    password: 'canhvo@123',
+    user_name: 'CanhVo',
+    avatar: 'https://www.w3schools.com/w3images/avatar2.png',
+    token: 'mocked-auth-token',
+  },
+]

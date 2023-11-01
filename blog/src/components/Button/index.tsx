@@ -1,5 +1,6 @@
 import { ButtonHTMLAttributes, ReactNode, memo } from 'react'
 import { ButtonVariants } from '@/types'
+import { CircularProgress } from '..'
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: ButtonVariants
@@ -27,10 +28,11 @@ const Button = ({
     <button
       onClick={onClick}
       disabled={isLoading}
-      className={`px-5 py-3 rounded-md hover:opacity-70 ${buttonStyles[variant]} ${className}`}
+      className={`px-5 py-3 rounded-md hover:opacity-70 disabled:opacity-40 ${buttonStyles[variant]} ${className}`}
       {...props}
     >
       {children}
+      {isLoading && <CircularProgress />}
     </button>
   )
 }
