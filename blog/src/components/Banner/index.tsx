@@ -26,6 +26,7 @@ const Banner = ({ post }: PostCardProps) => {
           alt={title}
           placeholder="blur"
           blurDataURL={generatePlaceholder(1216, 600)}
+          sizes="100vw"
           style={{ borderRadius: '12px', objectFit: 'cover' }}
           priority
         />

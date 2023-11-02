@@ -15,6 +15,9 @@ import { Badge, Typography } from '../index'
 import { ROUTES } from '@/constants'
 import { generatePlaceholder } from '@/utils'
 
+// Stores
+import { useQueryStore } from '@/stores'
+
 export interface PostCardProps {
   post: IPost
 }
@@ -23,11 +26,13 @@ const PostCard = ({ post }: PostCardProps) => {
   const { id, title, imageURL, author, category, date } = post || {}
   const { username, avatar } = author || {}
   const router = useRouter()
+  const clearQuery = useQueryStore((state) => state.clearQuery)
 
   // Navigate to single post page
   const handleClickPostCard = useCallback(() => {
+    clearQuery()
     router.push(ROUTES.SINGLE_POST_PARAM + id)
-  }, [id, router])
+  }, [clearQuery, id, router])
 
   return (
     <div
@@ -62,6 +67,7 @@ const PostCard = ({ post }: PostCardProps) => {
             width={36}
             height={36}
             alt={avatar}
+            sizes="334px"
             style={{ borderRadius: '50%', marginRight: '-8px' }}
           />
           <Typography className="font-primary !important">
