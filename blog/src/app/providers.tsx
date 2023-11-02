@@ -4,6 +4,9 @@
 import { useThemeStore } from '@/stores'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { ReactQueryStreamedHydration } from '@tanstack/react-query-next-experimental'
+import { worker } from '@/mocks/browser'
+
+worker.start()
 
 const queryClient = new QueryClient()
 
