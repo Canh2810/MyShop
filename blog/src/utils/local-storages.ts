@@ -13,8 +13,12 @@ export const setLocalStorageItem = (key: string, value: unknown): void => {
  * @return value corresponds to the key
  */
 export const getLocalStorageItem = (key: string): unknown => {
-  const value = localStorage.getItem(key)
-  return value
+  try {
+    const value = localStorage.getItem(key)
+    return value
+  } catch (error) {
+    return error
+  }
 }
 
 /**
