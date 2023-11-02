@@ -44,10 +44,10 @@ const MainLayout = ({ children }: { children: React.ReactNode }) => {
     if (debouncedValue.length > 0) {
       return (
         <>
-          {data && data.length > 0 ? (
-            <PostList posts={data || []} />
-          ) : (
+          {data && data.length === 0 ? (
             <Typography className="text-center">No Result Found</Typography>
+          ) : (
+            <PostList posts={data || []} />
           )}
           {isLoading && (
             <div className="grid mt-8 grid-cols-3 gap-5">
