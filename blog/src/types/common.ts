@@ -17,6 +17,7 @@ export enum TypoColors {
 }
 
 export enum ButtonVariants {
+  Text = 'text',
   Container = 'container',
   Outlined = 'outlined',
 }
