@@ -15,6 +15,9 @@ import { Badge, Typography } from '../index'
 import { ROUTES } from '@/constants'
 import { generatePlaceholder } from '@/utils'
 
+// Stores
+import { useQueryStore } from '@/stores'
+
 export interface PostCardProps {
   post: IPost
 }
@@ -23,11 +26,13 @@ const PostCard = ({ post }: PostCardProps) => {
   const { id, title, imageURL, author, category, date } = post || {}
   const { username, avatar } = author || {}
   const router = useRouter()
+  const clearQuery = useQueryStore((state) => state.clearQuery)
 
   // Navigate to single post page
   const handleClickPostCard = useCallback(() => {
+    clearQuery()
     router.push(ROUTES.SINGLE_POST_PARAM + id)
-  }, [id, router])
+  }, [clearQuery, id, router])
 
   return (
     <div
@@ -48,15 +53,21 @@ const PostCard = ({ post }: PostCardProps) => {
           }}
         />
       </div>
-      <div className="p-2 w-[334px] flex flex-col items-start gap-5">
+      <div className="p-2 w-[334px] flex flex-col items-start justify-between gap-5">
         <Badge variant={CommonVariants.Secondary} title={category} />
-        <Typography variant={TypoVariants.HeadingLarge}>{title}</Typography>
+        <Typography
+          variant={TypoVariants.HeadingLarge}
+          className="w-full h-[84px] line-clamp-3"
+        >
+          {title}
+        </Typography>
         <div className="mt-1 flex items-center gap-5">
           <Image
             src={avatar}
             width={36}
             height={36}
             alt={avatar}
+            sizes="334px"
             style={{ borderRadius: '50%', marginRight: '-8px' }}
           />
           <Typography className="font-primary !important">

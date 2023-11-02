@@ -16,6 +16,7 @@ const SinglePost = async ({ params }: IProp) => {
   const data = await get<IPost>(`${BASE_URL}/${END_POINTS.POSTS}/${id}`)
 
   const { category, title, author, date, imageURL } = data || {}
+
   const { avatar, username } = author || {}
 
   return (

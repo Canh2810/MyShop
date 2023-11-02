@@ -10,12 +10,13 @@ import {
   Banner,
 } from '@/components'
 
-import { LIMIT_POSTS } from '@/constants'
+import { LIMIT_POSTS, POST_MOCK } from '@/constants'
 import { useFetchPosts } from '@/hooks'
 import { ButtonVariants } from '@/types'
 
 const Home = () => {
   const [limitPosts, setLimitPosts] = useState(LIMIT_POSTS)
+
   const { data } = useFetchPosts(limitPosts)
 
   const buttonTitle = limitPosts === LIMIT_POSTS ? 'View all post' : 'Hide less'
@@ -27,11 +28,11 @@ const Home = () => {
   return (
     <div className="flex flex-col gap-[80px]">
       <Suspense fallback={<BannerSkeleton />}>
-        <Banner post={data[0]} />
+        <Banner post={POST_MOCK} />
       </Suspense>
       <Advertisement />
       <div className="flex flex-col items-center gap-8">
-        <PostList posts={data} />
+        <PostList posts={data || []} />
         <Button
           variant={ButtonVariants.Outlined}
           onClick={handleToggleViewALlPosts}

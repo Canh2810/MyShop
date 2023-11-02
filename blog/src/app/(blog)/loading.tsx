@@ -4,7 +4,7 @@ const Loading = () => {
   return (
     <>
       <BannerSkeleton />
-      <div className="grid grid-cols-3 gap-5">
+      <div className="grid mt-8 grid-cols-3 gap-5">
         <PostCardSkeleton />
         <PostCardSkeleton />
         <PostCardSkeleton />
