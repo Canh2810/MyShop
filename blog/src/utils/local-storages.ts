@@ -14,7 +14,7 @@ export const setLocalStorageItem = (key: string, value: unknown): void => {
  */
 export const getLocalStorageItem = (key: string): unknown => {
   const value = localStorage.getItem(key)
-  return value ? JSON.parse(value) : null
+  return value
 }
 
 /**
