@@ -24,7 +24,7 @@ import { ERROR_MESSAGES, LOCAL_STORAGE_KEY, ROUTES } from '@/constants'
 import { Email, Lock } from '@/assets'
 
 // Utils
-import { checkEmail } from '@/utils'
+import { checkEmail, setLocalStorageItem } from '@/utils'
 
 // Hooks
 import { useAuth } from '@/hooks'
@@ -54,7 +54,7 @@ const LoginForm = () => {
       mutate(data, {
         onSuccess: (response) => {
           // Redirect to home page when login success
-          localStorage.setItem(LOCAL_STORAGE_KEY.AUTH, response.token)
+          setLocalStorageItem(LOCAL_STORAGE_KEY.AUTH, response.token)
           router.push(ROUTES.HOME)
         },
         onError: (error) => {

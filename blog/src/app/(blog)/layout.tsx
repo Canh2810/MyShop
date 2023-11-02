@@ -19,6 +19,9 @@ import { useDebounce, useFetchPosts } from '@/hooks'
 // Stores
 import { useQueryStore } from '@/stores'
 
+// Utils
+import { getLocalStorageItem } from '@/utils'
+
 const MainLayout = ({ children }: { children: React.ReactNode }) => {
   const router = useRouter()
   const query = useQueryStore((state) => state.query)
@@ -30,7 +33,7 @@ const MainLayout = ({ children }: { children: React.ReactNode }) => {
   )
 
   // Navigate to login page when not logged in yet
-  const token = localStorage.getItem(LOCAL_STORAGE_KEY.AUTH)
+  const token = getLocalStorageItem(LOCAL_STORAGE_KEY.AUTH)
   if (!token) {
     return router.push(ROUTES.LOGIN)
   }

@@ -16,7 +16,12 @@ import { HEADER_MENU, LOCAL_STORAGE_KEY, ROUTES } from '@/constants'
 
 // Stores
 import { useQueryStore } from '@/stores'
+
+// Types
 import { ButtonVariants } from '@/types'
+
+// Utils
+import { removeLocalStorageItem } from '@/utils'
 
 const Header = () => {
   const [isShowDropDown, setIsShowDropdown] = useState<boolean>(false)
@@ -43,7 +48,7 @@ const Header = () => {
   // Handle logout
   const handleLogout = useCallback(() => {
     // Clear token in local storage
-    localStorage.removeItem(LOCAL_STORAGE_KEY.AUTH)
+    removeLocalStorageItem(LOCAL_STORAGE_KEY.AUTH)
     // Navigate to login page
     router.push(ROUTES.LOGIN)
   }, [router])
