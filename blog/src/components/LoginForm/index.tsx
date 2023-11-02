@@ -27,7 +27,7 @@ import { Email, Lock } from '@/assets'
 import { checkEmail, setLocalStorageItem } from '@/utils'
 
 // Hooks
-import { useAuth } from '@/hooks'
+import { login } from '@/services'
 
 const LoginForm = () => {
   const [errorMessage, setErrorMessage] = useState<string | null>(null)
@@ -39,11 +39,6 @@ const LoginForm = () => {
     },
   })
   const router = useRouter()
-
-  const {
-    login: { mutate, isPending },
-  } = useAuth()
-
   /**
    * Handle login
    * @param data email and password value
@@ -51,23 +46,15 @@ const LoginForm = () => {
 
   const handleSubmitLoginForm: SubmitHandler<ILoginForm> = useCallback(
     (data: ILoginForm) => {
-      mutate(data, {
-        onSuccess: (response) => {
-          // Redirect to home page when login success
-          setLocalStorageItem(LOCAL_STORAGE_KEY.AUTH, response.token)
-          router.push(ROUTES.HOME)
-        },
-        onError: (error) => {
-          // Show error message when login fail
-          setErrorMessage(
-            error.message === ERROR_MESSAGES.LOGIN_INVALID
-              ? error.message
-              : ERROR_MESSAGES.FAIL_TO_FETCH,
-          )
-        },
-      })
+      const isValid = login(data)
+      if (isValid) {
+        setLocalStorageItem(LOCAL_STORAGE_KEY.AUTH, 'auth')
+        router.push(ROUTES.HOME)
+      } else {
+        setErrorMessage(ERROR_MESSAGES.LOGIN_INVALID)
+      }
     },
-    [],
+    [router],
   )
 
   return (
@@ -117,11 +104,7 @@ const LoginForm = () => {
           />
         )
       })}
-      <Button
-        variant={ButtonVariants.Container}
-        type="submit"
-        isLoading={isPending}
-      >
+      <Button variant={ButtonVariants.Container} type="submit">
         Login
       </Button>
       {errorMessage && (
