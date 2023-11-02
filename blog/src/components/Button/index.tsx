@@ -20,15 +20,16 @@ const Button = ({
 }: ButtonProps) => {
   const buttonStyles = {
     [ButtonVariants.Outlined]:
-      'bg-white dark:bg-dark-300 text-dark-50 border border-solid border-light-700',
-    [ButtonVariants.Container]: 'bg-primary-500 text-white',
+      'px-5 py-3 bg-white dark:bg-dark-300 text-dark-50 border border-solid border-light-700',
+    [ButtonVariants.Container]: 'px-5 py-3 bg-primary-500 text-white',
+    [ButtonVariants.Text]: '',
   }
 
   return (
     <button
       onClick={onClick}
       disabled={isLoading}
-      className={`px-5 py-3 rounded-md hover:opacity-70 disabled:opacity-40 ${buttonStyles[variant]} ${className}`}
+      className={` rounded-md hover:opacity-70 disabled:opacity-40 ${buttonStyles[variant]} ${className}`}
       {...props}
     >
       {children}
