@@ -10,7 +10,7 @@ export const useFetchPosts = (limit = '', query = '', isDisabled = false) => {
     queryKey: [`${BASE_URL}/${END_POINTS.POSTS}` + limit + query],
     queryFn: () =>
       get(
-        `${BASE_URL}/${END_POINTS.POSTS}?page=1&limit=${limit}&title=${query}`,
+        `${BASE_URL}${END_POINTS.POSTS}?page=1&limit=${limit}&title=${query}`,
       ),
     enabled: !isDisabled,
   })

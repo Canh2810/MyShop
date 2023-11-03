@@ -13,21 +13,23 @@ import {
   ButtonVariants,
   ILoginForm,
   LoginFormField,
+  Status,
   TextFieldTypes,
   TypoVariants,
 } from '@/types'
 
 // Constants
-import { ERROR_MESSAGES, LOCAL_STORAGE_KEY, ROUTES } from '@/constants'
+import { ERROR_MESSAGES, ROUTES } from '@/constants'
 
 // Icons
 import { Email, Lock } from '@/assets'
 
 // Utils
-import { checkEmail, setLocalStorageItem } from '@/utils'
+import { checkEmail } from '@/utils'
 
 // Hooks
-import { useAuth } from '@/hooks'
+import { loginService } from '@/services'
+import { useAuthStore } from '@/stores'
 
 const LoginForm = () => {
   const [errorMessage, setErrorMessage] = useState<string | null>(null)
@@ -39,35 +41,23 @@ const LoginForm = () => {
     },
   })
   const router = useRouter()
-
-  const {
-    login: { mutate, isPending },
-  } = useAuth()
+  const login = useAuthStore((state) => state.login)
 
   /**
    * Handle login
    * @param data email and password value
    */
-
   const handleSubmitLoginForm: SubmitHandler<ILoginForm> = useCallback(
     (data: ILoginForm) => {
-      mutate(data, {
-        onSuccess: (response) => {
-          // Redirect to home page when login success
-          setLocalStorageItem(LOCAL_STORAGE_KEY.AUTH, response.token)
-          router.push(ROUTES.HOME)
-        },
-        onError: (error) => {
-          // Show error message when login fail
-          setErrorMessage(
-            error.message === ERROR_MESSAGES.LOGIN_INVALID
-              ? error.message
-              : ERROR_MESSAGES.FAIL_TO_FETCH,
-          )
-        },
-      })
+      const response = loginService(data)
+      if (response.status === Status.Success) {
+        response.data && login(response.data)
+        router.push(ROUTES.HOME)
+      } else {
+        setErrorMessage(response.message || '')
+      }
     },
-    [],
+    [router],
   )
 
   return (
@@ -117,11 +107,7 @@ const LoginForm = () => {
           />
         )
       })}
-      <Button
-        variant={ButtonVariants.Container}
-        type="submit"
-        isLoading={isPending}
-      >
+      <Button variant={ButtonVariants.Container} type="submit">
         Login
       </Button>
       {errorMessage && (
