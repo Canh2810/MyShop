@@ -9,25 +9,21 @@ import Link from 'next/link'
 import { ChevronDown, Logo, Search } from '@/assets'
 
 // Component
-import { Button, DarkModeSwitch, Menu, TextField, Typography } from '..'
+import { DarkModeSwitch, Menu, TextField, Typography } from '..'
 
 // Constants
-import { HEADER_MENU, LOCAL_STORAGE_KEY, ROUTES } from '@/constants'
+import { HEADER_MENU, ROUTES } from '@/constants'
 
 // Stores
-import { useQueryStore } from '@/stores'
-
-// Types
-import { ButtonVariants } from '@/types'
-
-// Utils
-import { removeLocalStorageItem } from '@/utils'
+import { useAuthStore, useQueryStore } from '@/stores'
 
 const Header = () => {
   const [isShowDropDown, setIsShowDropdown] = useState<boolean>(false)
   const query = useQueryStore((state) => state.query)
-  const setQuery = useQueryStore((state) => state.setQuery)
   const router = useRouter()
+  const setQuery = useQueryStore((state) => state.setQuery)
+  const logout = useAuthStore((state) => state.logout)
+  const user = useAuthStore((state) => state.user)
 
   /**
    * Handle search
@@ -48,7 +44,7 @@ const Header = () => {
   // Handle logout
   const handleLogout = useCallback(() => {
     // Clear token in local storage
-    removeLocalStorageItem(LOCAL_STORAGE_KEY.AUTH)
+    logout()
     // Navigate to login page
     router.push(ROUTES.LOGIN)
   }, [router])
@@ -69,18 +65,25 @@ const Header = () => {
           onChange={handleChangeSearchBar}
         />
         <DarkModeSwitch />
-        <Button variant={ButtonVariants.Text} onClick={handleToggleDropdown}>
-          <ChevronDown />
-        </Button>
-        {isShowDropDown && (
-          <ul className="absolute right-[-40px] top-8 ">
-            <li
-              onClick={handleLogout}
-              className="cursor-pointer hover:opacity-70"
-            >
-              <Typography>Logout</Typography>
-            </li>
-          </ul>
+
+        {user && (
+          <div
+            className="flex items-center gap-1 cursor-pointer hover:opacity-70"
+            onClick={handleToggleDropdown}
+          >
+            <Typography>{user.user_name}</Typography>
+            <ChevronDown />
+            {isShowDropDown && (
+              <ul className="absolute right-[-40px] top-8 ">
+                <li
+                  onClick={handleLogout}
+                  className="cursor-pointer hover:opacity-70"
+                >
+                  <Typography>Logout</Typography>
+                </li>
+              </ul>
+            )}
+          </div>
         )}
       </div>
     </div>

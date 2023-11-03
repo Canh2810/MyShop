@@ -3,21 +3,24 @@
 exports[`Banner component should render correctly 1`] = `
 <div>
   <section
-    class="relative"
+    class="relative mb-[64px]"
   >
-    <img
-      alt="The Impact of Technology on the Workplace: How Technology is Changing"
-      data-nimg="1"
-      decoding="async"
-      fetchpriority="high"
-      height="600"
-      src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=3840&q=75"
-      srcset="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=1920&q=75 1x, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=3840&q=75 2x"
-      style="color: transparent; border-radius: 12px;"
-      width="1216"
-    />
     <div
-      class="absolute left-[64px] bottom-[-68px] bg-white dark:bg-dark-300 rounded-xl border border-light-200 dark:border-dark-200 border-solid w-[589px] flex flex-col items-start gap-4 p-10 shadow-md"
+      class="relative w-[1216px] h-[600px]"
+    >
+      <img
+        alt="The Impact of Technology on the Workplace: How Technology is Changing"
+        data-nimg="fill"
+        decoding="async"
+        fetchpriority="high"
+        sizes="100vw"
+        src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1542395975-d6d3ddf91d6e%3Fauto%3Dformat%26fit%3Dcrop%26q%3D80%26w%3D3270%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=3840&q=75"
+        srcset="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1542395975-d6d3ddf91d6e%3Fauto%3Dformat%26fit%3Dcrop%26q%3D80%26w%3D3270%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1542395975-d6d3ddf91d6e%3Fauto%3Dformat%26fit%3Dcrop%26q%3D80%26w%3D3270%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1542395975-d6d3ddf91d6e%3Fauto%3Dformat%26fit%3Dcrop%26q%3D80%26w%3D3270%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1542395975-d6d3ddf91d6e%3Fauto%3Dformat%26fit%3Dcrop%26q%3D80%26w%3D3270%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1542395975-d6d3ddf91d6e%3Fauto%3Dformat%26fit%3Dcrop%26q%3D80%26w%3D3270%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1542395975-d6d3ddf91d6e%3Fauto%3Dformat%26fit%3Dcrop%26q%3D80%26w%3D3270%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1542395975-d6d3ddf91d6e%3Fauto%3Dformat%26fit%3Dcrop%26q%3D80%26w%3D3270%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1542395975-d6d3ddf91d6e%3Fauto%3Dformat%26fit%3Dcrop%26q%3D80%26w%3D3270%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=3840&q=75 3840w"
+        style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; object-fit: cover; color: transparent; border-radius: 12px; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+      />
+    </div>
+    <div
+      class="absolute left-[64px] bottom-[-64px]  bg-white dark:bg-dark-300 rounded-xl border border-light-200 dark:border-dark-200 border-solid w-[589px] flex flex-col items-start gap-4 p-10 shadow-md"
     >
       <span
         class="bg-primary-500 text-white rounded-md px-2.5 py-1 text-xs font-normal leading-3"
@@ -32,17 +35,20 @@ exports[`Banner component should render correctly 1`] = `
       <div
         class="mt-2 flex items-center gap-5"
       >
-        <img
-          alt="https://www.w3schools.com/w3images/avatar2.png"
-          data-nimg="1"
-          decoding="async"
-          fetchpriority="high"
-          height="36"
-          src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=96&q=75"
-          srcset="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=48&q=75 1x, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=96&q=75 2x"
-          style="color: transparent; border-radius: 18px; margin-right: 8px;"
-          width="36"
-        />
+        <div
+          class="relative w-9 h-9"
+        >
+          <img
+            alt="https://www.w3schools.com/w3images/avatar2.png"
+            data-nimg="fill"
+            decoding="async"
+            loading="lazy"
+            sizes="100vw"
+            src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1542395975-d6d3ddf91d6e%3Fauto%3Dformat%26fit%3Dcrop%26q%3D80%26w%3D3270%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=3840&q=75"
+            srcset="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1542395975-d6d3ddf91d6e%3Fauto%3Dformat%26fit%3Dcrop%26q%3D80%26w%3D3270%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1542395975-d6d3ddf91d6e%3Fauto%3Dformat%26fit%3Dcrop%26q%3D80%26w%3D3270%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1542395975-d6d3ddf91d6e%3Fauto%3Dformat%26fit%3Dcrop%26q%3D80%26w%3D3270%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1542395975-d6d3ddf91d6e%3Fauto%3Dformat%26fit%3Dcrop%26q%3D80%26w%3D3270%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1542395975-d6d3ddf91d6e%3Fauto%3Dformat%26fit%3Dcrop%26q%3D80%26w%3D3270%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1542395975-d6d3ddf91d6e%3Fauto%3Dformat%26fit%3Dcrop%26q%3D80%26w%3D3270%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1542395975-d6d3ddf91d6e%3Fauto%3Dformat%26fit%3Dcrop%26q%3D80%26w%3D3270%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1542395975-d6d3ddf91d6e%3Fauto%3Dformat%26fit%3Dcrop%26q%3D80%26w%3D3270%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=3840&q=75 3840w"
+            style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; border-radius: 50%; margin-right: 8px;"
+          />
+        </div>
         <p
           class="font-tertiary text-sm font-normal leading-4 text-dark-100 dark:text-light-400 "
         >
