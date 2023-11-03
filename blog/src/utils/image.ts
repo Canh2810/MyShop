@@ -4,7 +4,7 @@
  * @param h - The height of the SVG.
  * @returns The SVG string.
  */
-const shimmer = (w: number, h: number) => {
+export const shimmer = (w: number, h: number) => {
   return `
   <svg width="${w}" height="${h}" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <defs>
@@ -26,7 +26,7 @@ const shimmer = (w: number, h: number) => {
  * @param {string} str - The string to be converted.
  * @return {string} The base64 encoded string.
  */
-const toBase64 = (str: string) =>
+export const toBase64 = (str: string) =>
   typeof window === 'undefined'
     ? Buffer.from(str).toString('base64')
     : window.btoa(str)

@@ -1,6 +1,5 @@
 import { render } from '@testing-library/react'
-import PostList from '..'
-import { POSTS_MOCK } from '@/constants'
+import Login from '../login/page'
 
 const useRouterMock = jest.fn()
 
@@ -9,9 +8,9 @@ jest.mock('next/navigation', () => ({
   useRouter: () => useRouterMock,
 }))
 
-describe('PostList component', () => {
+describe('Login page', () => {
   it('should render correctly', () => {
-    const { container } = render(<PostList posts={POSTS_MOCK} />)
+    const { container } = render(<Login />)
     expect(container).toMatchSnapshot()
   })
 })

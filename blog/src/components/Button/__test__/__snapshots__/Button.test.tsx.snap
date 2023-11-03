@@ -3,7 +3,7 @@
 exports[`Button component should render with container variant 1`] = `
 <div>
   <button
-    class="px-5 py-3 rounded-md hover:opacity-70 bg-primary-500 text-white "
+    class=" rounded-md hover:opacity-70 disabled:opacity-40 px-5 py-3 bg-primary-500 text-white "
   >
     Button
   </button>
@@ -13,7 +13,7 @@ exports[`Button component should render with container variant 1`] = `
 exports[`Button component should render with outlined variant 1`] = `
 <div>
   <button
-    class="px-5 py-3 rounded-md hover:opacity-70 bg-white dark:bg-dark-300 text-dark-50 border border-solid border-light-700 "
+    class=" rounded-md hover:opacity-70 disabled:opacity-40 px-5 py-3 bg-white dark:bg-dark-300 text-dark-50 border border-solid border-light-700 "
   >
     Button
   </button>
