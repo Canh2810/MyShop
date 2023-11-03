@@ -13,21 +13,23 @@ import {
   ButtonVariants,
   ILoginForm,
   LoginFormField,
+  Status,
   TextFieldTypes,
   TypoVariants,
 } from '@/types'
 
 // Constants
-import { ERROR_MESSAGES, LOCAL_STORAGE_KEY, ROUTES } from '@/constants'
+import { ERROR_MESSAGES, ROUTES } from '@/constants'
 
 // Icons
 import { Email, Lock } from '@/assets'
 
 // Utils
-import { checkEmail, setLocalStorageItem } from '@/utils'
+import { checkEmail } from '@/utils'
 
 // Hooks
-import { login } from '@/services'
+import { loginService } from '@/services'
+import { useAuthStore } from '@/stores'
 
 const LoginForm = () => {
   const [errorMessage, setErrorMessage] = useState<string | null>(null)
@@ -39,19 +41,20 @@ const LoginForm = () => {
     },
   })
   const router = useRouter()
+  const login = useAuthStore((state) => state.login)
+
   /**
    * Handle login
    * @param data email and password value
    */
-
   const handleSubmitLoginForm: SubmitHandler<ILoginForm> = useCallback(
     (data: ILoginForm) => {
-      const isValid = login(data)
-      if (isValid) {
-        setLocalStorageItem(LOCAL_STORAGE_KEY.AUTH, 'auth')
+      const response = loginService(data)
+      if (response.status === Status.Success) {
+        response.data && login(response.data)
         router.push(ROUTES.HOME)
       } else {
-        setErrorMessage(ERROR_MESSAGES.LOGIN_INVALID)
+        setErrorMessage(response.message || '')
       }
     },
     [router],
