@@ -11,20 +11,18 @@ import {
 } from '@/components'
 
 // Constants
-import { LOCAL_STORAGE_KEY, ROUTES } from '@/constants'
+import { ROUTES } from '@/constants'
 
 // Hooks
 import { useDebounce, useFetchPosts } from '@/hooks'
 
 // Stores
-import { useQueryStore } from '@/stores'
-
-// Utils
-import { getLocalStorageItem } from '@/utils'
+import { useAuthStore, useQueryStore } from '@/stores'
 
 const MainLayout = ({ children }: { children: React.ReactNode }) => {
   const router = useRouter()
   const query = useQueryStore((state) => state.query)
+  const isAuthenticated = useAuthStore((state) => state.isAuthenticated)
   const debouncedValue = useDebounce<string>(query)
   const { data, isLoading } = useFetchPosts(
     '',
@@ -32,9 +30,7 @@ const MainLayout = ({ children }: { children: React.ReactNode }) => {
     debouncedValue.length === 0,
   )
 
-  // Navigate to login page when not logged in yet
-  const token = getLocalStorageItem(LOCAL_STORAGE_KEY.AUTH)
-  if (!token) {
+  if (!isAuthenticated) {
     return router.push(ROUTES.LOGIN)
   }
 

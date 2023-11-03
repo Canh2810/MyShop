@@ -194,7 +194,6 @@ export const USERS_MOCK = [
     password: 'canhvo@123',
     user_name: 'CanhVo',
     avatar: 'https://www.w3schools.com/w3images/avatar2.png',
-    token: 'mocked-auth-token',
   },
 ]
 
