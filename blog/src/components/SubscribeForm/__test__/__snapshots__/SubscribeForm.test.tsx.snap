@@ -51,7 +51,7 @@ exports[`LoadingIndicator Component should render correctly 1`] = `
       </svg>
     </div>
     <button
-      class="px-5 py-3 rounded-md hover:opacity-70 bg-primary-500 text-white w-full mt-2"
+      class=" rounded-md hover:opacity-70 disabled:opacity-40 px-5 py-3 bg-primary-500 text-white w-full mt-2"
       type="submit"
     >
       Subscribe

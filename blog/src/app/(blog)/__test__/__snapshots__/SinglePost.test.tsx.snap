@@ -1,0 +1,201 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Single Post page should render correctly 1`] = `
+<div>
+  <div
+    class="max-w-[800px] mx-auto flex flex-col gap-8"
+  >
+    <div>
+      <span
+        class="bg-primary-500 text-white rounded-md px-2.5 py-1 text-xs font-normal leading-3"
+      >
+        Technology
+      </span>
+      <h1
+        class="font-primary text-2xl font-bold leading-8 text-dark-100 dark:text-light-400 mt-4 mb-5"
+      >
+        The Impact of Technology on the Workplace: How Technology is Changing
+      </h1>
+      <div
+        class="flex items-center gap-4"
+      >
+        <div
+          class="flex items-center gap-2 "
+        >
+          <div
+            class="w-7 h-7 relative"
+          >
+            <img
+              alt="Tracey Wilson"
+              data-nimg="fill"
+              decoding="async"
+              loading="lazy"
+              sizes="100vw"
+              src="/_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=3840&q=75"
+              srcset="/_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=3840&q=75 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; border-radius: 50%;"
+            />
+          </div>
+          <p
+            class="font-quaternary text-xs font-normal leading-3 text-dark-50 dark:text-light-600 font-semiBold"
+          >
+            Tracey Wilson
+          </p>
+        </div>
+        <p
+          class="font-quaternary text-xs font-normal leading-3 text-dark-50 dark:text-light-600 "
+        >
+          August 20, 2022
+        </p>
+      </div>
+    </div>
+    <div
+      class="w-[800px] h-[462px] relative"
+    >
+      <img
+        alt="The Impact of Technology on the Workplace: How Technology is Changing"
+        data-nimg="fill"
+        decoding="async"
+        fetchpriority="high"
+        sizes="100vw"
+        src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1542395975-d6d3ddf91d6e%3Fauto%3Dformat%26fit%3Dcrop%26q%3D80%26w%3D3270%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=3840&q=75"
+        srcset="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1542395975-d6d3ddf91d6e%3Fauto%3Dformat%26fit%3Dcrop%26q%3D80%26w%3D3270%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1542395975-d6d3ddf91d6e%3Fauto%3Dformat%26fit%3Dcrop%26q%3D80%26w%3D3270%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1542395975-d6d3ddf91d6e%3Fauto%3Dformat%26fit%3Dcrop%26q%3D80%26w%3D3270%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1542395975-d6d3ddf91d6e%3Fauto%3Dformat%26fit%3Dcrop%26q%3D80%26w%3D3270%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1542395975-d6d3ddf91d6e%3Fauto%3Dformat%26fit%3Dcrop%26q%3D80%26w%3D3270%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1542395975-d6d3ddf91d6e%3Fauto%3Dformat%26fit%3Dcrop%26q%3D80%26w%3D3270%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1542395975-d6d3ddf91d6e%3Fauto%3Dformat%26fit%3Dcrop%26q%3D80%26w%3D3270%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1542395975-d6d3ddf91d6e%3Fauto%3Dformat%26fit%3Dcrop%26q%3D80%26w%3D3270%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=3840&q=75 3840w"
+        style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; border-radius: 12px;"
+      />
+    </div>
+    <article>
+      <p
+        class="font-secondary text-lg font-normal leading-7 text-dark-100 dark:text-light-400 "
+      >
+        Traveling is an enriching experience that opens up new horizons, exposes us to different cultures, and creates memories that last a lifetime. However, traveling can also be stressful and overwhelming, especially if you don't plan and prepare adequately. In this blog article, we'll explore tips and tricks for a memorable journey and how to make the most of your travels. One of the most rewarding aspects of traveling is immersing yourself in the local culture and customs. This includes trying local cuisine, attending cultural events and festivals, and interacting with locals. Learning a few phrases in the local language can also go a long way in making connections and showing respect.
+      </p>
+    </article>
+    <article>
+      <h2
+        class="font-primary text-xl font-bold leading-6 text-dark-100 dark:text-light-400 mb-3"
+      >
+        Research Your Destination
+      </h2>
+      <p
+        class="font-secondary text-lg font-normal leading-7 text-dark-100 dark:text-light-400 "
+      >
+        Before embarking on your journey, take the time to research your destination. This includes understanding the local culture, customs, and laws, as well as identifying top attractions, restaurants, and accommodations. Doing so will help you navigate your destination with confidence and avoid any cultural faux pas. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In hendrerit gravida rutrum quisque non tellus orci ac auctor. Mi ipsum faucibus vitae aliquet nec ullamcorper sit amet. Aenean euismod elementum nisi quis eleifend quam adipiscing vitae. Viverra adipiscing at in tellus.
+      </p>
+    </article>
+    <article>
+      <h2
+        class="font-primary text-xl font-bold leading-6 text-dark-100 dark:text-light-400 mb-3"
+      >
+        Plan Your Itinerary
+      </h2>
+      <p
+        class="font-secondary text-lg font-normal leading-7 text-dark-100 dark:text-light-400 "
+      >
+        While it's essential to leave room for spontaneity and unexpected adventures, having a rough itinerary can help you make the most of your time and budget. Identify the must-see sights and experiences and prioritize them according to your interests and preferences. This will help you avoid overscheduling and ensure that you have time to relax and enjoy your journey. Vitae sapien pellentesque habitant morbi tristique. Luctus venenatis lectus magna fringilla. Nec ullamcorper sit amet risus nullam eget felis. Tincidunt arcu non sodales neque sodales ut etiam sit amet.
+      </p>
+      <div
+        class="p-8 rounded-xl bg-light-200 dark:bg-dark-300 my-8"
+      >
+        <p
+          class="font-secondary text-xl font-normal leading-7 text-dark-100 dark:text-light-400 italic"
+        >
+          “ Traveling can expose you to new environments and potential health risks, so it's crucial to take precautions to stay safe and healthy. ”
+        </p>
+      </div>
+      <div
+        class="w-[800px] h-[462px] relative"
+      >
+        <img
+          alt="Plan Your Itinerary"
+          data-nimg="fill"
+          decoding="async"
+          loading="lazy"
+          sizes="100vw"
+          src="/_next/image?url=%2Fimg.jpg&w=3840&q=75"
+          srcset="/_next/image?url=%2Fimg.jpg&w=640&q=75 640w, /_next/image?url=%2Fimg.jpg&w=750&q=75 750w, /_next/image?url=%2Fimg.jpg&w=828&q=75 828w, /_next/image?url=%2Fimg.jpg&w=1080&q=75 1080w, /_next/image?url=%2Fimg.jpg&w=1200&q=75 1200w, /_next/image?url=%2Fimg.jpg&w=1920&q=75 1920w, /_next/image?url=%2Fimg.jpg&w=2048&q=75 2048w, /_next/image?url=%2Fimg.jpg&w=3840&q=75 3840w"
+          style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; border-radius: 12px;"
+        />
+      </div>
+    </article>
+    <div
+      class="bg-light-200 dark:bg-dark-200 rounded-xl flex flex-col items-center justify-center w-lg h-sm my-0 mx-auto"
+    >
+      <p
+        class="font-quaternary text-xs font-normal leading-3 text-dark-100 dark:text-light-400 text-dark-50 dark:text-dark-50"
+      >
+        Advertisement
+      </p>
+      <p
+        class="font-primary text-lg font-bold leading-6 text-dark-50 dark:text-light-600 "
+      >
+        You can place ads
+      </p>
+      <p
+        class="font-primary text-base font-normal leading-5 text-dark-100 dark:text-light-400 text-dark-50 dark:text-dark-50"
+      >
+        750x100
+      </p>
+    </div>
+    <article>
+      <h2
+        class="font-primary text-xl font-bold leading-6 text-dark-100 dark:text-light-400 mb-3"
+      >
+        Pack Lightly and Smartly
+      </h2>
+      <p
+        class="font-secondary text-lg font-normal leading-7 text-dark-100 dark:text-light-400 "
+      >
+        Packing can be a daunting task, but with some careful planning and smart choices, you can pack light and efficiently. Start by making a packing list and sticking to it, focusing on versatile and comfortable clothing that can be mixed and matched. Invest in quality luggage and packing organizers to maximize space and minimize wrinkles.
+      </p>
+    </article>
+    <article>
+      <h2
+        class="font-primary text-xl font-bold leading-6 text-dark-100 dark:text-light-400 mb-3"
+      >
+        Stay Safe and Healthy
+      </h2>
+      <p
+        class="font-secondary text-lg font-normal leading-7 text-dark-100 dark:text-light-400 "
+      >
+        Traveling can expose you to new environments and potential health risks, so it's crucial to take precautions to stay safe and healthy. This includes researching any required vaccinations or medications, staying hydrated, washing your hands frequently, and using sunscreen and insect repellent. It's also essential to keep your valuables safe and secure and to be aware of your surroundings at all times.
+      </p>
+    </article>
+    <article>
+      <h2
+        class="font-primary text-xl font-bold leading-6 text-dark-100 dark:text-light-400 mb-3"
+      >
+        Immerse Yourself in the Local Culture
+      </h2>
+      <p
+        class="font-secondary text-lg font-normal leading-7 text-dark-100 dark:text-light-400 "
+      >
+        One of the most rewarding aspects of traveling is immersing yourself in the local culture and customs. This includes trying local cuisine, attending cultural events and festivals, and interacting with locals. Learning a few phrases in the local language can also go a long way in making connections and showing respect.
+      </p>
+    </article>
+    <article>
+      <h2
+        class="font-primary text-xl font-bold leading-6 text-dark-100 dark:text-light-400 mb-3"
+      >
+        Capture Memories
+      </h2>
+      <p
+        class="font-secondary text-lg font-normal leading-7 text-dark-100 dark:text-light-400 "
+      >
+        Finally, don't forget to capture memories of your journey. Whether it's through photographs, journaling, or souvenirs, preserving the moments and experiences of your travels can bring joy and nostalgia for years to come. However, it's also essential to be present in the moment and not let technology distract you from the beauty of your surroundings.
+      </p>
+    </article>
+    <article>
+      <h2
+        class="font-primary text-xl font-bold leading-6 text-dark-100 dark:text-light-400 mb-3"
+      >
+        Conclusion:
+      </h2>
+      <p
+        class="font-secondary text-lg font-normal leading-7 text-dark-100 dark:text-light-400 "
+      >
+        Traveling is an art form that requires a blend of planning, preparation, and spontaneity. By following these tips and tricks, you can make the most of your journey and create memories that last a lifetime. So pack your bags, embrace the adventure, and enjoy the ride.
+      </p>
+    </article>
+  </div>
+</div>
+`;

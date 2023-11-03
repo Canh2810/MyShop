@@ -3,7 +3,7 @@ export const get = async <T>(url: string): Promise<T> => {
   const responseData = await response.json()
 
   if (!response.ok) {
-    throw new Error(responseData.message)
+    throw new Error(`Request failed with status ${responseData.status}`)
   }
 
   return responseData
@@ -21,7 +21,7 @@ export const post = async <T>(url: string, data: T) => {
   const responseData = await response.json()
 
   if (!response.ok) {
-    throw new Error(responseData.message)
+    throw new Error(`Request failed with status ${responseData.status}`)
   }
 
   return responseData

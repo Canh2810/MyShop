@@ -8,19 +8,22 @@ exports[`PostList component should render correctly 1`] = `
     <div
       class="p-4 rounded-xl border border-light-200 dark:border-dark-200 border-solid w-fit cursor-pointer"
     >
-      <img
-        alt="The Impact of Technology on the Workplace: How Technology is Changing"
-        data-nimg="1"
-        decoding="async"
-        fetchpriority="high"
-        height="234"
-        src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75"
-        srcset="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=384&q=75 1x, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75 2x"
-        style="color: transparent; border-radius: 6px; margin-bottom: 16px;"
-        width="354"
-      />
       <div
-        class="p-2 w-[334px] flex flex-col items-start gap-5"
+        class="relative w-[354px] h-[234px]"
+      >
+        <img
+          alt="The Impact of Technology on the Workplace: How Technology is Changing"
+          data-nimg="fill"
+          decoding="async"
+          loading="lazy"
+          sizes="100vw"
+          src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1542395975-d6d3ddf91d6e%3Fauto%3Dformat%26fit%3Dcrop%26q%3D80%26w%3D3270%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=3840&q=75"
+          srcset="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1542395975-d6d3ddf91d6e%3Fauto%3Dformat%26fit%3Dcrop%26q%3D80%26w%3D3270%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1542395975-d6d3ddf91d6e%3Fauto%3Dformat%26fit%3Dcrop%26q%3D80%26w%3D3270%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1542395975-d6d3ddf91d6e%3Fauto%3Dformat%26fit%3Dcrop%26q%3D80%26w%3D3270%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1542395975-d6d3ddf91d6e%3Fauto%3Dformat%26fit%3Dcrop%26q%3D80%26w%3D3270%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1542395975-d6d3ddf91d6e%3Fauto%3Dformat%26fit%3Dcrop%26q%3D80%26w%3D3270%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1542395975-d6d3ddf91d6e%3Fauto%3Dformat%26fit%3Dcrop%26q%3D80%26w%3D3270%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1542395975-d6d3ddf91d6e%3Fauto%3Dformat%26fit%3Dcrop%26q%3D80%26w%3D3270%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1542395975-d6d3ddf91d6e%3Fauto%3Dformat%26fit%3Dcrop%26q%3D80%26w%3D3270%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=3840&q=75 3840w"
+          style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; object-fit: cover; color: transparent; border-radius: 6px; margin-bottom: 16px; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+        />
+      </div>
+      <div
+        class="p-2 w-[334px] flex flex-col items-start justify-between gap-5"
       >
         <span
           class="bg-dark-800 text-primary-500 rounded-md px-2.5 py-1 text-xs font-normal leading-3"
@@ -28,7 +31,7 @@ exports[`PostList component should render correctly 1`] = `
           Technology
         </span>
         <p
-          class="font-primary text-xl font-bold leading-6 text-dark-100 dark:text-light-400 "
+          class="font-primary text-xl font-bold leading-6 text-dark-100 dark:text-light-400 w-full h-[84px] line-clamp-3"
         >
           The Impact of Technology on the Workplace: How Technology is Changing
         </p>
@@ -39,20 +42,21 @@ exports[`PostList component should render correctly 1`] = `
             alt="https://www.w3schools.com/w3images/avatar2.png"
             data-nimg="1"
             decoding="async"
-            fetchpriority="high"
             height="36"
-            src="/_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=96&q=75"
-            srcset="/_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=48&q=75 1x, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=96&q=75 2x"
+            loading="lazy"
+            sizes="334px"
+            src="/_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=3840&q=75"
+            srcset="/_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=16&q=75 16w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=32&q=75 32w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=48&q=75 48w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=64&q=75 64w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=96&q=75 96w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=128&q=75 128w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=3840&q=75 3840w"
             style="color: transparent; border-radius: 50%; margin-right: -8px;"
             width="36"
           />
           <p
-            class="font-primary text-base font-normal leading-5 text-dark-100 dark:text-light-400 "
+            class="font-tertiary text-sm font-normal leading-4 text-dark-100 dark:text-light-400 font-primary !important"
           >
             Tracey Wilson
           </p>
           <p
-            class="font-primary text-base font-normal leading-5 text-dark-100 dark:text-light-400 "
+            class="font-tertiary text-sm font-normal leading-4 text-dark-100 dark:text-light-400 font-primary !important"
           >
             August 20, 2022
           </p>
@@ -62,19 +66,22 @@ exports[`PostList component should render correctly 1`] = `
     <div
       class="p-4 rounded-xl border border-light-200 dark:border-dark-200 border-solid w-fit cursor-pointer"
     >
-      <img
-        alt="Beta Testing: The final decisive step before launching the software"
-        data-nimg="1"
-        decoding="async"
-        fetchpriority="high"
-        height="234"
-        src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1539667468225-eebb663053e6%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MjF8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75"
-        srcset="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1539667468225-eebb663053e6%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MjF8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=384&q=75 1x, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1539667468225-eebb663053e6%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MjF8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75 2x"
-        style="color: transparent; border-radius: 6px; margin-bottom: 16px;"
-        width="354"
-      />
       <div
-        class="p-2 w-[334px] flex flex-col items-start gap-5"
+        class="relative w-[354px] h-[234px]"
+      >
+        <img
+          alt="Beta Testing: The final decisive step before launching the software"
+          data-nimg="fill"
+          decoding="async"
+          loading="lazy"
+          sizes="100vw"
+          src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1539667468225-eebb663053e6%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MjF8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=3840&q=75"
+          srcset="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1539667468225-eebb663053e6%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MjF8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1539667468225-eebb663053e6%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MjF8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1539667468225-eebb663053e6%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MjF8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1539667468225-eebb663053e6%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MjF8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1539667468225-eebb663053e6%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MjF8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1539667468225-eebb663053e6%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MjF8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1539667468225-eebb663053e6%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MjF8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1539667468225-eebb663053e6%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MjF8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=3840&q=75 3840w"
+          style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; object-fit: cover; color: transparent; border-radius: 6px; margin-bottom: 16px; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+        />
+      </div>
+      <div
+        class="p-2 w-[334px] flex flex-col items-start justify-between gap-5"
       >
         <span
           class="bg-dark-800 text-primary-500 rounded-md px-2.5 py-1 text-xs font-normal leading-3"
@@ -82,7 +89,7 @@ exports[`PostList component should render correctly 1`] = `
           Technology
         </span>
         <p
-          class="font-primary text-xl font-bold leading-6 text-dark-100 dark:text-light-400 "
+          class="font-primary text-xl font-bold leading-6 text-dark-100 dark:text-light-400 w-full h-[84px] line-clamp-3"
         >
           Beta Testing: The final decisive step before launching the software
         </p>
@@ -93,20 +100,21 @@ exports[`PostList component should render correctly 1`] = `
             alt="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEJuOqDYeLdcJOq8OctOVOCWp-RTFkdmWK4dcI5F9YLg&s"
             data-nimg="1"
             decoding="async"
-            fetchpriority="high"
             height="36"
-            src="/_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSEJuOqDYeLdcJOq8OctOVOCWp-RTFkdmWK4dcI5F9YLg%26s&w=96&q=75"
-            srcset="/_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSEJuOqDYeLdcJOq8OctOVOCWp-RTFkdmWK4dcI5F9YLg%26s&w=48&q=75 1x, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSEJuOqDYeLdcJOq8OctOVOCWp-RTFkdmWK4dcI5F9YLg%26s&w=96&q=75 2x"
+            loading="lazy"
+            sizes="334px"
+            src="/_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSEJuOqDYeLdcJOq8OctOVOCWp-RTFkdmWK4dcI5F9YLg%26s&w=3840&q=75"
+            srcset="/_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSEJuOqDYeLdcJOq8OctOVOCWp-RTFkdmWK4dcI5F9YLg%26s&w=16&q=75 16w, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSEJuOqDYeLdcJOq8OctOVOCWp-RTFkdmWK4dcI5F9YLg%26s&w=32&q=75 32w, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSEJuOqDYeLdcJOq8OctOVOCWp-RTFkdmWK4dcI5F9YLg%26s&w=48&q=75 48w, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSEJuOqDYeLdcJOq8OctOVOCWp-RTFkdmWK4dcI5F9YLg%26s&w=64&q=75 64w, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSEJuOqDYeLdcJOq8OctOVOCWp-RTFkdmWK4dcI5F9YLg%26s&w=96&q=75 96w, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSEJuOqDYeLdcJOq8OctOVOCWp-RTFkdmWK4dcI5F9YLg%26s&w=128&q=75 128w, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSEJuOqDYeLdcJOq8OctOVOCWp-RTFkdmWK4dcI5F9YLg%26s&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSEJuOqDYeLdcJOq8OctOVOCWp-RTFkdmWK4dcI5F9YLg%26s&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSEJuOqDYeLdcJOq8OctOVOCWp-RTFkdmWK4dcI5F9YLg%26s&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSEJuOqDYeLdcJOq8OctOVOCWp-RTFkdmWK4dcI5F9YLg%26s&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSEJuOqDYeLdcJOq8OctOVOCWp-RTFkdmWK4dcI5F9YLg%26s&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSEJuOqDYeLdcJOq8OctOVOCWp-RTFkdmWK4dcI5F9YLg%26s&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSEJuOqDYeLdcJOq8OctOVOCWp-RTFkdmWK4dcI5F9YLg%26s&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSEJuOqDYeLdcJOq8OctOVOCWp-RTFkdmWK4dcI5F9YLg%26s&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSEJuOqDYeLdcJOq8OctOVOCWp-RTFkdmWK4dcI5F9YLg%26s&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSEJuOqDYeLdcJOq8OctOVOCWp-RTFkdmWK4dcI5F9YLg%26s&w=3840&q=75 3840w"
             style="color: transparent; border-radius: 50%; margin-right: -8px;"
             width="36"
           />
           <p
-            class="font-primary text-base font-normal leading-5 text-dark-100 dark:text-light-400 "
+            class="font-tertiary text-sm font-normal leading-4 text-dark-100 dark:text-light-400 font-primary !important"
           >
             Canh Vo
           </p>
           <p
-            class="font-primary text-base font-normal leading-5 text-dark-100 dark:text-light-400 "
+            class="font-tertiary text-sm font-normal leading-4 text-dark-100 dark:text-light-400 font-primary !important"
           >
             August 20, 2022
           </p>
@@ -116,19 +124,22 @@ exports[`PostList component should render correctly 1`] = `
     <div
       class="p-4 rounded-xl border border-light-200 dark:border-dark-200 border-solid w-fit cursor-pointer"
     >
-      <img
-        alt="Make a placeholder content in SwiftUI with Redacted & Unredacted"
-        data-nimg="1"
-        decoding="async"
-        fetchpriority="high"
-        height="234"
-        src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75"
-        srcset="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=384&q=75 1x, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75 2x"
-        style="color: transparent; border-radius: 6px; margin-bottom: 16px;"
-        width="354"
-      />
       <div
-        class="p-2 w-[334px] flex flex-col items-start gap-5"
+        class="relative w-[354px] h-[234px]"
+      >
+        <img
+          alt="Make a placeholder content in SwiftUI with Redacted & Unredacted"
+          data-nimg="fill"
+          decoding="async"
+          loading="lazy"
+          sizes="100vw"
+          src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=3840&q=75"
+          srcset="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=3840&q=75 3840w"
+          style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; object-fit: cover; color: transparent; border-radius: 6px; margin-bottom: 16px; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+        />
+      </div>
+      <div
+        class="p-2 w-[334px] flex flex-col items-start justify-between gap-5"
       >
         <span
           class="bg-dark-800 text-primary-500 rounded-md px-2.5 py-1 text-xs font-normal leading-3"
@@ -136,7 +147,7 @@ exports[`PostList component should render correctly 1`] = `
           Technology
         </span>
         <p
-          class="font-primary text-xl font-bold leading-6 text-dark-100 dark:text-light-400 "
+          class="font-primary text-xl font-bold leading-6 text-dark-100 dark:text-light-400 w-full h-[84px] line-clamp-3"
         >
           Make a placeholder content in SwiftUI with Redacted & Unredacted
         </p>
@@ -147,20 +158,21 @@ exports[`PostList component should render correctly 1`] = `
             alt="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHeu1JU1avFzQtN-az4HZqEpR1VvEBN-SEXfEuOtt8Xg&s"
             data-nimg="1"
             decoding="async"
-            fetchpriority="high"
             height="36"
-            src="/_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSHeu1JU1avFzQtN-az4HZqEpR1VvEBN-SEXfEuOtt8Xg%26s&w=96&q=75"
-            srcset="/_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSHeu1JU1avFzQtN-az4HZqEpR1VvEBN-SEXfEuOtt8Xg%26s&w=48&q=75 1x, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSHeu1JU1avFzQtN-az4HZqEpR1VvEBN-SEXfEuOtt8Xg%26s&w=96&q=75 2x"
+            loading="lazy"
+            sizes="334px"
+            src="/_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSHeu1JU1avFzQtN-az4HZqEpR1VvEBN-SEXfEuOtt8Xg%26s&w=3840&q=75"
+            srcset="/_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSHeu1JU1avFzQtN-az4HZqEpR1VvEBN-SEXfEuOtt8Xg%26s&w=16&q=75 16w, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSHeu1JU1avFzQtN-az4HZqEpR1VvEBN-SEXfEuOtt8Xg%26s&w=32&q=75 32w, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSHeu1JU1avFzQtN-az4HZqEpR1VvEBN-SEXfEuOtt8Xg%26s&w=48&q=75 48w, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSHeu1JU1avFzQtN-az4HZqEpR1VvEBN-SEXfEuOtt8Xg%26s&w=64&q=75 64w, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSHeu1JU1avFzQtN-az4HZqEpR1VvEBN-SEXfEuOtt8Xg%26s&w=96&q=75 96w, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSHeu1JU1avFzQtN-az4HZqEpR1VvEBN-SEXfEuOtt8Xg%26s&w=128&q=75 128w, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSHeu1JU1avFzQtN-az4HZqEpR1VvEBN-SEXfEuOtt8Xg%26s&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSHeu1JU1avFzQtN-az4HZqEpR1VvEBN-SEXfEuOtt8Xg%26s&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSHeu1JU1avFzQtN-az4HZqEpR1VvEBN-SEXfEuOtt8Xg%26s&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSHeu1JU1avFzQtN-az4HZqEpR1VvEBN-SEXfEuOtt8Xg%26s&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSHeu1JU1avFzQtN-az4HZqEpR1VvEBN-SEXfEuOtt8Xg%26s&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSHeu1JU1avFzQtN-az4HZqEpR1VvEBN-SEXfEuOtt8Xg%26s&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSHeu1JU1avFzQtN-az4HZqEpR1VvEBN-SEXfEuOtt8Xg%26s&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSHeu1JU1avFzQtN-az4HZqEpR1VvEBN-SEXfEuOtt8Xg%26s&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSHeu1JU1avFzQtN-az4HZqEpR1VvEBN-SEXfEuOtt8Xg%26s&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSHeu1JU1avFzQtN-az4HZqEpR1VvEBN-SEXfEuOtt8Xg%26s&w=3840&q=75 3840w"
             style="color: transparent; border-radius: 50%; margin-right: -8px;"
             width="36"
           />
           <p
-            class="font-primary text-base font-normal leading-5 text-dark-100 dark:text-light-400 "
+            class="font-tertiary text-sm font-normal leading-4 text-dark-100 dark:text-light-400 font-primary !important"
           >
             Tracey Wilson
           </p>
           <p
-            class="font-primary text-base font-normal leading-5 text-dark-100 dark:text-light-400 "
+            class="font-tertiary text-sm font-normal leading-4 text-dark-100 dark:text-light-400 font-primary !important"
           >
             August 20, 2022
           </p>
@@ -170,19 +182,22 @@ exports[`PostList component should render correctly 1`] = `
     <div
       class="p-4 rounded-xl border border-light-200 dark:border-dark-200 border-solid w-fit cursor-pointer"
     >
-      <img
-        alt="Instructions for Security Testing using OWASP ZAP tool for penetration testers - Penetration testing"
-        data-nimg="1"
-        decoding="async"
-        fetchpriority="high"
-        height="234"
-        src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75"
-        srcset="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=384&q=75 1x, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75 2x"
-        style="color: transparent; border-radius: 6px; margin-bottom: 16px;"
-        width="354"
-      />
       <div
-        class="p-2 w-[334px] flex flex-col items-start gap-5"
+        class="relative w-[354px] h-[234px]"
+      >
+        <img
+          alt="Instructions for Security Testing using OWASP ZAP tool for penetration testers - Penetration testing"
+          data-nimg="fill"
+          decoding="async"
+          loading="lazy"
+          sizes="100vw"
+          src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=3840&q=75"
+          srcset="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=3840&q=75 3840w"
+          style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; object-fit: cover; color: transparent; border-radius: 6px; margin-bottom: 16px; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+        />
+      </div>
+      <div
+        class="p-2 w-[334px] flex flex-col items-start justify-between gap-5"
       >
         <span
           class="bg-dark-800 text-primary-500 rounded-md px-2.5 py-1 text-xs font-normal leading-3"
@@ -190,7 +205,7 @@ exports[`PostList component should render correctly 1`] = `
           Technology
         </span>
         <p
-          class="font-primary text-xl font-bold leading-6 text-dark-100 dark:text-light-400 "
+          class="font-primary text-xl font-bold leading-6 text-dark-100 dark:text-light-400 w-full h-[84px] line-clamp-3"
         >
           Instructions for Security Testing using OWASP ZAP tool for penetration testers - Penetration testing
         </p>
@@ -201,20 +216,21 @@ exports[`PostList component should render correctly 1`] = `
             alt="https://www.w3schools.com/w3images/avatar2.png"
             data-nimg="1"
             decoding="async"
-            fetchpriority="high"
             height="36"
-            src="/_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=96&q=75"
-            srcset="/_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=48&q=75 1x, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=96&q=75 2x"
+            loading="lazy"
+            sizes="334px"
+            src="/_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=3840&q=75"
+            srcset="/_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=16&q=75 16w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=32&q=75 32w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=48&q=75 48w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=64&q=75 64w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=96&q=75 96w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=128&q=75 128w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=3840&q=75 3840w"
             style="color: transparent; border-radius: 50%; margin-right: -8px;"
             width="36"
           />
           <p
-            class="font-primary text-base font-normal leading-5 text-dark-100 dark:text-light-400 "
+            class="font-tertiary text-sm font-normal leading-4 text-dark-100 dark:text-light-400 font-primary !important"
           >
             Tracey Wilson
           </p>
           <p
-            class="font-primary text-base font-normal leading-5 text-dark-100 dark:text-light-400 "
+            class="font-tertiary text-sm font-normal leading-4 text-dark-100 dark:text-light-400 font-primary !important"
           >
             August 20, 2022
           </p>
@@ -224,19 +240,22 @@ exports[`PostList component should render correctly 1`] = `
     <div
       class="p-4 rounded-xl border border-light-200 dark:border-dark-200 border-solid w-fit cursor-pointer"
     >
-      <img
-        alt="Excel at Cashiering with the McDonald POS Training Simulator APK!"
-        data-nimg="1"
-        decoding="async"
-        fetchpriority="high"
-        height="234"
-        src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75"
-        srcset="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=384&q=75 1x, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75 2x"
-        style="color: transparent; border-radius: 6px; margin-bottom: 16px;"
-        width="354"
-      />
       <div
-        class="p-2 w-[334px] flex flex-col items-start gap-5"
+        class="relative w-[354px] h-[234px]"
+      >
+        <img
+          alt="Excel at Cashiering with the McDonald POS Training Simulator APK!"
+          data-nimg="fill"
+          decoding="async"
+          loading="lazy"
+          sizes="100vw"
+          src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=3840&q=75"
+          srcset="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=3840&q=75 3840w"
+          style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; object-fit: cover; color: transparent; border-radius: 6px; margin-bottom: 16px; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+        />
+      </div>
+      <div
+        class="p-2 w-[334px] flex flex-col items-start justify-between gap-5"
       >
         <span
           class="bg-dark-800 text-primary-500 rounded-md px-2.5 py-1 text-xs font-normal leading-3"
@@ -244,7 +263,7 @@ exports[`PostList component should render correctly 1`] = `
           Technology
         </span>
         <p
-          class="font-primary text-xl font-bold leading-6 text-dark-100 dark:text-light-400 "
+          class="font-primary text-xl font-bold leading-6 text-dark-100 dark:text-light-400 w-full h-[84px] line-clamp-3"
         >
           Excel at Cashiering with the McDonald POS Training Simulator APK!
         </p>
@@ -255,20 +274,21 @@ exports[`PostList component should render correctly 1`] = `
             alt="https://www.w3schools.com/w3images/avatar2.png"
             data-nimg="1"
             decoding="async"
-            fetchpriority="high"
             height="36"
-            src="/_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=96&q=75"
-            srcset="/_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=48&q=75 1x, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=96&q=75 2x"
+            loading="lazy"
+            sizes="334px"
+            src="/_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=3840&q=75"
+            srcset="/_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=16&q=75 16w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=32&q=75 32w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=48&q=75 48w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=64&q=75 64w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=96&q=75 96w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=128&q=75 128w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=3840&q=75 3840w"
             style="color: transparent; border-radius: 50%; margin-right: -8px;"
             width="36"
           />
           <p
-            class="font-primary text-base font-normal leading-5 text-dark-100 dark:text-light-400 "
+            class="font-tertiary text-sm font-normal leading-4 text-dark-100 dark:text-light-400 font-primary !important"
           >
             Tracey Wilson
           </p>
           <p
-            class="font-primary text-base font-normal leading-5 text-dark-100 dark:text-light-400 "
+            class="font-tertiary text-sm font-normal leading-4 text-dark-100 dark:text-light-400 font-primary !important"
           >
             August 20, 2022
           </p>
@@ -278,19 +298,22 @@ exports[`PostList component should render correctly 1`] = `
     <div
       class="p-4 rounded-xl border border-light-200 dark:border-dark-200 border-solid w-fit cursor-pointer"
     >
-      <img
-        alt="The Impact of Technology on the Workplace: How Technology is Changing"
-        data-nimg="1"
-        decoding="async"
-        fetchpriority="high"
-        height="234"
-        src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1418489098061-ce87b5dc3aee%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MTh8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75"
-        srcset="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1418489098061-ce87b5dc3aee%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MTh8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=384&q=75 1x, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1418489098061-ce87b5dc3aee%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MTh8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75 2x"
-        style="color: transparent; border-radius: 6px; margin-bottom: 16px;"
-        width="354"
-      />
       <div
-        class="p-2 w-[334px] flex flex-col items-start gap-5"
+        class="relative w-[354px] h-[234px]"
+      >
+        <img
+          alt="The Impact of Technology on the Workplace: How Technology is Changing"
+          data-nimg="fill"
+          decoding="async"
+          loading="lazy"
+          sizes="100vw"
+          src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1418489098061-ce87b5dc3aee%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MTh8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=3840&q=75"
+          srcset="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1418489098061-ce87b5dc3aee%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MTh8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1418489098061-ce87b5dc3aee%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MTh8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1418489098061-ce87b5dc3aee%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MTh8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1418489098061-ce87b5dc3aee%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MTh8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1418489098061-ce87b5dc3aee%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MTh8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1418489098061-ce87b5dc3aee%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MTh8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1418489098061-ce87b5dc3aee%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MTh8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1418489098061-ce87b5dc3aee%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MTh8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=3840&q=75 3840w"
+          style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; object-fit: cover; color: transparent; border-radius: 6px; margin-bottom: 16px; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+        />
+      </div>
+      <div
+        class="p-2 w-[334px] flex flex-col items-start justify-between gap-5"
       >
         <span
           class="bg-dark-800 text-primary-500 rounded-md px-2.5 py-1 text-xs font-normal leading-3"
@@ -298,7 +321,7 @@ exports[`PostList component should render correctly 1`] = `
           Technology
         </span>
         <p
-          class="font-primary text-xl font-bold leading-6 text-dark-100 dark:text-light-400 "
+          class="font-primary text-xl font-bold leading-6 text-dark-100 dark:text-light-400 w-full h-[84px] line-clamp-3"
         >
           The Impact of Technology on the Workplace: How Technology is Changing
         </p>
@@ -309,20 +332,21 @@ exports[`PostList component should render correctly 1`] = `
             alt="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIgYqjNVQSYlcOONsKMfyvLJWY-MGgtqwfqMx7-2kjzg&s"
             data-nimg="1"
             decoding="async"
-            fetchpriority="high"
             height="36"
-            src="/_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcQIgYqjNVQSYlcOONsKMfyvLJWY-MGgtqwfqMx7-2kjzg%26s&w=96&q=75"
-            srcset="/_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcQIgYqjNVQSYlcOONsKMfyvLJWY-MGgtqwfqMx7-2kjzg%26s&w=48&q=75 1x, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcQIgYqjNVQSYlcOONsKMfyvLJWY-MGgtqwfqMx7-2kjzg%26s&w=96&q=75 2x"
+            loading="lazy"
+            sizes="334px"
+            src="/_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcQIgYqjNVQSYlcOONsKMfyvLJWY-MGgtqwfqMx7-2kjzg%26s&w=3840&q=75"
+            srcset="/_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcQIgYqjNVQSYlcOONsKMfyvLJWY-MGgtqwfqMx7-2kjzg%26s&w=16&q=75 16w, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcQIgYqjNVQSYlcOONsKMfyvLJWY-MGgtqwfqMx7-2kjzg%26s&w=32&q=75 32w, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcQIgYqjNVQSYlcOONsKMfyvLJWY-MGgtqwfqMx7-2kjzg%26s&w=48&q=75 48w, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcQIgYqjNVQSYlcOONsKMfyvLJWY-MGgtqwfqMx7-2kjzg%26s&w=64&q=75 64w, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcQIgYqjNVQSYlcOONsKMfyvLJWY-MGgtqwfqMx7-2kjzg%26s&w=96&q=75 96w, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcQIgYqjNVQSYlcOONsKMfyvLJWY-MGgtqwfqMx7-2kjzg%26s&w=128&q=75 128w, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcQIgYqjNVQSYlcOONsKMfyvLJWY-MGgtqwfqMx7-2kjzg%26s&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcQIgYqjNVQSYlcOONsKMfyvLJWY-MGgtqwfqMx7-2kjzg%26s&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcQIgYqjNVQSYlcOONsKMfyvLJWY-MGgtqwfqMx7-2kjzg%26s&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcQIgYqjNVQSYlcOONsKMfyvLJWY-MGgtqwfqMx7-2kjzg%26s&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcQIgYqjNVQSYlcOONsKMfyvLJWY-MGgtqwfqMx7-2kjzg%26s&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcQIgYqjNVQSYlcOONsKMfyvLJWY-MGgtqwfqMx7-2kjzg%26s&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcQIgYqjNVQSYlcOONsKMfyvLJWY-MGgtqwfqMx7-2kjzg%26s&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcQIgYqjNVQSYlcOONsKMfyvLJWY-MGgtqwfqMx7-2kjzg%26s&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcQIgYqjNVQSYlcOONsKMfyvLJWY-MGgtqwfqMx7-2kjzg%26s&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcQIgYqjNVQSYlcOONsKMfyvLJWY-MGgtqwfqMx7-2kjzg%26s&w=3840&q=75 3840w"
             style="color: transparent; border-radius: 50%; margin-right: -8px;"
             width="36"
           />
           <p
-            class="font-primary text-base font-normal leading-5 text-dark-100 dark:text-light-400 "
+            class="font-tertiary text-sm font-normal leading-4 text-dark-100 dark:text-light-400 font-primary !important"
           >
             Tracey Wilson
           </p>
           <p
-            class="font-primary text-base font-normal leading-5 text-dark-100 dark:text-light-400 "
+            class="font-tertiary text-sm font-normal leading-4 text-dark-100 dark:text-light-400 font-primary !important"
           >
             August 20, 2022
           </p>
@@ -332,19 +356,22 @@ exports[`PostList component should render correctly 1`] = `
     <div
       class="p-4 rounded-xl border border-light-200 dark:border-dark-200 border-solid w-fit cursor-pointer"
     >
-      <img
-        alt="Excel at Cashiering with the McDonald POS Training Simulator APK!"
-        data-nimg="1"
-        decoding="async"
-        fetchpriority="high"
-        height="234"
-        src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1539667468225-eebb663053e6%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MjF8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75"
-        srcset="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1539667468225-eebb663053e6%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MjF8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=384&q=75 1x, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1539667468225-eebb663053e6%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MjF8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75 2x"
-        style="color: transparent; border-radius: 6px; margin-bottom: 16px;"
-        width="354"
-      />
       <div
-        class="p-2 w-[334px] flex flex-col items-start gap-5"
+        class="relative w-[354px] h-[234px]"
+      >
+        <img
+          alt="Excel at Cashiering with the McDonald POS Training Simulator APK!"
+          data-nimg="fill"
+          decoding="async"
+          loading="lazy"
+          sizes="100vw"
+          src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1539667468225-eebb663053e6%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MjF8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=3840&q=75"
+          srcset="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1539667468225-eebb663053e6%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MjF8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1539667468225-eebb663053e6%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MjF8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1539667468225-eebb663053e6%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MjF8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1539667468225-eebb663053e6%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MjF8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1539667468225-eebb663053e6%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MjF8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1539667468225-eebb663053e6%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MjF8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1539667468225-eebb663053e6%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MjF8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1539667468225-eebb663053e6%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MjF8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=3840&q=75 3840w"
+          style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; object-fit: cover; color: transparent; border-radius: 6px; margin-bottom: 16px; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+        />
+      </div>
+      <div
+        class="p-2 w-[334px] flex flex-col items-start justify-between gap-5"
       >
         <span
           class="bg-dark-800 text-primary-500 rounded-md px-2.5 py-1 text-xs font-normal leading-3"
@@ -352,7 +379,7 @@ exports[`PostList component should render correctly 1`] = `
           Technology
         </span>
         <p
-          class="font-primary text-xl font-bold leading-6 text-dark-100 dark:text-light-400 "
+          class="font-primary text-xl font-bold leading-6 text-dark-100 dark:text-light-400 w-full h-[84px] line-clamp-3"
         >
           Excel at Cashiering with the McDonald POS Training Simulator APK!
         </p>
@@ -363,20 +390,21 @@ exports[`PostList component should render correctly 1`] = `
             alt="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlHJmFah1lW88FU0D-fD9m-0HXQGHd5QfD8GiL4guU-g&s"
             data-nimg="1"
             decoding="async"
-            fetchpriority="high"
             height="36"
-            src="/_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcRlHJmFah1lW88FU0D-fD9m-0HXQGHd5QfD8GiL4guU-g%26s&w=96&q=75"
-            srcset="/_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcRlHJmFah1lW88FU0D-fD9m-0HXQGHd5QfD8GiL4guU-g%26s&w=48&q=75 1x, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcRlHJmFah1lW88FU0D-fD9m-0HXQGHd5QfD8GiL4guU-g%26s&w=96&q=75 2x"
+            loading="lazy"
+            sizes="334px"
+            src="/_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcRlHJmFah1lW88FU0D-fD9m-0HXQGHd5QfD8GiL4guU-g%26s&w=3840&q=75"
+            srcset="/_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcRlHJmFah1lW88FU0D-fD9m-0HXQGHd5QfD8GiL4guU-g%26s&w=16&q=75 16w, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcRlHJmFah1lW88FU0D-fD9m-0HXQGHd5QfD8GiL4guU-g%26s&w=32&q=75 32w, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcRlHJmFah1lW88FU0D-fD9m-0HXQGHd5QfD8GiL4guU-g%26s&w=48&q=75 48w, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcRlHJmFah1lW88FU0D-fD9m-0HXQGHd5QfD8GiL4guU-g%26s&w=64&q=75 64w, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcRlHJmFah1lW88FU0D-fD9m-0HXQGHd5QfD8GiL4guU-g%26s&w=96&q=75 96w, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcRlHJmFah1lW88FU0D-fD9m-0HXQGHd5QfD8GiL4guU-g%26s&w=128&q=75 128w, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcRlHJmFah1lW88FU0D-fD9m-0HXQGHd5QfD8GiL4guU-g%26s&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcRlHJmFah1lW88FU0D-fD9m-0HXQGHd5QfD8GiL4guU-g%26s&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcRlHJmFah1lW88FU0D-fD9m-0HXQGHd5QfD8GiL4guU-g%26s&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcRlHJmFah1lW88FU0D-fD9m-0HXQGHd5QfD8GiL4guU-g%26s&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcRlHJmFah1lW88FU0D-fD9m-0HXQGHd5QfD8GiL4guU-g%26s&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcRlHJmFah1lW88FU0D-fD9m-0HXQGHd5QfD8GiL4guU-g%26s&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcRlHJmFah1lW88FU0D-fD9m-0HXQGHd5QfD8GiL4guU-g%26s&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcRlHJmFah1lW88FU0D-fD9m-0HXQGHd5QfD8GiL4guU-g%26s&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcRlHJmFah1lW88FU0D-fD9m-0HXQGHd5QfD8GiL4guU-g%26s&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcRlHJmFah1lW88FU0D-fD9m-0HXQGHd5QfD8GiL4guU-g%26s&w=3840&q=75 3840w"
             style="color: transparent; border-radius: 50%; margin-right: -8px;"
             width="36"
           />
           <p
-            class="font-primary text-base font-normal leading-5 text-dark-100 dark:text-light-400 "
+            class="font-tertiary text-sm font-normal leading-4 text-dark-100 dark:text-light-400 font-primary !important"
           >
             Tracey Wilson
           </p>
           <p
-            class="font-primary text-base font-normal leading-5 text-dark-100 dark:text-light-400 "
+            class="font-tertiary text-sm font-normal leading-4 text-dark-100 dark:text-light-400 font-primary !important"
           >
             August 20, 2022
           </p>
@@ -386,19 +414,22 @@ exports[`PostList component should render correctly 1`] = `
     <div
       class="p-4 rounded-xl border border-light-200 dark:border-dark-200 border-solid w-fit cursor-pointer"
     >
-      <img
-        alt="The Impact of Technology on the Workplace: How Technology is Changing"
-        data-nimg="1"
-        decoding="async"
-        fetchpriority="high"
-        height="234"
-        src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1418489098061-ce87b5dc3aee%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MTh8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75"
-        srcset="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1418489098061-ce87b5dc3aee%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MTh8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=384&q=75 1x, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1418489098061-ce87b5dc3aee%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MTh8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75 2x"
-        style="color: transparent; border-radius: 6px; margin-bottom: 16px;"
-        width="354"
-      />
       <div
-        class="p-2 w-[334px] flex flex-col items-start gap-5"
+        class="relative w-[354px] h-[234px]"
+      >
+        <img
+          alt="The Impact of Technology on the Workplace: How Technology is Changing"
+          data-nimg="fill"
+          decoding="async"
+          loading="lazy"
+          sizes="100vw"
+          src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1418489098061-ce87b5dc3aee%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MTh8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=3840&q=75"
+          srcset="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1418489098061-ce87b5dc3aee%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MTh8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1418489098061-ce87b5dc3aee%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MTh8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1418489098061-ce87b5dc3aee%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MTh8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1418489098061-ce87b5dc3aee%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MTh8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1418489098061-ce87b5dc3aee%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MTh8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1418489098061-ce87b5dc3aee%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MTh8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1418489098061-ce87b5dc3aee%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MTh8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1418489098061-ce87b5dc3aee%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MTh8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=3840&q=75 3840w"
+          style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; object-fit: cover; color: transparent; border-radius: 6px; margin-bottom: 16px; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+        />
+      </div>
+      <div
+        class="p-2 w-[334px] flex flex-col items-start justify-between gap-5"
       >
         <span
           class="bg-dark-800 text-primary-500 rounded-md px-2.5 py-1 text-xs font-normal leading-3"
@@ -406,7 +437,7 @@ exports[`PostList component should render correctly 1`] = `
           Technology
         </span>
         <p
-          class="font-primary text-xl font-bold leading-6 text-dark-100 dark:text-light-400 "
+          class="font-primary text-xl font-bold leading-6 text-dark-100 dark:text-light-400 w-full h-[84px] line-clamp-3"
         >
           The Impact of Technology on the Workplace: How Technology is Changing
         </p>
@@ -417,20 +448,21 @@ exports[`PostList component should render correctly 1`] = `
             alt="https://www.w3schools.com/w3images/avatar2.png"
             data-nimg="1"
             decoding="async"
-            fetchpriority="high"
             height="36"
-            src="/_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=96&q=75"
-            srcset="/_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=48&q=75 1x, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=96&q=75 2x"
+            loading="lazy"
+            sizes="334px"
+            src="/_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=3840&q=75"
+            srcset="/_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=16&q=75 16w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=32&q=75 32w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=48&q=75 48w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=64&q=75 64w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=96&q=75 96w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=128&q=75 128w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=3840&q=75 3840w"
             style="color: transparent; border-radius: 50%; margin-right: -8px;"
             width="36"
           />
           <p
-            class="font-primary text-base font-normal leading-5 text-dark-100 dark:text-light-400 "
+            class="font-tertiary text-sm font-normal leading-4 text-dark-100 dark:text-light-400 font-primary !important"
           >
             Tracey Wilson
           </p>
           <p
-            class="font-primary text-base font-normal leading-5 text-dark-100 dark:text-light-400 "
+            class="font-tertiary text-sm font-normal leading-4 text-dark-100 dark:text-light-400 font-primary !important"
           >
             August 20, 2022
           </p>
@@ -440,19 +472,22 @@ exports[`PostList component should render correctly 1`] = `
     <div
       class="p-4 rounded-xl border border-light-200 dark:border-dark-200 border-solid w-fit cursor-pointer"
     >
-      <img
-        alt="The Impact of Technology on the Workplace: How Technology is Changing"
-        data-nimg="1"
-        decoding="async"
-        fetchpriority="high"
-        height="234"
-        src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75"
-        srcset="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=384&q=75 1x, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75 2x"
-        style="color: transparent; border-radius: 6px; margin-bottom: 16px;"
-        width="354"
-      />
       <div
-        class="p-2 w-[334px] flex flex-col items-start gap-5"
+        class="relative w-[354px] h-[234px]"
+      >
+        <img
+          alt="The Impact of Technology on the Workplace: How Technology is Changing"
+          data-nimg="fill"
+          decoding="async"
+          loading="lazy"
+          sizes="100vw"
+          src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=3840&q=75"
+          srcset="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=3840&q=75 3840w"
+          style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; object-fit: cover; color: transparent; border-radius: 6px; margin-bottom: 16px; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+        />
+      </div>
+      <div
+        class="p-2 w-[334px] flex flex-col items-start justify-between gap-5"
       >
         <span
           class="bg-dark-800 text-primary-500 rounded-md px-2.5 py-1 text-xs font-normal leading-3"
@@ -460,7 +495,7 @@ exports[`PostList component should render correctly 1`] = `
           Technology
         </span>
         <p
-          class="font-primary text-xl font-bold leading-6 text-dark-100 dark:text-light-400 "
+          class="font-primary text-xl font-bold leading-6 text-dark-100 dark:text-light-400 w-full h-[84px] line-clamp-3"
         >
           The Impact of Technology on the Workplace: How Technology is Changing
         </p>
@@ -471,290 +506,21 @@ exports[`PostList component should render correctly 1`] = `
             alt="https://www.w3schools.com/w3images/avatar2.png"
             data-nimg="1"
             decoding="async"
-            fetchpriority="high"
             height="36"
-            src="/_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=96&q=75"
-            srcset="/_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=48&q=75 1x, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=96&q=75 2x"
+            loading="lazy"
+            sizes="334px"
+            src="/_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=3840&q=75"
+            srcset="/_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=16&q=75 16w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=32&q=75 32w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=48&q=75 48w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=64&q=75 64w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=96&q=75 96w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=128&q=75 128w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=3840&q=75 3840w"
             style="color: transparent; border-radius: 50%; margin-right: -8px;"
             width="36"
           />
           <p
-            class="font-primary text-base font-normal leading-5 text-dark-100 dark:text-light-400 "
+            class="font-tertiary text-sm font-normal leading-4 text-dark-100 dark:text-light-400 font-primary !important"
           >
             Tracey Wilson
           </p>
           <p
-            class="font-primary text-base font-normal leading-5 text-dark-100 dark:text-light-400 "
-          >
-            August 20, 2022
-          </p>
-        </div>
-      </div>
-    </div>
-    <div
-      class="p-4 rounded-xl border border-light-200 dark:border-dark-200 border-solid w-fit cursor-pointer"
-    >
-      <img
-        alt="The Impact of Technology on the Workplace: How Technology is Changing"
-        data-nimg="1"
-        decoding="async"
-        fetchpriority="high"
-        height="234"
-        src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75"
-        srcset="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=384&q=75 1x, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75 2x"
-        style="color: transparent; border-radius: 6px; margin-bottom: 16px;"
-        width="354"
-      />
-      <div
-        class="p-2 w-[334px] flex flex-col items-start gap-5"
-      >
-        <span
-          class="bg-dark-800 text-primary-500 rounded-md px-2.5 py-1 text-xs font-normal leading-3"
-        >
-          Technology
-        </span>
-        <p
-          class="font-primary text-xl font-bold leading-6 text-dark-100 dark:text-light-400 "
-        >
-          The Impact of Technology on the Workplace: How Technology is Changing
-        </p>
-        <div
-          class="mt-1 flex items-center gap-5"
-        >
-          <img
-            alt="https://www.w3schools.com/w3images/avatar2.png"
-            data-nimg="1"
-            decoding="async"
-            fetchpriority="high"
-            height="36"
-            src="/_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=96&q=75"
-            srcset="/_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=48&q=75 1x, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=96&q=75 2x"
-            style="color: transparent; border-radius: 50%; margin-right: -8px;"
-            width="36"
-          />
-          <p
-            class="font-primary text-base font-normal leading-5 text-dark-100 dark:text-light-400 "
-          >
-            Tracey Wilson
-          </p>
-          <p
-            class="font-primary text-base font-normal leading-5 text-dark-100 dark:text-light-400 "
-          >
-            August 20, 2022
-          </p>
-        </div>
-      </div>
-    </div>
-    <div
-      class="p-4 rounded-xl border border-light-200 dark:border-dark-200 border-solid w-fit cursor-pointer"
-    >
-      <img
-        alt="The Impact of Technology on the Workplace: How Technology is Changing"
-        data-nimg="1"
-        decoding="async"
-        fetchpriority="high"
-        height="234"
-        src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75"
-        srcset="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=384&q=75 1x, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75 2x"
-        style="color: transparent; border-radius: 6px; margin-bottom: 16px;"
-        width="354"
-      />
-      <div
-        class="p-2 w-[334px] flex flex-col items-start gap-5"
-      >
-        <span
-          class="bg-dark-800 text-primary-500 rounded-md px-2.5 py-1 text-xs font-normal leading-3"
-        >
-          Technology
-        </span>
-        <p
-          class="font-primary text-xl font-bold leading-6 text-dark-100 dark:text-light-400 "
-        >
-          The Impact of Technology on the Workplace: How Technology is Changing
-        </p>
-        <div
-          class="mt-1 flex items-center gap-5"
-        >
-          <img
-            alt="https://www.w3schools.com/w3images/avatar2.png"
-            data-nimg="1"
-            decoding="async"
-            fetchpriority="high"
-            height="36"
-            src="/_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=96&q=75"
-            srcset="/_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=48&q=75 1x, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=96&q=75 2x"
-            style="color: transparent; border-radius: 50%; margin-right: -8px;"
-            width="36"
-          />
-          <p
-            class="font-primary text-base font-normal leading-5 text-dark-100 dark:text-light-400 "
-          >
-            Tracey Wilson
-          </p>
-          <p
-            class="font-primary text-base font-normal leading-5 text-dark-100 dark:text-light-400 "
-          >
-            August 20, 2022
-          </p>
-        </div>
-      </div>
-    </div>
-    <div
-      class="p-4 rounded-xl border border-light-200 dark:border-dark-200 border-solid w-fit cursor-pointer"
-    >
-      <img
-        alt="The Impact of Technology on the Workplace: How Technology is Changing"
-        data-nimg="1"
-        decoding="async"
-        fetchpriority="high"
-        height="234"
-        src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75"
-        srcset="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=384&q=75 1x, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75 2x"
-        style="color: transparent; border-radius: 6px; margin-bottom: 16px;"
-        width="354"
-      />
-      <div
-        class="p-2 w-[334px] flex flex-col items-start gap-5"
-      >
-        <span
-          class="bg-dark-800 text-primary-500 rounded-md px-2.5 py-1 text-xs font-normal leading-3"
-        >
-          Technology
-        </span>
-        <p
-          class="font-primary text-xl font-bold leading-6 text-dark-100 dark:text-light-400 "
-        >
-          The Impact of Technology on the Workplace: How Technology is Changing
-        </p>
-        <div
-          class="mt-1 flex items-center gap-5"
-        >
-          <img
-            alt="https://www.w3schools.com/w3images/avatar2.png"
-            data-nimg="1"
-            decoding="async"
-            fetchpriority="high"
-            height="36"
-            src="/_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=96&q=75"
-            srcset="/_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=48&q=75 1x, /_next/image?url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Favatar2.png&w=96&q=75 2x"
-            style="color: transparent; border-radius: 50%; margin-right: -8px;"
-            width="36"
-          />
-          <p
-            class="font-primary text-base font-normal leading-5 text-dark-100 dark:text-light-400 "
-          >
-            Tracey Wilson
-          </p>
-          <p
-            class="font-primary text-base font-normal leading-5 text-dark-100 dark:text-light-400 "
-          >
-            August 20, 2022
-          </p>
-        </div>
-      </div>
-    </div>
-    <div
-      class="p-4 rounded-xl border border-light-200 dark:border-dark-200 border-solid w-fit cursor-pointer"
-    >
-      <img
-        alt="The Impact of Technology on the Workplace: How Technology is Changing"
-        data-nimg="1"
-        decoding="async"
-        fetchpriority="high"
-        height="234"
-        src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1539667468225-eebb663053e6%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MjF8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75"
-        srcset="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1539667468225-eebb663053e6%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MjF8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=384&q=75 1x, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1539667468225-eebb663053e6%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MjF8fG5hdHVyYWx8ZW58MHx8MHx8fDA%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75 2x"
-        style="color: transparent; border-radius: 6px; margin-bottom: 16px;"
-        width="354"
-      />
-      <div
-        class="p-2 w-[334px] flex flex-col items-start gap-5"
-      >
-        <span
-          class="bg-dark-800 text-primary-500 rounded-md px-2.5 py-1 text-xs font-normal leading-3"
-        >
-          Technology
-        </span>
-        <p
-          class="font-primary text-xl font-bold leading-6 text-dark-100 dark:text-light-400 "
-        >
-          The Impact of Technology on the Workplace: How Technology is Changing
-        </p>
-        <div
-          class="mt-1 flex items-center gap-5"
-        >
-          <img
-            alt="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHeu1JU1avFzQtN-az4HZqEpR1VvEBN-SEXfEuOtt8Xg&s"
-            data-nimg="1"
-            decoding="async"
-            fetchpriority="high"
-            height="36"
-            src="/_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSHeu1JU1avFzQtN-az4HZqEpR1VvEBN-SEXfEuOtt8Xg%26s&w=96&q=75"
-            srcset="/_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSHeu1JU1avFzQtN-az4HZqEpR1VvEBN-SEXfEuOtt8Xg%26s&w=48&q=75 1x, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSHeu1JU1avFzQtN-az4HZqEpR1VvEBN-SEXfEuOtt8Xg%26s&w=96&q=75 2x"
-            style="color: transparent; border-radius: 50%; margin-right: -8px;"
-            width="36"
-          />
-          <p
-            class="font-primary text-base font-normal leading-5 text-dark-100 dark:text-light-400 "
-          >
-            Tracey Wilson
-          </p>
-          <p
-            class="font-primary text-base font-normal leading-5 text-dark-100 dark:text-light-400 "
-          >
-            August 20, 2022
-          </p>
-        </div>
-      </div>
-    </div>
-    <div
-      class="p-4 rounded-xl border border-light-200 dark:border-dark-200 border-solid w-fit cursor-pointer"
-    >
-      <img
-        alt="Excel at Cashiering with the McDonald POS Training Simulator APK!"
-        data-nimg="1"
-        decoding="async"
-        fetchpriority="high"
-        height="234"
-        src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75"
-        srcset="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=384&q=75 1x, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1543877087-ebf71fde2be1%3Fixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%253D%253D%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60&w=750&q=75 2x"
-        style="color: transparent; border-radius: 6px; margin-bottom: 16px;"
-        width="354"
-      />
-      <div
-        class="p-2 w-[334px] flex flex-col items-start gap-5"
-      >
-        <span
-          class="bg-dark-800 text-primary-500 rounded-md px-2.5 py-1 text-xs font-normal leading-3"
-        >
-          Technology
-        </span>
-        <p
-          class="font-primary text-xl font-bold leading-6 text-dark-100 dark:text-light-400 "
-        >
-          Excel at Cashiering with the McDonald POS Training Simulator APK!
-        </p>
-        <div
-          class="mt-1 flex items-center gap-5"
-        >
-          <img
-            alt="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEJuOqDYeLdcJOq8OctOVOCWp-RTFkdmWK4dcI5F9YLg&s"
-            data-nimg="1"
-            decoding="async"
-            fetchpriority="high"
-            height="36"
-            src="/_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSEJuOqDYeLdcJOq8OctOVOCWp-RTFkdmWK4dcI5F9YLg%26s&w=96&q=75"
-            srcset="/_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSEJuOqDYeLdcJOq8OctOVOCWp-RTFkdmWK4dcI5F9YLg%26s&w=48&q=75 1x, /_next/image?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSEJuOqDYeLdcJOq8OctOVOCWp-RTFkdmWK4dcI5F9YLg%26s&w=96&q=75 2x"
-            style="color: transparent; border-radius: 50%; margin-right: -8px;"
-            width="36"
-          />
-          <p
-            class="font-primary text-base font-normal leading-5 text-dark-100 dark:text-light-400 "
-          >
-            Tracey Wilson
-          </p>
-          <p
-            class="font-primary text-base font-normal leading-5 text-dark-100 dark:text-light-400 "
+            class="font-tertiary text-sm font-normal leading-4 text-dark-100 dark:text-light-400 font-primary !important"
           >
             August 20, 2022
           </p>

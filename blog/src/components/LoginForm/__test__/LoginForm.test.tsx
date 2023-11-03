@@ -1,14 +1,28 @@
 import { render, waitFor, screen } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import LoginForm from '..'
+import { ROUTES } from '@/constants'
+import { Status } from '@/types'
+
+const useRouterMock = {
+  push: jest.fn(),
+}
+const loginMock = jest.fn()
+
+jest.mock('next/navigation', () => ({
+  ...jest.requireActual('next/navigation'),
+  useRouter: () => useRouterMock,
+}))
+
+// Mocking services
+jest.mock('@/services', () => ({
+  ...jest.requireActual('@/services'),
+  login: () => loginMock,
+}))
 
 describe('LoadingIndicator Component', () => {
-  const mockOnSubmit = jest.fn()
-
   const setup = () => {
-    const { getByPlaceholderText, getByText } = render(
-      <LoginForm errorMessage="" onSubmit={mockOnSubmit} />,
-    )
+    const { getByPlaceholderText, getByText } = render(<LoginForm />)
 
     const emailInput = getByPlaceholderText('Email')
     const passwordInput = getByPlaceholderText('Password')
@@ -21,7 +35,7 @@ describe('LoadingIndicator Component', () => {
     }
   }
   it('should render correctly', () => {
-    const { container } = render(<LoginForm onSubmit={mockOnSubmit} />)
+    const { container } = render(<LoginForm />)
     expect(container).toMatchSnapshot()
   })
 
@@ -29,14 +43,15 @@ describe('LoadingIndicator Component', () => {
     const { emailInput, passwordInput, submitButton } = setup()
 
     await userEvent.type(emailInput, 'test@example.com')
-    await userEvent.type(passwordInput, 'password123')
+    await userEvent.type(passwordInput, 'password')
     await userEvent.click(submitButton)
 
-    await waitFor(() => {
-      expect(mockOnSubmit).toHaveBeenCalledWith({
-        email: 'test@example.com',
-        password: 'password123',
-      })
+    loginMock.mockReturnValue({
+      status: Status,
+    })
+
+    waitFor(() => {
+      expect(useRouterMock.push).toHaveBeenCalledWith(ROUTES.HOME)
     })
   })
 

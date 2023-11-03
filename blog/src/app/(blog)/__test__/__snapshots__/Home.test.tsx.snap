@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home page should render correctly 1`] = `
+<div>
+  <div
+    class="flex flex-col gap-[80px]"
+  >
+    <section
+      class="relative mb-[64px]"
+    >
+      <div
+        class="relative w-[1216px] h-[600px]"
+      >
+        <img
+          alt="The Impact of Technology on the Workplace: How Technology is Changing"
+          data-nimg="fill"
+          decoding="async"
+          fetchpriority="high"
+          sizes="100vw"
+          src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1542395975-d6d3ddf91d6e%3Fauto%3Dformat%26fit%3Dcrop%26q%3D80%26w%3D3270%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=3840&q=75"
+          srcset="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1542395975-d6d3ddf91d6e%3Fauto%3Dformat%26fit%3Dcrop%26q%3D80%26w%3D3270%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1542395975-d6d3ddf91d6e%3Fauto%3Dformat%26fit%3Dcrop%26q%3D80%26w%3D3270%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1542395975-d6d3ddf91d6e%3Fauto%3Dformat%26fit%3Dcrop%26q%3D80%26w%3D3270%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1542395975-d6d3ddf91d6e%3Fauto%3Dformat%26fit%3Dcrop%26q%3D80%26w%3D3270%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1542395975-d6d3ddf91d6e%3Fauto%3Dformat%26fit%3Dcrop%26q%3D80%26w%3D3270%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1542395975-d6d3ddf91d6e%3Fauto%3Dformat%26fit%3Dcrop%26q%3D80%26w%3D3270%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1542395975-d6d3ddf91d6e%3Fauto%3Dformat%26fit%3Dcrop%26q%3D80%26w%3D3270%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1542395975-d6d3ddf91d6e%3Fauto%3Dformat%26fit%3Dcrop%26q%3D80%26w%3D3270%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=3840&q=75 3840w"
+          style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; object-fit: cover; color: transparent; border-radius: 12px; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+        />
+      </div>
+      <div
+        class="absolute left-[64px] bottom-[-64px]  bg-white dark:bg-dark-300 rounded-xl border border-light-200 dark:border-dark-200 border-solid w-[589px] flex flex-col items-start gap-4 p-10 shadow-md"
+      >
+        <span
+          class="bg-primary-500 text-white rounded-md px-2.5 py-1 text-xs font-normal leading-3"
+        >
+          Technology
+        </span>
+        <p
+          class="font-primary text-2xl font-bold leading-8 text-dark-100 dark:text-light-400 "
+        >
+          The Impact of Technology on the Workplace: How Technology is Changing
+        </p>
+        <div
+          class="mt-2 flex items-center gap-5"
+        >
+          <div
+            class="relative w-9 h-9"
+          >
+            <img
+              alt="https://www.w3schools.com/w3images/avatar2.png"
+              data-nimg="fill"
+              decoding="async"
+              loading="lazy"
+              sizes="100vw"
+              src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1542395975-d6d3ddf91d6e%3Fauto%3Dformat%26fit%3Dcrop%26q%3D80%26w%3D3270%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=3840&q=75"
+              srcset="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1542395975-d6d3ddf91d6e%3Fauto%3Dformat%26fit%3Dcrop%26q%3D80%26w%3D3270%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1542395975-d6d3ddf91d6e%3Fauto%3Dformat%26fit%3Dcrop%26q%3D80%26w%3D3270%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1542395975-d6d3ddf91d6e%3Fauto%3Dformat%26fit%3Dcrop%26q%3D80%26w%3D3270%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1542395975-d6d3ddf91d6e%3Fauto%3Dformat%26fit%3Dcrop%26q%3D80%26w%3D3270%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1542395975-d6d3ddf91d6e%3Fauto%3Dformat%26fit%3Dcrop%26q%3D80%26w%3D3270%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1542395975-d6d3ddf91d6e%3Fauto%3Dformat%26fit%3Dcrop%26q%3D80%26w%3D3270%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1542395975-d6d3ddf91d6e%3Fauto%3Dformat%26fit%3Dcrop%26q%3D80%26w%3D3270%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1542395975-d6d3ddf91d6e%3Fauto%3Dformat%26fit%3Dcrop%26q%3D80%26w%3D3270%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=3840&q=75 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; border-radius: 50%; margin-right: 8px;"
+            />
+          </div>
+          <p
+            class="font-tertiary text-sm font-normal leading-4 text-dark-100 dark:text-light-400 "
+          >
+            Tracey Wilson
+          </p>
+          <p
+            class="font-tertiary text-sm font-normal leading-4 text-dark-100 dark:text-light-400 "
+          >
+            August 20, 2022
+          </p>
+        </div>
+      </div>
+    </section>
+    <div
+      class="bg-light-200 dark:bg-dark-200 rounded-xl flex flex-col items-center justify-center w-lg h-sm my-0 mx-auto"
+    >
+      <p
+        class="font-quaternary text-xs font-normal leading-3 text-dark-100 dark:text-light-400 text-dark-50 dark:text-dark-50"
+      >
+        Advertisement
+      </p>
+      <p
+        class="font-primary text-lg font-bold leading-6 text-dark-50 dark:text-light-600 "
+      >
+        You can place ads
+      </p>
+      <p
+        class="font-primary text-base font-normal leading-5 text-dark-100 dark:text-light-400 text-dark-50 dark:text-dark-50"
+      >
+        750x100
+      </p>
+    </div>
+    <div
+      class="flex flex-col items-center gap-8"
+    >
+      <div
+        class="grid grid-cols-3 gap-5"
+      />
+      <button
+        class=" rounded-md hover:opacity-70 disabled:opacity-40 px-5 py-3 bg-white dark:bg-dark-300 text-dark-50 border border-solid border-light-700 "
+      >
+        View all post
+      </button>
+    </div>
+    <div
+      class="bg-light-200 dark:bg-dark-200 rounded-xl flex flex-col items-center justify-center w-lg h-sm my-0 mx-auto"
+    >
+      <p
+        class="font-quaternary text-xs font-normal leading-3 text-dark-100 dark:text-light-400 text-dark-50 dark:text-dark-50"
+      >
+        Advertisement
+      </p>
+      <p
+        class="font-primary text-lg font-bold leading-6 text-dark-50 dark:text-light-600 "
+      >
+        You can place ads
+      </p>
+      <p
+        class="font-primary text-base font-normal leading-5 text-dark-100 dark:text-light-400 text-dark-50 dark:text-dark-50"
+      >
+        750x100
+      </p>
+    </div>
+  </div>
+</div>
+`;
