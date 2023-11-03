@@ -1,18 +1,20 @@
 import '@testing-library/jest-dom'
 
-import { USERS_MOCK } from '@/constants'
-import { login } from '..'
+import { ERROR_MESSAGES, USERS_MOCK } from '@/constants'
+import { loginService } from '..'
+import { Status } from '@/types'
 
 const mockUsers = USERS_MOCK
 
 describe('login function', () => {
   it('returns true for a valid user', () => {
     const validUser = mockUsers[0] // Assuming the first user in the mock data is valid
-    const result = login({
+    const result = loginService({
       email: validUser.email,
       password: validUser.password,
     })
-    expect(result).toBe(true)
+    expect(result.status).toBe(Status.Success)
+    expect(result.data).toBe(validUser)
   })
 
   it('returns false for an invalid user', () => {
@@ -20,7 +22,9 @@ describe('login function', () => {
       email: 'invalid@example.com',
       password: 'wrongpassword',
     }
-    const result = login(invalidUser)
-    expect(result).toBe(false)
+    const result = loginService(invalidUser)
+
+    expect(result.status).toBe(Status.Failed)
+    expect(result.message).toBe(ERROR_MESSAGES.LOGIN_INVALID)
   })
 })

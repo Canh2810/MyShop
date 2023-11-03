@@ -148,25 +148,6 @@ exports[`Header component should render correctly 1`] = `
           </div>
         </div>
       </label>
-      <button
-        class=" rounded-md hover:opacity-70 disabled:opacity-40  "
-      >
-        <svg
-          class="ionicon"
-          color="#696A75"
-          viewBox="0 0 512 512"
-          width="18px"
-        >
-          <path
-            d="m112 184 144 144 144-144"
-            fill="none"
-            stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="48"
-          />
-        </svg>
-      </button>
     </div>
   </div>
 </div>

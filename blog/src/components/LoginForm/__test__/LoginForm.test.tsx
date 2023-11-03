@@ -2,6 +2,7 @@ import { render, waitFor, screen } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import LoginForm from '..'
 import { ROUTES } from '@/constants'
+import { Status } from '@/types'
 
 const useRouterMock = {
   push: jest.fn(),
@@ -45,9 +46,13 @@ describe('LoadingIndicator Component', () => {
     await userEvent.type(passwordInput, 'password')
     await userEvent.click(submitButton)
 
-    loginMock.mockReturnValue(true)
+    loginMock.mockReturnValue({
+      status: Status,
+    })
 
-    expect(useRouterMock.push).toHaveBeenCalledWith(ROUTES.HOME)
+    waitFor(() => {
+      expect(useRouterMock.push).toHaveBeenCalledWith(ROUTES.HOME)
+    })
   })
 
   it('should display an error message for an invalid email', async () => {
