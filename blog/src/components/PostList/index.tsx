@@ -4,45 +4,31 @@
 import { Suspense, memo, useCallback, useState } from 'react'
 
 // Components
-import {
-  Button,
-  ConfirmModal,
-  PostCard,
-  PostCardSkeleton,
-  PostListSkeleton,
-  Toast,
-} from '../index'
+import { ConfirmModal, PostCard, PostCardSkeleton, Toast } from '../index'
 
 // Types
-import { ButtonVariants, CommonStatus, FavoriteStatus, IPost } from '@/types'
-import {
-  ERROR_MESSAGES,
-  LIMIT_POSTS,
-  ROUTES,
-  SUCCESS_MESSAGE,
-} from '@/constants'
-import { useFetchPosts, usePost } from '@/hooks'
+import { CommonStatus, FavoriteStatus, IPost } from '@/types'
+import { ERROR_MESSAGES, ROUTES, SUCCESS_MESSAGE } from '@/constants'
+import { usePost } from '@/hooks'
 import { useRouter } from 'next/navigation'
 import { useQueryStore } from '@/stores'
 
-const PostList = () => {
-  const [limitPosts, setLimitPosts] = useState(LIMIT_POSTS)
+interface PostListProps {
+  posts: IPost[]
+  limitPosts: string
+}
+
+const PostList = ({ posts, limitPosts }: PostListProps) => {
   const [isOpenConfirmModal, setIsOpenConfirmModal] = useState<boolean>(false)
   const [post, setPost] = useState<IPost | null>(null)
   const [toastStatus, setToastStatus] = useState<CommonStatus | null>(null)
   const router = useRouter()
   const clearQuery = useQueryStore((state) => state.clearQuery)
-  const { data, isLoading: isLoadingFetchPostList } = useFetchPosts(limitPosts)
-
-  const buttonTitle = limitPosts === LIMIT_POSTS ? 'View all post' : 'Hide less'
-
-  const handleToggleViewALlPosts = useCallback(() => {
-    setLimitPosts((prev) => (prev === LIMIT_POSTS ? '' : LIMIT_POSTS))
-  }, [setLimitPosts])
+  const query = useQueryStore((state) => state.query)
 
   const {
     updatePost: { mutate, isPending: isLoadingUpdatePost },
-  } = usePost()
+  } = usePost(limitPosts, query)
 
   // Toggle confirm modal
   const handleToggleConfirmModal = useCallback(() => {
@@ -86,8 +72,6 @@ const PostList = () => {
           handleToggleConfirmModal()
         },
         onError: () => {
-          console.log('error')
-
           setToastStatus(CommonStatus.Failed)
           handleToggleConfirmModal()
         },
@@ -98,8 +82,6 @@ const PostList = () => {
   const handleCloseToast = useCallback(() => {
     setToastStatus(null)
   }, [])
-
-  if (isLoadingFetchPostList) return <PostListSkeleton />
 
   return (
     <>
@@ -116,7 +98,7 @@ const PostList = () => {
       )}
       <div className="flex flex-col items-center gap-8">
         <div className="grid grid-cols-3 gap-5">
-          {data?.map((post: IPost) => {
+          {posts?.map((post: IPost) => {
             const handleClick = (
               event: React.MouseEvent<HTMLDivElement, MouseEvent>,
             ) => handleClickPostCard(event, post)
@@ -131,12 +113,6 @@ const PostList = () => {
             )
           })}
         </div>
-        <Button
-          variant={ButtonVariants.Outlined}
-          onClick={handleToggleViewALlPosts}
-        >
-          {buttonTitle}
-        </Button>
         {isOpenConfirmModal && (
           <ConfirmModal
             title={
