@@ -18,7 +18,7 @@ import { ButtonVariants } from '@/types'
 const Home = () => {
   const [limitPosts, setLimitPosts] = useState(LIMIT_POSTS)
 
-  const { data } = useFetchPosts(limitPosts)
+  const { data, isLoading } = useFetchPosts(limitPosts)
 
   const buttonTitle = limitPosts === LIMIT_POSTS ? 'View all post' : 'Hide less'
 
@@ -36,6 +36,7 @@ const Home = () => {
         <Suspense fallback={<PostListSkeleton />}>
           <PostList posts={data || []} limitPosts={limitPosts} />
         </Suspense>
+
         <Button
           variant={ButtonVariants.Outlined}
           onClick={handleToggleViewALlPosts}
@@ -43,6 +44,7 @@ const Home = () => {
           {buttonTitle}
         </Button>
       </div>
+      {isLoading && <PostListSkeleton />}
       <Advertisement />
     </div>
   )

@@ -15,10 +15,10 @@ import { useQueryStore } from '@/stores'
 
 interface PostListProps {
   posts: IPost[]
-  limitPosts: string
+  limitPosts?: string
 }
 
-const PostList = ({ posts, limitPosts }: PostListProps) => {
+const PostList = ({ posts, limitPosts = '' }: PostListProps) => {
   const [isOpenConfirmModal, setIsOpenConfirmModal] = useState<boolean>(false)
   const [post, setPost] = useState<IPost | null>(null)
   const [toastStatus, setToastStatus] = useState<CommonStatus | null>(null)
