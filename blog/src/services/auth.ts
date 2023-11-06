@@ -1,5 +1,5 @@
 import { ERROR_MESSAGES, USERS_MOCK } from '@/constants'
-import { ILoginForm, Status } from '@/types'
+import { ILoginForm, CommonStatus } from '@/types'
 import { LoginResponse } from '@/types'
 
 export const loginService = ({
@@ -12,12 +12,12 @@ export const loginService = ({
 
   if (!user)
     return {
-      status: Status.Failed,
+      status: CommonStatus.Failed,
       message: ERROR_MESSAGES.LOGIN_INVALID,
     }
 
   return {
-    status: Status.Success,
+    status: CommonStatus.Success,
     data: user,
   }
 }

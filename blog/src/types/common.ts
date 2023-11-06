@@ -51,8 +51,3 @@ export type ApiErrorResponse = {
   code: string
   message: string
 }
-
-export enum Status {
-  Failed,
-  Success,
-}

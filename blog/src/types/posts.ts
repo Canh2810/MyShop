@@ -1,3 +1,5 @@
+import { FavoriteStatus } from '.'
+
 export interface IPost {
   id: string
   category: string
@@ -8,4 +10,5 @@ export interface IPost {
   }
   date: string
   imageURL: string
+  favorite: FavoriteStatus
 }
