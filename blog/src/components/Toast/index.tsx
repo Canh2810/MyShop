@@ -14,7 +14,7 @@ const Toast = ({
 }: ToastProps) => {
   return (
     <div
-      className="fixed right-[15%] top-[10%] flex items-center w-full max-w-xs p-4 mb-4 text-gray-500 bg-white rounded-lg shadow dark:text-gray-400 dark:bg-gray-800 z-[500]"
+      className="fixed right-[10%] top-[10%] flex items-center w-full max-w-xs p-4 mb-4 text-gray-500 bg-white rounded-lg shadow dark:text-gray-400 dark:bg-gray-800 z-[500]"
       role="alert"
     >
       {status === CommonStatus.Success ? (

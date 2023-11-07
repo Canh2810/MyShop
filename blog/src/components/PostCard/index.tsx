@@ -47,7 +47,7 @@ const PostCard = ({ post, onCLickPostCard }: PostCardProps) => {
           />
         </div>
         <div className="p-2 w-[334px] flex flex-col items-start justify-between gap-5">
-          <div className="flex items-center justify-between w-full z-50">
+          <div className="flex items-center justify-between w-full z-40">
             <Badge variant={CommonVariants.Secondary} title={category} />
             <Heart favorite={favorite} />
           </div>
