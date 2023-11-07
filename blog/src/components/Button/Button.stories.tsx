@@ -29,3 +29,13 @@ export const Container: Story = {
     },
   },
 }
+
+export const Text: Story = {
+  args: {
+    variant: ButtonVariants.Text,
+    children: 'Click me',
+    onClick: () => {
+      alert('Button component')
+    },
+  },
+}

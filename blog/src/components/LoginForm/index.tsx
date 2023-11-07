@@ -13,7 +13,7 @@ import {
   ButtonVariants,
   ILoginForm,
   LoginFormField,
-  Status,
+  CommonStatus,
   TextFieldTypes,
   TypoVariants,
 } from '@/types'
@@ -50,7 +50,7 @@ const LoginForm = () => {
   const handleSubmitLoginForm: SubmitHandler<ILoginForm> = useCallback(
     (data: ILoginForm) => {
       const response = loginService(data)
-      if (response.status === Status.Success) {
+      if (response.status === CommonStatus.Success) {
         response.data && login(response.data)
         router.push(ROUTES.HOME)
       } else {

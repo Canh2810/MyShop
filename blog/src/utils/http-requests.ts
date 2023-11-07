@@ -26,3 +26,21 @@ export const post = async <T>(url: string, data: T) => {
 
   return responseData
 }
+
+export const patch = async <T>(url: string, data: T): Promise<T> => {
+  const response = await fetch(url, {
+    method: 'PUT',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(data),
+  })
+
+  const responseData = await response.json()
+
+  if (!response.ok) {
+    throw new Error(`Request failed with status ${responseData.status}`)
+  }
+
+  return responseData
+}

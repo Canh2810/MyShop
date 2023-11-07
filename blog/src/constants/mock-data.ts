@@ -10,6 +10,7 @@ export const POST_MOCK = {
   date: 'August 20, 2022',
   imageURL:
     'https://images.unsplash.com/photo-1542395975-d6d3ddf91d6e?auto=format&fit=crop&q=80&w=3270&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+  favorite: 0,
 }
 
 export const POSTS_MOCK = [

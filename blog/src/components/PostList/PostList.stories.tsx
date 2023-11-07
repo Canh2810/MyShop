@@ -1,6 +1,5 @@
 import { StoryObj, Meta } from '@storybook/react'
 import PostList from '.'
-import { POSTS_MOCK } from '@/constants'
 
 export default {
   title: 'Components/PostList',
@@ -9,8 +8,4 @@ export default {
 
 type Story = StoryObj<typeof PostList>
 
-export const Default: Story = {
-  args: {
-    posts: POSTS_MOCK,
-  },
-}
+export const Default: Story = {}

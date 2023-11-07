@@ -8,3 +8,7 @@ export const LOCAL_STORAGE_KEY = {
 }
 
 export const LIMIT_POSTS = '9'
+
+export const QUERY_KEY = {
+  POSTS: 'posts',
+}

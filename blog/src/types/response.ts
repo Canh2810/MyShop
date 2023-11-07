@@ -1,7 +1,7 @@
-import { User, Status } from '.'
+import { User, CommonStatus } from '.'
 
 export interface LoginResponse {
-  status: Status
+  status: CommonStatus
   message?: string
   data?: User
 }
