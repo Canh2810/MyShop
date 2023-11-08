@@ -31,6 +31,7 @@ export const useAuthStore = create<AuthState & AuthActions>()(
     }),
     {
       name: LOCAL_STORAGE_KEY.AUTH,
+      skipHydration: true,
     },
   ),
 )
