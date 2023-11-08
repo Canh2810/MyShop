@@ -14,6 +14,7 @@ import {
 import { LIMIT_POSTS, POST_MOCK } from '@/constants'
 import { useFetchPosts } from '@/hooks'
 import { ButtonVariants } from '@/types'
+import { withAuth } from '@/hocs/auth'
 
 const Home = () => {
   const [limitPosts, setLimitPosts] = useState(LIMIT_POSTS)
@@ -50,4 +51,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default withAuth(Home)

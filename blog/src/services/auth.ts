@@ -1,6 +1,7 @@
 import { ERROR_MESSAGES, USERS_MOCK } from '@/constants'
 import { ILoginForm, CommonStatus } from '@/types'
 import { LoginResponse } from '@/types'
+import { NextResponse } from 'next/server'
 
 export const loginService = ({
   email,
@@ -15,6 +16,12 @@ export const loginService = ({
       status: CommonStatus.Failed,
       message: ERROR_MESSAGES.LOGIN_INVALID,
     }
+
+  NextResponse.next().cookies.set({
+    name: 'auth',
+    value: 'auth',
+    path: '/',
+  })
 
   return {
     status: CommonStatus.Success,
