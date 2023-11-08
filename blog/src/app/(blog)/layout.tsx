@@ -29,7 +29,7 @@ const MainLayout = ({ children }: { children: React.ReactNode }) => {
     debouncedValue.length === 0,
   )
 
-  if (!isAuthenticated) {
+  if (isAuthenticated !== null && !isAuthenticated) {
     redirect(ROUTES.LOGIN)
   }
 

@@ -4,7 +4,7 @@ import { User } from '@/types'
 import { LOCAL_STORAGE_KEY } from '@/constants'
 
 interface AuthState {
-  isAuthenticated: boolean
+  isAuthenticated: null | boolean
   user: User | null
 }
 
@@ -16,7 +16,7 @@ type AuthActions = {
 export const useAuthStore = create<AuthState & AuthActions>()(
   persist(
     (set) => ({
-      isAuthenticated: false,
+      isAuthenticated: null,
       user: null,
       login: (user: User) =>
         set({
