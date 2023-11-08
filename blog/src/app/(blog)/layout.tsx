@@ -1,4 +1,5 @@
 'use client'
+import { redirect } from 'next/navigation'
 
 // Components
 import {
@@ -9,20 +10,28 @@ import {
   Typography,
 } from '@/components'
 
+// Constants
+import { ROUTES } from '@/constants'
+
 // Hooks
 import { useDebounce, useFetchPosts } from '@/hooks'
 
 // Stores
-import { useQueryStore } from '@/stores'
+import { useAuthStore, useQueryStore } from '@/stores'
 
 const MainLayout = ({ children }: { children: React.ReactNode }) => {
   const query = useQueryStore((state) => state.query)
+  const isAuthenticated = useAuthStore((state) => state.isAuthenticated)
   const debouncedValue = useDebounce<string>(query)
   const { data, isLoading } = useFetchPosts(
     '',
     debouncedValue,
     debouncedValue.length === 0,
   )
+
+  if (!isAuthenticated) {
+    redirect(ROUTES.LOGIN)
+  }
 
   /**
    * Render data
