@@ -2,7 +2,7 @@
 
 // Libs
 import { useCallback, useState } from 'react'
-import { useRouter } from 'next/navigation'
+import { redirect } from 'next/navigation'
 import Link from 'next/link'
 
 // Assets
@@ -20,7 +20,6 @@ import { useAuthStore, useQueryStore } from '@/stores'
 const Header = () => {
   const [isShowDropDown, setIsShowDropdown] = useState<boolean>(false)
   const query = useQueryStore((state) => state.query)
-  const router = useRouter()
   const setQuery = useQueryStore((state) => state.setQuery)
   const logout = useAuthStore((state) => state.logout)
   const user = useAuthStore((state) => state.user)
@@ -46,8 +45,8 @@ const Header = () => {
     // Clear token in local storage
     logout()
     // Navigate to login page
-    router.push(ROUTES.LOGIN)
-  }, [router])
+    redirect(ROUTES.LOGIN)
+  }, [])
 
   return (
     <div className="py-8 max-w-[1216px] mx-auto flex items-center justify-between fixed top-0 left-0 right-0 z-50 bg-white dark:bg-dark-300">
