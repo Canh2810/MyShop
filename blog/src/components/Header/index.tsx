@@ -2,7 +2,7 @@
 
 // Libs
 import { useCallback, useState } from 'react'
-import { redirect } from 'next/navigation'
+import { useRouter } from 'next/navigation'
 import Link from 'next/link'
 
 // Assets
@@ -16,13 +16,15 @@ import { HEADER_MENU, ROUTES } from '@/constants'
 
 // Stores
 import { useAuthStore, useQueryStore } from '@/stores'
+import { signOut } from 'next-auth/react'
 
 const Header = () => {
   const [isShowDropDown, setIsShowDropdown] = useState<boolean>(false)
   const query = useQueryStore((state) => state.query)
   const setQuery = useQueryStore((state) => state.setQuery)
   const logout = useAuthStore((state) => state.logout)
-  const user = useAuthStore((state) => state.user)
+  const email = useAuthStore((state) => state.email)
+  const router = useRouter()
 
   /**
    * Handle search
@@ -42,11 +44,14 @@ const Header = () => {
 
   // Handle logout
   const handleLogout = useCallback(() => {
-    // Clear token in local storage
+    // Clear token in local storage and session
     logout()
+    signOut({
+      redirect: false,
+    })
     // Navigate to login page
-    redirect(ROUTES.LOGIN)
-  }, [])
+    router.push(ROUTES.LOGIN)
+  }, [logout, router])
 
   return (
     <div className="py-8 max-w-[1216px] mx-auto flex items-center justify-between fixed top-0 left-0 right-0 z-50 bg-white dark:bg-dark-300">
@@ -65,12 +70,12 @@ const Header = () => {
         />
         <DarkModeSwitch />
 
-        {user && (
+        {email && (
           <div
             className="flex items-center gap-1 cursor-pointer hover:opacity-70"
             onClick={handleToggleDropdown}
           >
-            <Typography>{user.user_name}</Typography>
+            <Typography>{email}</Typography>
             <ChevronDown />
             {isShowDropDown && (
               <ul className="absolute right-[-40px] top-8 ">
