@@ -1,6 +1,5 @@
 'use client'
 import { Suspense, useCallback, useState } from 'react'
-import { useSession } from 'next-auth/react'
 
 // Components
 import {
@@ -12,19 +11,11 @@ import {
   PostListSkeleton,
 } from '@/components'
 
-import { LIMIT_POSTS, POST_MOCK, ROUTES } from '@/constants'
+import { LIMIT_POSTS, POST_MOCK } from '@/constants'
 import { useFetchPosts } from '@/hooks'
 import { ButtonVariants } from '@/types'
-import { redirect } from 'next/navigation'
 
 const Home = () => {
-  useSession({
-    required: true,
-    onUnauthenticated() {
-      return redirect(ROUTES.LOGIN)
-    },
-  })
-
   const [limitPosts, setLimitPosts] = useState(LIMIT_POSTS)
 
   const { data, isLoading } = useFetchPosts(limitPosts)
