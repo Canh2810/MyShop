@@ -1,8 +1,8 @@
-import { waitFor, renderHook } from '@testing-library/react'
+import { waitFor, renderHook, act } from '@testing-library/react'
 
 import * as utils from '@/utils'
-import { POSTS_MOCK } from '@/constants'
-import { useFetchPosts } from '..'
+import { POSTS_MOCK, POST_MOCK } from '@/constants'
+import { useFetchPosts, usePost } from '..'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { ReactNode } from 'react'
 
@@ -45,5 +45,45 @@ describe('useFetchPosts', () => {
 
     expect(result.current.isSuccess).toBe(true)
     expect(result.current.data).toEqual(POSTS_MOCK)
+  })
+})
+
+describe('usePost', () => {
+  describe('updatePost', () => {
+    beforeEach(() => {
+      jest.clearAllMocks()
+    })
+
+    it('should successfully log in', async () => {
+      const { result } = renderHook(() => usePost(), { wrapper })
+      const data = POST_MOCK
+
+      act(() => {
+        result.current.updatePost.mutate(data)
+      })
+
+      await waitFor(() => {
+        return result.current.updatePost.isSuccess
+      })
+
+      expect(result.current.updatePost.isSuccess).toBe(true)
+    })
+
+    it('should return an error from the server', async () => {
+      const errorResponse = { error: 'Invalid credentials' }
+      jest.spyOn(utils, 'patch').mockRejectedValue(errorResponse)
+      const { result } = renderHook(() => usePost(), { wrapper })
+      const data = POST_MOCK
+
+      act(() => {
+        result.current.updatePost.mutate(data)
+      })
+
+      await waitFor(() => {
+        return result.current.updatePost.isError
+      })
+
+      expect(result.current.updatePost.isError).toBe(true)
+    })
   })
 })

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`LoadingIndicator Component should render correctly 1`] = `
+exports[`LoginForm Component should render correctly 1`] = `
 <div>
   <form
     class="relative w-[500px] flex flex-col gap-[28px] bg-white p-10 rounded-xl shadow-md"

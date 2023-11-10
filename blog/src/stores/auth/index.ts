@@ -14,7 +14,6 @@ type AuthActions = {
 export const useAuthStore = create<AuthState & AuthActions>()(
   persist(
     (set) => ({
-      isAuthenticated: false,
       email: null,
       login: (email: string) =>
         set({

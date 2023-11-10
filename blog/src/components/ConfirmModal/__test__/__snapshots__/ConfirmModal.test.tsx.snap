@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConfirmModal renders the modal with the correct 1`] = `
+<div>
+  <div
+    class="fixed top-0 left-0 w-full h-full bg-light-700 z-[100] "
+  >
+    <div
+      class=" top-0 left-0 w-full h-full"
+    />
+    <div
+      class="bg-white dark:bg-dark-300 rounded-xl p-6 absolute top-2/4 left-2/4 translate-y-[-50%] translate-x-[-50%] z-[101] text-center"
+    >
+      <p
+        class="font-tertiary text-sm font-normal leading-4 text-dark-100 dark:text-light-400 "
+      >
+        This is modal
+      </p>
+      <div
+        class="flex items-center gap-7 justify-center mt-10"
+      >
+        <button
+          class=" rounded-md hover:opacity-70 disabled:opacity-40 px-5 py-3 bg-white dark:bg-dark-300 text-dark-50 border border-solid border-light-700 "
+        >
+          Cancel
+        </button>
+        <button
+          class=" rounded-md hover:opacity-70 disabled:opacity-40 px-5 py-3 bg-primary-500 text-white "
+        >
+          Confirm
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

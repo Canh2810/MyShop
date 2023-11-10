@@ -12,6 +12,7 @@ jest.mock('next/navigation', () => ({
 }))
 
 describe('PostCard component', () => {
+  const onCLickMock = jest.fn()
   const mockClearQuery = jest.fn()
   beforeEach(() => {
     useQueryStore.setState({
@@ -19,7 +20,9 @@ describe('PostCard component', () => {
     })
   })
   it('should render correctly', () => {
-    const { container } = render(<PostCard post={POST_MOCK} />)
+    const { container } = render(
+      <PostCard post={POST_MOCK} onCLickPostCard={onCLickMock} />,
+    )
     expect(container).toMatchSnapshot()
   })
 
@@ -27,7 +30,9 @@ describe('PostCard component', () => {
     const routerPushMock = jest.fn()
     useRouterMock.mockReturnValue({ push: routerPushMock })
 
-    const { container } = render(<PostCard post={POST_MOCK} />)
+    const { container } = render(
+      <PostCard post={POST_MOCK} onCLickPostCard={onCLickMock} />,
+    )
     const postCard = container.querySelector('.post-card')
 
     if (postCard) {

@@ -6,6 +6,9 @@ const useRouterMock = jest.fn()
 jest.mock('next/navigation', () => ({
   ...jest.requireActual('next/navigation'),
   useRouter: () => useRouterMock,
+  useSearchParams: jest.fn(() => ({
+    get: jest.fn(() => 'mocked-callback-url'),
+  })),
 }))
 
 describe('Login page', () => {

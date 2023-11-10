@@ -88,8 +88,12 @@ exports[`Home page should render correctly 1`] = `
       class="flex flex-col items-center gap-8"
     >
       <div
-        class="grid grid-cols-3 gap-5"
-      />
+        class="flex flex-col items-center gap-8"
+      >
+        <div
+          class="grid grid-cols-3 gap-5"
+        />
+      </div>
       <button
         class=" rounded-md hover:opacity-70 disabled:opacity-40 px-5 py-3 bg-white dark:bg-dark-300 text-dark-50 border border-solid border-light-700 "
       >
