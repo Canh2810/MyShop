@@ -6,12 +6,10 @@ import Image from 'next/image'
 import { IPost, TypoVariants, CommonVariants } from '@/types'
 
 // Components
-import { Badge, Typography } from '../index'
+import { Badge, Typography, Heart } from '../index'
 
 // Constants
 import { generatePlaceholder } from '@/utils'
-
-import { Heart } from '@/assets'
 
 export interface PostCardProps {
   post: IPost
