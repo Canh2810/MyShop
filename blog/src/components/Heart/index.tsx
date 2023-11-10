@@ -1,6 +1,6 @@
 import { FavoriteStatus } from '@/types'
 
-export const Heart = ({
+const Heart = ({
   favorite = FavoriteStatus.NotFavorite,
 }: {
   favorite?: FavoriteStatus
@@ -24,3 +24,5 @@ export const Heart = ({
     </svg>
   )
 }
+
+export default Heart
