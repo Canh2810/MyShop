@@ -3,7 +3,8 @@
 // Libs
 import { memo, useCallback, useState } from 'react'
 import { useForm, Controller, SubmitHandler } from 'react-hook-form'
-import { useRouter } from 'next/navigation'
+import { useRouter, useSearchParams } from 'next/navigation'
+import { signIn } from 'next-auth/react'
 
 // Components
 import { Button, TextField, Typography } from '../index'
@@ -13,7 +14,6 @@ import {
   ButtonVariants,
   ILoginForm,
   LoginFormField,
-  CommonStatus,
   TextFieldTypes,
   TypoVariants,
 } from '@/types'
@@ -27,8 +27,7 @@ import { Email, Lock } from '@/assets'
 // Utils
 import { checkEmail } from '@/utils'
 
-// Hooks
-import { loginService } from '@/services'
+// Stores
 import { useAuthStore } from '@/stores'
 
 const LoginForm = () => {
@@ -42,22 +41,30 @@ const LoginForm = () => {
   })
   const router = useRouter()
   const login = useAuthStore((state) => state.login)
+  const searchParams = useSearchParams()
+  const callbackUrl = searchParams.get('callbackUrl') || ROUTES.HOME
 
   /**
    * Handle login
    * @param data email and password value
    */
   const handleSubmitLoginForm: SubmitHandler<ILoginForm> = useCallback(
-    (data: ILoginForm) => {
-      const response = loginService(data)
-      if (response.status === CommonStatus.Success) {
-        response.data && login(response.data)
+    async (data: ILoginForm) => {
+      const res = await signIn('credentials', {
+        ...data,
+        redirect: false,
+        callbackUrl,
+      })
+
+      // Navigate to home page when login success and show error message when login fail
+      if (!res?.error) {
+        login(data.email)
         router.push(ROUTES.HOME)
       } else {
-        setErrorMessage(response.message || '')
+        setErrorMessage(ERROR_MESSAGES.LOGIN_INVALID)
       }
     },
-    [router],
+    [callbackUrl, login, router],
   )
 
   return (
