@@ -7,7 +7,6 @@ This practice creates a Web Application for reading blogs
 ## Target
 
 - Apply Apply knowledge learned NextJs
-- Apply Chakra UI
 
 ## Requirements
 
@@ -18,6 +17,7 @@ This practice creates a Web Application for reading blogs
   - User can view single post
   - User can search post by title
   - User can enable/disable dark mode
+  - User can add favorite post
 
 ## Technical stack
 
@@ -43,6 +43,13 @@ This practice creates a Web Application for reading blogs
 ## Design
 
 [Blog Template](<https://www.figma.com/file/Wy9XqrVnkZltb9yD0xYaJB/Free-Blog-Template--%7C-Modern-%26-Creative-design-(Community)?type=design&node-id=1-2&mode=design&t=ZN6dExaTlmbhebwA-0>)
+
+## Deploy
+
+- link: [Blog](https://blog-bice-nine-69.vercel.app/)
+- Account testing:
+  - Email: canhvo@gmail.com
+  - Password: canhvo@123
 
 ## Getting started
 
