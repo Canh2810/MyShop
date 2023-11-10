@@ -1,15 +1,13 @@
 import { create } from 'zustand'
 import { persist } from 'zustand/middleware'
-import { User } from '@/types'
 import { LOCAL_STORAGE_KEY } from '@/constants'
 
 interface AuthState {
-  isAuthenticated: boolean
-  user: User | null
+  email: string | null
 }
 
 type AuthActions = {
-  login: (user: User) => void
+  login: (email: string) => void
   logout: () => void
 }
 
@@ -17,20 +15,19 @@ export const useAuthStore = create<AuthState & AuthActions>()(
   persist(
     (set) => ({
       isAuthenticated: false,
-      user: null,
-      login: (user: User) =>
+      email: null,
+      login: (email: string) =>
         set({
-          isAuthenticated: true,
-          user,
+          email,
         }),
       logout: () =>
         set({
-          isAuthenticated: false,
-          user: null,
+          email: null,
         }),
     }),
     {
       name: LOCAL_STORAGE_KEY.AUTH,
+      skipHydration: true,
     },
   ),
 )
