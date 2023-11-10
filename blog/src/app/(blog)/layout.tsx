@@ -8,12 +8,15 @@ import {
   PostListSkeleton,
   Typography,
 } from '@/components'
+import { ROUTES } from '@/constants'
 
 // Hooks
 import { useDebounce, useFetchPosts } from '@/hooks'
 
 // Stores
 import { useQueryStore } from '@/stores'
+import { useSession } from 'next-auth/react'
+import { redirect } from 'next/navigation'
 
 const MainLayout = ({ children }: { children: React.ReactNode }) => {
   const query = useQueryStore((state) => state.query)
@@ -23,6 +26,13 @@ const MainLayout = ({ children }: { children: React.ReactNode }) => {
     debouncedValue,
     debouncedValue.length === 0,
   )
+
+  useSession({
+    required: true,
+    onUnauthenticated() {
+      redirect(ROUTES.LOGIN)
+    },
+  })
 
   /**
    * Render data
